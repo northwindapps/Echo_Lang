@@ -36,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isListening = false;
   String _recognizedText = "Press the button and start speaking...";
   String _history = "";
+  int _qindex = 0;
 
   @override
   void initState() {
@@ -43,6 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _recorder = FlutterSoundRecorder();
     _player = FlutterSoundPlayer();
     loadAndSetQuestions();
+    questions.shuffle();
     _initialize();
   }
 
@@ -100,8 +102,13 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  Future<void> _loadQuestion() async {
+    await _startListening(stateInt: 1);
+  }
+
   Future<void> _speak() async {
-    String qatext = questions.isNotEmpty ? questions[0].question : "Loading...";
+    String qatext =
+        questions.isNotEmpty ? questions[_qindex].question : "Loading...";
     await flutterTts.speak(qatext);
   }
 
@@ -111,8 +118,8 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // Speech to Text Functionality
-  Future<void> _startListening({bool first = true}) async {
-    if (first == true) {
+  Future<void> _startListening({int stateInt = 1}) async {
+    if (stateInt == 1) {
       await _setSpeechRate();
       await _speak();
     }
@@ -120,12 +127,11 @@ class _HomeScreenState extends State<HomeScreen> {
       onStatus: (status) {
         // Handle status change here
         print("Speech recognition status: $status");
-
-        if (status == 'notListening' || status == 'done') {
+        if (stateInt != 2 && (status == 'notListening' || status == 'done')) {
           // Wait 500 milliseconds before restarting the listening process
           Future.delayed(Duration(milliseconds: 500), () async {
             // Only restart listening if the status is not 'listening' or 'done'
-            await _startListening(first: false);
+            await _startListening(stateInt: 0);
           });
         }
       },
@@ -145,8 +151,11 @@ class _HomeScreenState extends State<HomeScreen> {
         onResult: (result) {
           // print(result.recognizedWords);
           setState(() {
-            _recognizedText += result.recognizedWords;
-            _history += result.recognizedWords;
+            if (stateInt == 0) {
+              _recognizedText += result.recognizedWords;
+              _history += result.recognizedWords;
+              //check here
+            }
           });
         },
         listenFor: Duration(seconds: 20), // Increase duration
@@ -195,6 +204,8 @@ class _HomeScreenState extends State<HomeScreen> {
             //   child: Text('Play Recording'),
             // ),
             // SizedBox(height: 40),
+            ElevatedButton(onPressed: _loadQuestion, child: Text('Question')),
+            SizedBox(height: 40),
             Text(
               _recognizedText,
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
