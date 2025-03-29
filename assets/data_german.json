@@ -1,0 +1,133 @@
+[
+    {
+      "question": "Wie geht's dir?",
+      "answer": "Mir geht es gut, danke!",
+      "language": "German"
+    },
+    {
+      "question": "Wie geht's dir?",
+      "answer": "Mir geht es gut, und dir?",
+      "language": "German"
+    },
+    {
+      "question": "Wie alt bist du?",
+      "answer": "Ich bin 25 Jahre alt.",
+      "language": "German"
+    },
+    {
+      "question": "Wie alt bist du?",
+      "answer": "Ich bin 18.",
+      "language": "German"
+    },
+    {
+      "question": "Wie ist das Wetter heute?",
+      "answer": "Das Wetter ist heute sonnig.",
+      "language": "German"
+    },
+    {
+      "question": "Wie ist das Wetter heute?",
+      "answer": "Es regnet heute.",
+      "language": "German"
+    },
+    {
+      "question": "Wie spät ist es?",
+      "answer": "Es ist 3 Uhr.",
+      "language": "German"
+    },
+    {
+      "question": "Wie spät ist es?",
+      "answer": "Es ist 10:30 Uhr.",
+      "language": "German"
+    },
+    {
+      "question": "Was ist dein Hobby?",
+      "answer": "Mein Hobby ist Bücher lesen.",
+      "language": "German"
+    },
+    {
+      "question": "Was ist dein Hobby?",
+      "answer": "Ich spiele gerne Fußball.",
+      "language": "German"
+    },
+    {
+      "question": "Wie heißt du?",
+      "answer": "Ich heiße John.",
+      "language": "German"
+    },
+    {
+      "question": "Wie heißt du?",
+      "answer": "Ich heiße Maria.",
+      "language": "German"
+    },
+    {
+      "question": "Wo wohnst du?",
+      "answer": "Ich wohne in Paris.",
+      "language": "German"
+    },
+    {
+      "question": "Wo wohnst du?",
+      "answer": "Ich wohne in New York.",
+      "language": "German"
+    },
+    {
+      "question": "Wann bist du geboren?",
+      "answer": "Ich bin 1995 geboren.",
+      "language": "German"
+    },
+    {
+      "question": "Wann bist du geboren?",
+      "answer": "Ich bin am 1. Mai 2000 geboren.",
+      "language": "German"
+    },
+    {
+      "question": "Was hast du heute Morgen gegessen?",
+      "answer": "Ich habe Müsli und Obst gegessen.",
+      "language": "German"
+    },
+    {
+      "question": "Was hast du heute Morgen gegessen?",
+      "answer": "Ich habe Toast und Kaffee gehabt.",
+      "language": "German"
+    },
+    {
+      "question": "Arbeitest du oder studierst du?",
+      "answer": "Ich studiere Englisch.",
+      "language": "German"
+    },
+    {
+      "question": "Arbeitest du oder studierst du?",
+      "answer": "Ich arbeite als Lehrer.",
+      "language": "German"
+    },
+    {
+      "question": "Welches Datum ist heute?",
+      "answer": "Heute ist der 29. März.",
+      "language": "German"
+    },
+    {
+      "question": "Welches Datum ist heute?",
+      "answer": "Es ist der 15. Februar.",
+      "language": "German"
+    },
+    {
+      "question": "Was machst du heute?",
+      "answer": "Heute gehe ich in den Park.",
+      "language": "German"
+    },
+    {
+      "question": "Was machst du heute?",
+      "answer": "Ich werde heute Englisch lernen.",
+      "language": "German"
+    },
+    {
+      "question": "Wann bist du aufgewacht?",
+      "answer": "Ich bin um 7 Uhr aufgewacht.",
+      "language": "German"
+    },
+    {
+      "question": "Wann bist du aufgewacht?",
+      "answer": "Ich bin um 8 Uhr aufgewacht.",
+      "language": "German"
+    }
+  ]
+  

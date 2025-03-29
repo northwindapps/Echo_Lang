@@ -5,6 +5,8 @@ import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
+import 'package:flutter/services.dart' show rootBundle;
+import 'dart:convert';
 
 void main() => runApp(MyApp());
 
@@ -25,6 +27,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<Question> questions = [];
   FlutterSoundRecorder? _recorder;
   FlutterSoundPlayer? _player;
   String _filePath = ''; // File path for the saved recording
@@ -32,13 +35,22 @@ class _HomeScreenState extends State<HomeScreen> {
   stt.SpeechToText _speechToText = stt.SpeechToText();
   bool _isListening = false;
   String _recognizedText = "Press the button and start speaking...";
+  String _history = "";
 
   @override
   void initState() {
     super.initState();
     _recorder = FlutterSoundRecorder();
     _player = FlutterSoundPlayer();
+    loadAndSetQuestions();
     _initialize();
+  }
+
+  Future<void> loadAndSetQuestions() async {
+    List<Question> loadedQuestions = await loadQuestions();
+    setState(() {
+      questions = loadedQuestions;
+    });
   }
 
   Future<void> _initialize() async {
@@ -89,11 +101,12 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _speak() async {
-    await flutterTts.speak("Hello, welcome to Flutter!");
+    String qatext = questions.isNotEmpty ? questions[0].question : "Loading...";
+    await flutterTts.speak(qatext);
   }
 
   Future<void> _setSpeechRate() async {
-    await flutterTts.setLanguage("en-US");
+    await flutterTts.setLanguage("fr-FR");
     await flutterTts.setSpeechRate(0.5);
   }
 
@@ -130,14 +143,15 @@ class _HomeScreenState extends State<HomeScreen> {
       // Set the language (example for French)
       _speechToText.listen(
         onResult: (result) {
-          print(result.recognizedWords);
-          // setState(() {
-          //   _recognizedText += result.recognizedWords;
-          // });
+          // print(result.recognizedWords);
+          setState(() {
+            _recognizedText += result.recognizedWords;
+            _history += result.recognizedWords;
+          });
         },
         listenFor: Duration(seconds: 20), // Increase duration
-        pauseFor: Duration(seconds: 3), // Allow longer pauses
-        localeId: "en_US",
+        pauseFor: Duration(seconds: 5), // Allow longer pauses
+        localeId: "fr_FR", //it_IT,de_DE,fr_FR,es_ES,ja_JP
       );
     } else {
       print("Speech recognition not available");
@@ -181,11 +195,11 @@ class _HomeScreenState extends State<HomeScreen> {
             //   child: Text('Play Recording'),
             // ),
             // SizedBox(height: 40),
-            // Text(
-            //   _recognizedText,
-            //   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            // ),
-            // SizedBox(height: 20),
+            Text(
+              _recognizedText,
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
             ElevatedButton(
               onPressed: _isListening ? _stopListening : _startListening,
               child: Text(_isListening ? 'Stop Listening' : 'Start Listening'),
@@ -195,4 +209,32 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+}
+
+// Model class for the Question
+class Question {
+  final String question;
+  final String answer;
+  final String language;
+
+  Question({
+    required this.question,
+    required this.answer,
+    required this.language,
+  });
+
+  factory Question.fromJson(Map<String, dynamic> json) {
+    return Question(
+      question: json['question'],
+      answer: json['answer'],
+      language: json['language'],
+    );
+  }
+}
+
+// Function to load JSON
+Future<List<Question>> loadQuestions() async {
+  String jsonString = await rootBundle.loadString('assets/data_fr.json');
+  List<dynamic> jsonData = json.decode(jsonString);
+  return jsonData.map((item) => Question.fromJson(item)).toList();
 }

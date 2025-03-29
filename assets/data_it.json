@@ -1,0 +1,133 @@
+[
+    {
+      "question": "Come stai?",
+      "answer": "Sto bene, grazie!",
+      "language": "Italiano"
+    },
+    {
+      "question": "Come stai?",
+      "answer": "Sto bene, e tu?",
+      "language": "Italiano"
+    },
+    {
+      "question": "Quanti anni hai?",
+      "answer": "Ho 25 anni.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Quanti anni hai?",
+      "answer": "Ho 18 anni.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Che tempo fa oggi?",
+      "answer": "Oggi il tempo è soleggiato.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Che tempo fa oggi?",
+      "answer": "Oggi piove.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Che ore sono?",
+      "answer": "Sono le 3.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Che ore sono?",
+      "answer": "Sono le 10:30.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Qual è il tuo hobby?",
+      "answer": "Il mio hobby è leggere libri.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Qual è il tuo hobby?",
+      "answer": "Mi piace giocare a calcio.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Come ti chiami?",
+      "answer": "Mi chiamo John.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Come ti chiami?",
+      "answer": "Mi chiamo Maria.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Dove vivi?",
+      "answer": "Vivo a Parigi.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Dove vivi?",
+      "answer": "Vivo a New York.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Quando sei nato?",
+      "answer": "Sono nato nel 1995.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Quando sei nato?",
+      "answer": "Sono nato il 1 maggio 2000.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Cosa hai mangiato questa mattina?",
+      "answer": "Ho mangiato cereali e frutta.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Cosa hai mangiato questa mattina?",
+      "answer": "Ho mangiato pane tostato e caffè.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Stai lavorando o studiando?",
+      "answer": "Sto studiando inglese.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Stai lavorando o studiando?",
+      "answer": "Lavoro come insegnante.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Che giorno è oggi?",
+      "answer": "Oggi è il 29 marzo.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Che giorno è oggi?",
+      "answer": "Oggi è il 15 febbraio.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Cosa fai oggi?",
+      "answer": "Oggi vado al parco.",
+      "language": "Italiano"
+    },
+    {
+      "question": "Cosa fai oggi?",
+      "answer": "Oggi studierò inglese.",
+      "language": "Italiano"
+    },
+    {
+      "question": "A che ora ti sei svegliato?",
+      "answer": "Mi sono svegliato alle 7.",
+      "language": "Italiano"
+    },
+    {
+      "question": "A che ora ti sei svegliato?",
+      "answer": "Mi sono svegliato alle 8.",
+      "language": "Italiano"
+    }
+  ]
+  
