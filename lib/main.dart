@@ -98,8 +98,11 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // Speech to Text Functionality
-  // Speech to Text Functionality
-  Future<void> _startListening() async {
+  Future<void> _startListening({bool first = true}) async {
+    if (first == true) {
+      await _setSpeechRate();
+      await _speak();
+    }
     bool available = await _speechToText.initialize(
       onStatus: (status) {
         // Handle status change here
@@ -109,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
           // Wait 500 milliseconds before restarting the listening process
           Future.delayed(Duration(milliseconds: 500), () async {
             // Only restart listening if the status is not 'listening' or 'done'
-            await _startListening();
+            await _startListening(first: false);
           });
         }
       },
@@ -141,17 +144,6 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  // void statusListener(String status) {
-  //   _logEvent('Received status: $status');
-  //   setState(() {
-  //     lastStatus = status;
-  //   });
-
-  //   if (status == 'notListening' && speech.isAvailable) {
-  //     Future.delayed(Duration(milliseconds: 500), () => startListening());
-  //   }
-  // }
-
   Future<void> _stopListening() async {
     await _speechToText.stop();
     setState(() {
@@ -174,26 +166,26 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            ElevatedButton(
-              onPressed: _startRecording,
-              child: Text('Start Recording'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _stopRecording,
-              child: Text('Stop Recording'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _playRecording,
-              child: Text('Play Recording'),
-            ),
-            SizedBox(height: 40),
-            Text(
-              _recognizedText,
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 20),
+            // ElevatedButton(
+            //   onPressed: _startRecording,
+            //   child: Text('Start Recording'),
+            // ),
+            // SizedBox(height: 20),
+            // ElevatedButton(
+            //   onPressed: _stopRecording,
+            //   child: Text('Stop Recording'),
+            // ),
+            // SizedBox(height: 20),
+            // ElevatedButton(
+            //   onPressed: _playRecording,
+            //   child: Text('Play Recording'),
+            // ),
+            // SizedBox(height: 40),
+            // Text(
+            //   _recognizedText,
+            //   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            // ),
+            // SizedBox(height: 20),
             ElevatedButton(
               onPressed: _isListening ? _stopListening : _startListening,
               child: Text(_isListening ? 'Stop Listening' : 'Start Listening'),

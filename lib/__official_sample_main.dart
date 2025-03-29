@@ -413,7 +413,14 @@ class SessionOptionsWidget extends StatelessWidget {
             children: [
               const Text('Language: '),
               DropdownButton<String>(
-                onChanged: (selectedVal) => switchLang(selectedVal),
+                onChanged: (selectedVal) {
+                  // Call switchLang and print the selected language
+                  switchLang(selectedVal);
+                  print(
+                    "Selected language: $selectedVal",
+                  ); // This will print the selected locale ID
+                },
+
                 value: currentLocaleId,
                 items:
                     localeNames
