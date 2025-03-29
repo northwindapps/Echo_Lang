@@ -1,0 +1,133 @@
+[
+    {
+      "question": "How are you?",
+      "answer": "I'm good, thank you!",
+      "language": "English"
+    },
+    {
+      "question": "How are you?",
+      "answer": "I'm fine, how about you?",
+      "language": "English"
+    },
+    {
+      "question": "How old are you?",
+      "answer": "I am 25 years old.",
+      "language": "English"
+    },
+    {
+      "question": "How old are you?",
+      "answer": "I'm 18.",
+      "language": "English"
+    },
+    {
+      "question": "What's the weather today?",
+      "answer": "The weather is sunny today.",
+      "language": "English"
+    },
+    {
+      "question": "What's the weather today?",
+      "answer": "It's raining today.",
+      "language": "English"
+    },
+    {
+      "question": "What time is it?",
+      "answer": "It's 3 o'clock.",
+      "language": "English"
+    },
+    {
+      "question": "What time is it?",
+      "answer": "It's 10:30 AM.",
+      "language": "English"
+    },
+    {
+      "question": "What's your hobby?",
+      "answer": "My hobby is reading books.",
+      "language": "English"
+    },
+    {
+      "question": "What's your hobby?",
+      "answer": "I like playing football.",
+      "language": "English"
+    },
+    {
+      "question": "What's your name?",
+      "answer": "My name is John.",
+      "language": "English"
+    },
+    {
+      "question": "What's your name?",
+      "answer": "I am Maria.",
+      "language": "English"
+    },
+    {
+      "question": "Where do you live?",
+      "answer": "I live in Paris.",
+      "language": "English"
+    },
+    {
+      "question": "Where do you live?",
+      "answer": "I live in New York.",
+      "language": "English"
+    },
+    {
+      "question": "When were you born?",
+      "answer": "I was born in 1995.",
+      "language": "English"
+    },
+    {
+      "question": "When were you born?",
+      "answer": "I was born on May 1st, 2000.",
+      "language": "English"
+    },
+    {
+      "question": "What did you eat this morning?",
+      "answer": "I ate cereal and fruit.",
+      "language": "English"
+    },
+    {
+      "question": "What did you eat this morning?",
+      "answer": "I had toast and coffee.",
+      "language": "English"
+    },
+    {
+      "question": "Are you working or studying?",
+      "answer": "I am studying English.",
+      "language": "English"
+    },
+    {
+      "question": "Are you working or studying?",
+      "answer": "I am working as a teacher.",
+      "language": "English"
+    },
+    {
+      "question": "What's the date today?",
+      "answer": "Today is March 29th.",
+      "language": "English"
+    },
+    {
+      "question": "What's the date today?",
+      "answer": "It’s the 15th of February.",
+      "language": "English"
+    },
+    {
+      "question": "What do you do today?",
+      "answer": "Today, I am going to the park.",
+      "language": "English"
+    },
+    {
+      "question": "What do you do today?",
+      "answer": "I will study English today.",
+      "language": "English"
+    },
+    {
+      "question": "When did you wake up?",
+      "answer": "I woke up at 7 AM.",
+      "language": "English"
+    },
+    {
+      "question": "When did you wake up?",
+      "answer": "I woke up at 8 o'clock.",
+      "language": "English"
+    }
+  ]
+  
