@@ -1,77 +1,21 @@
-import 'dart:io';
-import 'dart:isolate';
 import 'package:flutter/material.dart';
-import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_sound/flutter_sound.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:path_provider/path_provider.dart';
+import 'dart:io';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'package:speech_to_text/speech_to_text.dart' as stt;
 
-FlutterSoundRecorder? _recorder;
-String _filePath = "";
-
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await _requestPermissions();
-
-  // Initialize the background service
-  FlutterBackgroundService().configure(
-    androidConfiguration: AndroidConfiguration(
-      onStart: (serviceInstance) {
-        // Initialize your background service task here
-        print('Service Started');
-      },
-      autoStart: true,
-      autoStartOnBoot: true,
-      isForegroundMode: true,
-      initialNotificationContent: 'Background task is running...',
-      initialNotificationTitle: 'Service Active',
-      notificationChannelId: 'com.example.notifications',
-      foregroundServiceNotificationId: 12345,
-      foregroundServiceTypes: [AndroidForegroundType.location],
-    ),
-    iosConfiguration: IosConfiguration(
-      onForeground: onBackgroundServiceStart,
-      onBackground: onBackgroundServiceStart,
-    ),
-  );
-
-  runApp(MyApp());
-}
-
-// Request permissions for recording
-Future<void> _requestPermissions() async {
-  await Permission.microphone.request();
-  await Permission.storage.request();
-}
-
-// Get a path to store the recorded file
-Future<String> _getFilePath() async {
-  final dir = await getApplicationDocumentsDirectory();
-  return '${dir.path}/recording.aac';
-}
-
-// Start recording in the background
-void onBackgroundServiceStart() async {
-  _recorder = FlutterSoundRecorder();
-  await _recorder!.openRecorder();
-
-  String filePath = await _getFilePath();
-  _filePath = filePath;
-
-  // Start recording
-  await _recorder!.startRecorder(toFile: filePath);
-  print("Recording started in background at $filePath");
-
-  // Simulate continuous recording
-  while (true) {
-    await Future.delayed(Duration(seconds: 10)); // Check every 10 seconds
-  }
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeScreen());
+    return MaterialApp(
+      title: 'Flutter Speech to Text',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: HomeScreen(),
+    );
   }
 }
 
@@ -81,54 +25,160 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  FlutterSoundRecorder? _recorder;
   FlutterSoundPlayer? _player;
-  bool isPlaying = false;
+  String _filePath = ''; // File path for the saved recording
+  FlutterTts flutterTts = FlutterTts();
+  stt.SpeechToText _speechToText = stt.SpeechToText();
+  bool _isListening = false;
+  String _recognizedText = "Press the button and start speaking...";
 
   @override
   void initState() {
     super.initState();
+    _recorder = FlutterSoundRecorder();
     _player = FlutterSoundPlayer();
-    _player!.openPlayer();
+    _initialize();
   }
 
-  void _stopRecording() async {
-    await _recorder?.stopRecorder();
+  Future<void> _initialize() async {
+    // Request permissions for microphone and storage
+    await Permission.microphone.request();
+    await Permission.storage.request();
+
+    // Get a file path to save the recording
+    final dir = await getApplicationDocumentsDirectory();
+    _filePath = '${dir.path}/recording.aac';
+
+    // Open the recorder
+    await _recorder!.openRecorder();
+    // Open the player
+    await _player!.openPlayer();
+  }
+
+  // Start recording
+  Future<void> _startRecording() async {
+    await _setSpeechRate();
+    await _speak();
+    if (await Permission.microphone.request().isGranted) {
+      await _recorder!.startRecorder(toFile: _filePath);
+      print("Recording started...");
+    } else {
+      print("Permission denied");
+    }
+  }
+
+  // Stop recording
+  Future<void> _stopRecording() async {
+    await _recorder!.stopRecorder();
     print("Recording stopped and saved to $_filePath");
   }
 
-  void _playRecording() async {
+  // Play the recorded file
+  Future<void> _playRecording() async {
     if (File(_filePath).existsSync()) {
-      if (!isPlaying) {
-        await _player!.startPlayer(
-          fromURI: _filePath,
-          whenFinished: () {
-            setState(() => isPlaying = false);
-          },
-        );
-        setState(() => isPlaying = true);
-      } else {
-        await _player!.stopPlayer();
-        setState(() => isPlaying = false);
-      }
+      await _player!.startPlayer(
+        fromURI: _filePath,
+        whenFinished: () {
+          print("Playback finished");
+        },
+      );
     } else {
       print("No recording found at $_filePath");
     }
   }
 
+  Future<void> _speak() async {
+    await flutterTts.speak("Hello, welcome to Flutter!");
+  }
+
+  Future<void> _setSpeechRate() async {
+    await flutterTts.setLanguage("en-US");
+    await flutterTts.setSpeechRate(0.5);
+  }
+
+  // Speech to Text Functionality
+  // Speech to Text Functionality
+  Future<void> _startListening() async {
+    bool available = await _speechToText.initialize(
+      onStatus: (status) {
+        // Handle status change here
+        print("Speech recognition status: $status");
+
+        if (status == 'notListening' || status == 'done') {
+          // Wait 500 milliseconds before restarting the listening process
+          Future.delayed(Duration(milliseconds: 500), () async {
+            // Only restart listening if the status is not 'listening' or 'done'
+            await _startListening();
+          });
+        }
+      },
+      onError: (error) {
+        // Handle errors here
+        print("Speech recognition error: ${error.errorMsg}");
+      },
+    );
+
+    if (available) {
+      setState(() {
+        _isListening = true;
+      });
+
+      // Set the language (example for French)
+      _speechToText.listen(
+        onResult: (result) {
+          print(result.recognizedWords);
+          // setState(() {
+          //   _recognizedText += result.recognizedWords;
+          // });
+        },
+        listenFor: Duration(seconds: 20), // Increase duration
+        pauseFor: Duration(seconds: 3), // Allow longer pauses
+        localeId: "en_US",
+      );
+    } else {
+      print("Speech recognition not available");
+    }
+  }
+
+  // void statusListener(String status) {
+  //   _logEvent('Received status: $status');
+  //   setState(() {
+  //     lastStatus = status;
+  //   });
+
+  //   if (status == 'notListening' && speech.isAvailable) {
+  //     Future.delayed(Duration(milliseconds: 500), () => startListening());
+  //   }
+  // }
+
+  Future<void> _stopListening() async {
+    await _speechToText.stop();
+    setState(() {
+      _isListening = false;
+    });
+  }
+
   @override
   void dispose() {
-    _player!.closePlayer();
+    _recorder?.closeRecorder();
+    _player?.closePlayer();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Record & Playback in Background')),
+      appBar: AppBar(title: Text('Flutter Speech to Text')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: <Widget>[
+            ElevatedButton(
+              onPressed: _startRecording,
+              child: Text('Start Recording'),
+            ),
+            SizedBox(height: 20),
             ElevatedButton(
               onPressed: _stopRecording,
               child: Text('Stop Recording'),
@@ -136,7 +186,17 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: _playRecording,
-              child: Text(isPlaying ? 'Stop Playback' : 'Play Recording'),
+              child: Text('Play Recording'),
+            ),
+            SizedBox(height: 40),
+            Text(
+              _recognizedText,
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: _isListening ? _stopListening : _startListening,
+              child: Text(_isListening ? 'Stop Listening' : 'Start Listening'),
             ),
           ],
         ),

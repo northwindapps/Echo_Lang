@@ -1,33 +1,56 @@
-import 'package:flutter_tts/flutter_tts.dart';
+import 'dart:io';
 import 'dart:isolate';
 import 'package:flutter/material.dart';
+import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_sound/flutter_sound.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 
 FlutterSoundRecorder? _recorder;
-FlutterSoundPlayer? _player;
-String _filePath = ""; // File to save recording
+String _filePath = "";
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Request permissions and get file path
   await _requestPermissions();
-  _filePath = await _getFilePath();
 
-  // Initialize the recorder on the main thread
-  _recorder = FlutterSoundRecorder();
-  await _recorder!.openRecorder();
+  final service = FlutterBackgroundService();
 
-  // Start recording in the background thread
-  Isolate.spawn(_recordInBackground, _filePath);
+  await service.configure(
+    androidConfiguration: AndroidConfiguration(
+      // This will be executed when the app is in the foreground or background in a separate isolate
+      onStart: onBackgroundServiceStart,
+
+      // Auto start the service when the app launches
+      autoStart: true,
+      isForegroundMode: true,
+
+      // Notification details for the foreground service
+      notificationChannelId: 'my_foreground',
+      initialNotificationTitle: 'AWESOME SERVICE',
+      initialNotificationContent: 'Initializing',
+      foregroundServiceNotificationId: 888,
+      foregroundServiceTypes: [
+        AndroidForegroundType.location,
+      ], // You can add other types like data sync, etc.
+    ),
+    iosConfiguration: IosConfiguration(
+      // Auto start service when the app launches
+      autoStart: true,
+
+      // These will be executed when the app is in the foreground (separate isolate)
+      onForeground: onBackgroundServiceStart,
+
+      // onBackground should handle tasks when the app is in the background.
+      onBackground: null,
+
+      // Remember to enable background fetch capability in the Xcode project
+    ),
+  );
 
   runApp(MyApp());
 }
 
-// Request microphone permissions
+// Request permissions for recording
 Future<void> _requestPermissions() async {
   await Permission.microphone.request();
   await Permission.storage.request();
@@ -39,11 +62,22 @@ Future<String> _getFilePath() async {
   return '${dir.path}/recording.aac';
 }
 
-// Function to record in an Isolate
-void _recordInBackground(String filePath) {
-  // Use the recorder that has been initialized in the main isolate
-  _recorder!.startRecorder(toFile: filePath);
-  print("Recording started in the background");
+// Start recording in the background
+void onBackgroundServiceStart(ServiceInstance service) async {
+  _recorder = FlutterSoundRecorder();
+  await _recorder!.openRecorder();
+
+  String filePath = await _getFilePath();
+  _filePath = filePath;
+
+  // Start recording
+  await _recorder!.startRecorder(toFile: filePath);
+  print("Recording started in background at $filePath");
+
+  // Simulate continuous recording
+  while (true) {
+    await Future.delayed(Duration(seconds: 10)); // Check every 10 seconds
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -59,24 +93,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  FlutterTts flutterTts = FlutterTts();
+  FlutterSoundPlayer? _player;
   bool isPlaying = false;
 
   @override
   void initState() {
     super.initState();
-    _setSpeechRate();
     _player = FlutterSoundPlayer();
     _player!.openPlayer();
-  }
-
-  Future<void> _setSpeechRate() async {
-    await flutterTts.setLanguage("en-US");
-    await flutterTts.setSpeechRate(0.5);
-  }
-
-  Future<void> _speak() async {
-    await flutterTts.speak("Hello, welcome to Flutter!");
   }
 
   void _stopRecording() async {
@@ -112,13 +136,11 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Record & Playback Example')),
+      appBar: AppBar(title: Text('Record & Playback in Background')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(onPressed: _speak, child: Text('Speak Text')),
-            SizedBox(height: 20),
             ElevatedButton(
               onPressed: _stopRecording,
               child: Text('Stop Recording'),
