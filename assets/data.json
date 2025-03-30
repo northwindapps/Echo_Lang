@@ -2,31 +2,37 @@
     {
       "question": "How are you?",
       "answer": "I'm good, thank you!",
+      "keywords":["good","bad","normal","ok","fine","terrible"],
       "language": "English"
     },
     {
       "question": "How are you?",
       "answer": "I'm fine, how about you?",
+      "keywords":["good","bad","normal","ok","fine","terrible"],
       "language": "English"
     },
     {
       "question": "How old are you?",
       "answer": "I am 25 years old.",
+      "keywords":["I'm","I am","years","old"],
       "language": "English"
     },
     {
       "question": "How old are you?",
       "answer": "I'm 18.",
+      "keywords":["I'm","I am","years","old"],
       "language": "English"
     },
     {
       "question": "What's the weather today?",
       "answer": "The weather is sunny today.",
+      "keywords":["cloudy","rain","cloud","snow","hot","cold","great","fog","mist","pour","bad","good"],
       "language": "English"
     },
     {
       "question": "What's the weather today?",
       "answer": "It's raining today.",
+      "keywords":["cloudy","rain","cloud","snow","hot","cold","great","fog","mist","pour","bad","good"],
       "language": "English"
     },
     {

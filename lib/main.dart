@@ -36,6 +36,8 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isListening = false;
   String _recognizedText = "Press the button and start speaking...";
   String _history = "";
+  String _questiontext = "";
+  String _answertext = "";
   int _qindex = 0;
 
   @override
@@ -46,6 +48,8 @@ class _HomeScreenState extends State<HomeScreen> {
     loadAndSetQuestions();
     questions.shuffle();
     _initialize();
+    _loadQuestion();
+    // _startListening();ng
   }
 
   Future<void> loadAndSetQuestions() async {
@@ -103,18 +107,48 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadQuestion() async {
-    await _startListening(stateInt: 1);
+    await _setSpeechRate();
+    await _speak();
+    setState(() {
+      _questiontext = questions[_qindex].question;
+    });
+    // await _startListening(stateInt: 1);
+  }
+
+  Future<void> _loadAnswer() async {
+    await _setSpeechRate();
+    await _speak_answer();
+    setState(() {
+      _answertext = questions[_qindex].answer;
+    });
+    // await _startListening(stateInt: 1);
   }
 
   Future<void> _speak() async {
     String qatext =
         questions.isNotEmpty ? questions[_qindex].question : "Loading...";
-    await flutterTts.speak(qatext);
+    _questiontext = qatext;
+    await flutterTts.speak(_questiontext);
+  }
+
+  Future<void> _speak_answer() async {
+    String antext =
+        questions.isNotEmpty ? questions[_qindex].answer : "Loading...";
+    _answertext = antext;
+    await flutterTts.speak(_answertext);
   }
 
   Future<void> _setSpeechRate() async {
     await flutterTts.setLanguage("fr-FR");
     await flutterTts.setSpeechRate(0.5);
+  }
+
+  void _next() {
+    setState(() {
+      _qindex = (_qindex + 1) % questions.length;
+      _loadQuestion();
+      _answertext = "";
+    });
   }
 
   // Speech to Text Functionality
@@ -129,7 +163,7 @@ class _HomeScreenState extends State<HomeScreen> {
         print("Speech recognition status: $status");
         if (stateInt != 2 && (status == 'notListening' || status == 'done')) {
           // Wait 500 milliseconds before restarting the listening process
-          Future.delayed(Duration(milliseconds: 500), () async {
+          Future.delayed(Duration(seconds: 1), () async {
             // Only restart listening if the status is not 'listening' or 'done'
             await _startListening(stateInt: 0);
           });
@@ -151,15 +185,16 @@ class _HomeScreenState extends State<HomeScreen> {
         onResult: (result) {
           // print(result.recognizedWords);
           setState(() {
-            if (stateInt == 0) {
-              _recognizedText += result.recognizedWords;
-              _history += result.recognizedWords;
+            if (stateInt != 1) {
+              _recognizedText = result.recognizedWords;
+              _history = result.recognizedWords;
+              print(_recognizedText);
               //check here
             }
           });
         },
-        listenFor: Duration(seconds: 20), // Increase duration
-        pauseFor: Duration(seconds: 5), // Allow longer pauses
+        listenFor: Duration(seconds: 15), // Increase duration
+        pauseFor: Duration(seconds: 10), // Allow longer pauses
         localeId: "fr_FR", //it_IT,de_DE,fr_FR,es_ES,ja_JP
       );
     } else {
@@ -189,31 +224,44 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // ElevatedButton(
-            //   onPressed: _startRecording,
-            //   child: Text('Start Recording'),
-            // ),
-            // SizedBox(height: 20),
-            // ElevatedButton(
-            //   onPressed: _stopRecording,
-            //   child: Text('Stop Recording'),
-            // ),
-            // SizedBox(height: 20),
-            // ElevatedButton(
-            //   onPressed: _playRecording,
-            //   child: Text('Play Recording'),
-            // ),
-            // SizedBox(height: 40),
-            ElevatedButton(onPressed: _loadQuestion, child: Text('Question')),
-            SizedBox(height: 40),
-            Text(
-              _recognizedText,
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton(
+                  onPressed: _loadQuestion,
+                  child: Text('Question'),
+                ),
+                SizedBox(height: 20),
+                Text(
+                  _questiontext,
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ],
             ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _isListening ? _stopListening : _startListening,
-              child: Text(_isListening ? 'Stop Listening' : 'Start Listening'),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton(
+                  onPressed: _loadAnswer,
+                  child: Text('Example Answer'),
+                ),
+                SizedBox(height: 20),
+                Text(
+                  _answertext,
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton(onPressed: _next, child: Text('→')),
+                SizedBox(height: 20),
+                Text(
+                  "",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ],
             ),
           ],
         ),
