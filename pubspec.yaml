@@ -40,6 +40,7 @@ dependencies:
   permission_handler: ^11.0.0
   speech_to_text: ^7.0.0
   path_provider: ^2.0.11
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
   flutter_test:
@@ -100,3 +101,8 @@ flutter:
     - assets/data_fr.json
     - assets/data_jp.json
     - assets/data_es.json
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon_t.png"

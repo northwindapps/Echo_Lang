@@ -24,7 +24,7 @@ class LanguageSelectionPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'EchoLang - Learn by Speaking', // Replace with your app's actual name
+              'EchoLang - Learn by Speaking Everyday', // Replace with your app's actual name
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
