@@ -1,0 +1,112 @@
+[
+    {
+      "question": "¿Cómo estás?",
+      "answer": "Estoy bien, ¡gracias!",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cómo estás?",
+      "answer": "Estoy bien, ¿y tú?",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuántos años tienes?",
+      "answer": "Tengo 25 años.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuántos años tienes?",
+      "answer": "Tengo 18 años.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cómo está el clima hoy?",
+      "answer": "El clima está soleado hoy.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cómo está el clima hoy?",
+      "answer": "Hoy está lloviendo.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Qué hora es?",
+      "answer": "Son las 3 en punto.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Qué hora es?",
+      "answer": "Son las 10:30 AM.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuál es tu pasatiempo?",
+      "answer": "Mi pasatiempo es leer libros.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuál es tu pasatiempo?",
+      "answer": "Me gusta jugar al fútbol.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cómo te llamas?",
+      "answer": "Me llamo Juan.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cómo te llamas?",
+      "answer": "Soy María.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Dónde vives?",
+      "answer": "Vivo en París.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Dónde vives?",
+      "answer": "Vivo en Nueva York.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuándo naciste?",
+      "answer": "Nací en 1995.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuándo naciste?",
+      "answer": "Nací el 1 de mayo de 2000.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Qué comiste esta mañana?",
+      "answer": "Comí cereales y fruta.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Qué comiste esta mañana?",
+      "answer": "Desayuné tostadas y café.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Estás trabajando o estudiando?",
+      "answer": "Estoy estudiando español.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Estás trabajando o estudiando?",
+      "answer": "Estoy trabajando como profesor.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuál es la fecha de hoy?",
+      "answer": "Hoy es 29 de marzo.",
+      "language": "Spanish"
+    },
+    {
+      "question": "¿Cuál es la fecha de hoy?",
+      "answer": "Es el 15 de febrero.",
+      "language": "Spanish"
+    }
+]

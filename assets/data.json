@@ -2,37 +2,31 @@
     {
       "question": "How are you?",
       "answer": "I'm good, thank you!",
-      "keywords":["good","bad","normal","ok","fine","terrible"],
       "language": "English"
     },
     {
       "question": "How are you?",
       "answer": "I'm fine, how about you?",
-      "keywords":["good","bad","normal","ok","fine","terrible"],
       "language": "English"
     },
     {
       "question": "How old are you?",
       "answer": "I am 25 years old.",
-      "keywords":["I'm","I am","years","old"],
       "language": "English"
     },
     {
       "question": "How old are you?",
       "answer": "I'm 18.",
-      "keywords":["I'm","I am","years","old"],
       "language": "English"
     },
     {
       "question": "What's the weather today?",
       "answer": "The weather is sunny today.",
-      "keywords":["cloudy","rain","cloud","snow","hot","cold","great","fog","mist","pour","bad","good"],
       "language": "English"
     },
     {
       "question": "What's the weather today?",
       "answer": "It's raining today.",
-      "keywords":["cloudy","rain","cloud","snow","hot","cold","great","fog","mist","pour","bad","good"],
       "language": "English"
     },
     {
@@ -133,6 +127,256 @@
     {
       "question": "When did you wake up?",
       "answer": "I woke up at 8 o'clock.",
+      "language": "English"
+    },
+    {
+      "question": "What is your job?",
+      "answer": "I am a teacher.",
+      "language": "English"
+    },
+    {
+      "question": "Where do you work?",
+      "answer": "I work in an office.",
+      "language": "English"
+    },
+    {
+      "question": "What do you do at work?",
+      "answer": "I write reports and answer emails.",
+      "language": "English"
+    },
+    {
+      "question": "How many hours do you work per day?",
+      "answer": "I work 8 hours a day.",
+      "language": "English"
+    },
+    {
+      "question": "Do you have a full-time job?",
+      "answer": "Yes, I work full-time.",
+      "language": "English"
+    },
+    {
+      "question": "When do you start work?",
+      "answer": "I start work at 9 AM.",
+      "language": "English"
+    },
+    {
+      "question": "How long is your lunch break?",
+      "answer": "My lunch break is one hour.",
+      "language": "English"
+    },
+    {
+      "question": "What do you do after work?",
+      "answer": "After work, I go to the gym.",
+      "language": "English"
+    },
+    {
+      "question": "Do you have an office?",
+      "answer": "Yes, I have a small office.",
+      "language": "English"
+    },
+    {
+      "question": "When do you finish work?",
+      "answer": "I finish work at 5 PM.",
+      "language": "English"
+    },
+    {
+      "question": "How much is this?",
+      "answer": "It costs 10 dollars.",
+      "language": "English"
+    },
+    {
+      "question": "Can I pay with a credit card?",
+      "answer": "Yes, you can pay with a credit card.",
+      "language": "English"
+    },
+    {
+      "question": "Do you have this in size M?",
+      "answer": "Yes, we have it in size M.",
+      "language": "English"
+    },
+    {
+      "question": "Can I try this on?",
+      "answer": "Yes, the fitting room is over there.",
+      "language": "English"
+    },
+    {
+      "question": "Where is the cash register?",
+      "answer": "The cash register is at the back of the store.",
+      "language": "English"
+    },
+    {
+      "question": "Is there a sale?",
+      "answer": "Yes, there is a 20% discount.",
+      "language": "English"
+    },
+    {
+      "question": "Do you need a bag?",
+      "answer": "Yes, I need a shopping bag.",
+      "language": "English"
+    },
+    {
+      "question": "How much is the entrance fee?",
+      "answer": "The entrance fee is 5 dollars.",
+      "language": "English"
+    },
+    {
+      "question": "Is there a special offer?",
+      "answer": "Yes, all shoes are 30% off.",
+      "language": "English"
+    },
+    {
+      "question": "Can I return this item?",
+      "answer": "Yes, you can return it within 14 days.",
+      "language": "English"
+    },
+    {
+      "question": "What is your business?",
+      "answer": "I run a small restaurant.",
+      "language": "English"
+    },
+    {
+      "question": "Where is your business located?",
+      "answer": "My business is located in the city center.",
+      "language": "English"
+    },
+    {
+      "question": "What kind of business do you have?",
+      "answer": "I have a clothing store.",
+      "language": "English"
+    },
+    {
+      "question": "Do you sell online?",
+      "answer": "Yes, we sell online as well.",
+      "language": "English"
+    },
+    {
+      "question": "How long has your business been open?",
+      "answer": "Our business has been open for two years.",
+      "language": "English"
+    },
+    {
+      "question": "Do you have a business partner?",
+      "answer": "Yes, I have a business partner.",
+      "language": "English"
+    },
+    {
+      "question": "What is your company's main product?",
+      "answer": "Our main product is handmade furniture.",
+      "language": "English"
+    },
+    {
+      "question": "What is the purpose of your business?",
+      "answer": "The purpose is to provide high-quality clothing.",
+      "language": "English"
+    },
+    {
+      "question": "Do you have any employees?",
+      "answer": "Yes, I have five employees.",
+      "language": "English"
+    },
+    {
+      "question": "What do you do in your business?",
+      "answer": "I manage the store and handle customer service.",
+      "language": "English"
+    },
+    {
+      "question": "Can I make a reservation?",
+      "answer": "Yes, you can make a reservation for tomorrow.",
+      "language": "English"
+    },
+    {
+      "question": "What time is my reservation?",
+      "answer": "Your reservation is at 7 PM.",
+      "language": "English"
+    },
+    {
+      "question": "Is there a table available for two?",
+      "answer": "Yes, we have a table available for two.",
+      "language": "English"
+    },
+    {
+      "question": "Do I need to pay in advance?",
+      "answer": "Yes, we require a deposit for the reservation.",
+      "language": "English"
+    },
+    {
+      "question": "How long can I keep the reservation?",
+      "answer": "Your reservation is held for 15 minutes.",
+      "language": "English"
+    },
+    {
+      "question": "Can I cancel my booking?",
+      "answer": "Yes, you can cancel your booking up to 24 hours before.",
+      "language": "English"
+    },
+    {
+      "question": "Do you offer a breakfast package?",
+      "answer": "Yes, we offer a breakfast package with the room.",
+      "language": "English"
+    },
+    {
+      "question": "Can I book a room for next week?",
+      "answer": "Yes, you can book a room for next week.",
+      "language": "English"
+    },
+    {
+      "question": "What is included in the price?",
+      "answer": "The price includes breakfast and free Wi-Fi.",
+      "language": "English"
+    },
+    {
+      "question": "Is there a discount for early booking?",
+      "answer": "Yes, we offer a 10% discount for early bookings.",
+      "language": "English"
+    },
+    {
+      "question": "Where are you going on holiday?",
+      "answer": "I am going to Paris.",
+      "language": "English"
+    },
+    {
+      "question": "How long is your trip?",
+      "answer": "My trip is for one week.",
+      "language": "English"
+    },
+    {
+      "question": "Do you prefer flying or driving?",
+      "answer": "I prefer flying because it's faster.",
+      "language": "English"
+    },
+    {
+      "question": "How do you get to the airport?",
+      "answer": "I take a taxi to the airport.",
+      "language": "English"
+    },
+    {
+      "question": "What time does the flight leave?",
+      "answer": "The flight leaves at 10:30 AM.",
+      "language": "English"
+    },
+    {
+      "question": "Where can I buy a ticket?",
+      "answer": "You can buy a ticket at the ticket counter or online.",
+      "language": "English"
+    },
+    {
+      "question": "How much does a one-way ticket cost?",
+      "answer": "A one-way ticket costs 150 dollars.",
+      "language": "English"
+    },
+    {
+      "question": "Is there a direct flight?",
+      "answer": "Yes, there is a direct flight to London.",
+      "language": "English"
+    },
+    {
+      "question": "How many bags can I take?",
+      "answer": "You can take one carry-on and one checked bag.",
+      "language": "English"
+    },
+    {
+      "question": "Do I need a visa to travel?",
+      "answer": "Yes, you need a visa to visit that country.",
       "language": "English"
     }
   ]

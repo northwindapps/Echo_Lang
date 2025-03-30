@@ -128,6 +128,156 @@
       "question": "Wann bist du aufgewacht?",
       "answer": "Ich bin um 8 Uhr aufgewacht.",
       "language": "German"
+    },
+    {
+      "question": "Wann fliegst du nach Deutschland?",
+      "answer": "Ich fliege nächsten Monat.",
+      "language": "German"
+    },
+    {
+      "question": "Wie lange bleibst du in Berlin?",
+      "answer": "Ich bleibe für eine Woche.",
+      "language": "German"
+    },
+    {
+      "question": "Wie kommst du zum Flughafen?",
+      "answer": "Ich nehme ein Taxi.",
+      "language": "German"
+    },
+    {
+      "question": "Bist du schon einmal in Paris gewesen?",
+      "answer": "Ja, ich war letzten Sommer in Paris.",
+      "language": "German"
+    },
+    {
+      "question": "Wo möchtest du im Urlaub hinfahren?",
+      "answer": "Ich möchte ans Meer fahren.",
+      "language": "German"
+    },
+    {
+      "question": "Hast du ein Hotel reserviert?",
+      "answer": "Ja, ich habe ein Hotelzimmer gebucht.",
+      "language": "German"
+    },
+    {
+      "question": "Wie lange dauert der Flug?",
+      "answer": "Der Flug dauert etwa zwei Stunden.",
+      "language": "German"
+    },
+    {
+      "question": "Was möchtest du im Urlaub machen?",
+      "answer": "Ich möchte die Sehenswürdigkeiten besichtigen.",
+      "language": "German"
+    },
+    {
+      "question": "Hast du deine Reisepässe dabei?",
+      "answer": "Ja, ich habe meinen Reisepass in der Tasche.",
+      "language": "German"
+    },
+    {
+      "question": "Wann fährst du nach Hause?",
+      "answer": "Ich fahre morgen zurück.",
+      "language": "German"
+    },
+    {
+      "question": "Wie viel kostet das?",
+      "answer": "Es kostet 10 Euro.",
+      "language": "German"
+    },
+    {
+      "question": "Kann ich mit Karte bezahlen?",
+      "answer": "Ja, Sie können mit Karte bezahlen.",
+      "language": "German"
+    },
+    {
+      "question": "Haben Sie diese Größe in Blau?",
+      "answer": "Ja, wir haben es auch in Blau.",
+      "language": "German"
+    },
+    {
+      "question": "Kann ich die Jacke anprobieren?",
+      "answer": "Ja, die Umkleidekabine ist dort drüben.",
+      "language": "German"
+    },
+    {
+      "question": "Wo ist die Kasse?",
+      "answer": "Die Kasse ist am Ende des Geschäfts.",
+      "language": "German"
+    },
+    {
+      "question": "Haben Sie ein günstiges Angebot?",
+      "answer": "Ja, es gibt einen Rabatt von 20%.",
+      "language": "German"
+    },
+    {
+      "question": "Haben Sie eine Tasche?",
+      "answer": "Ja, ich brauche eine Einkaufstasche.",
+      "language": "German"
+    },
+    {
+      "question": "Wie viel kostet der Eintritt?",
+      "answer": "Der Eintritt kostet 5 Euro.",
+      "language": "German"
+    },
+    {
+      "question": "Gibt es einen Sonderverkauf?",
+      "answer": "Ja, alle Schuhe sind um 30% reduziert.",
+      "language": "German"
+    },
+    {
+      "question": "Kann ich diesen Artikel zurückgeben?",
+      "answer": "Ja, Sie können ihn innerhalb von 14 Tagen zurückgeben.",
+      "language": "German"
+    },
+    {
+      "question": "Was ist dein Beruf?",
+      "answer": "Ich bin Lehrer.",
+      "language": "German"
+    },
+    {
+      "question": "Wo arbeitest du?",
+      "answer": "Ich arbeite in einem Büro.",
+      "language": "German"
+    },
+    {
+      "question": "Was machst du in deiner Arbeit?",
+      "answer": "Ich schreibe Berichte und beantworte E-Mails.",
+      "language": "German"
+    },
+    {
+      "question": "Wie viele Stunden arbeitest du pro Tag?",
+      "answer": "Ich arbeite acht Stunden am Tag.",
+      "language": "German"
+    },
+    {
+      "question": "Hast du eine Vollzeitstelle?",
+      "answer": "Ja, ich arbeite vollzeit.",
+      "language": "German"
+    },
+    {
+      "question": "Wann fängst du an zu arbeiten?",
+      "answer": "Ich fange um 9 Uhr an.",
+      "language": "German"
+    },
+    {
+      "question": "Wie lange dauert deine Mittagspause?",
+      "answer": "Meine Mittagspause dauert eine Stunde.",
+      "language": "German"
+    },
+    {
+      "question": "Was machst du nach der Arbeit?",
+      "answer": "Nach der Arbeit gehe ich ins Fitnessstudio.",
+      "language": "German"
+    },
+    {
+      "question": "Hast du ein Büro?",
+      "answer": "Ja, ich habe ein kleines Büro.",
+      "language": "German"
+    },
+    {
+      "question": "Wann hast du Feierabend?",
+      "answer": "Ich habe um 17 Uhr Feierabend.",
+      "language": "German"
     }
   ]
   

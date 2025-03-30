@@ -1,133 +1,342 @@
 [
-    {
-      "question": "Come stai?",
-      "answer": "Sto bene, grazie!",
-      "language": "Italiano"
-    },
-    {
-      "question": "Come stai?",
-      "answer": "Sto bene, e tu?",
-      "language": "Italiano"
-    },
-    {
-      "question": "Quanti anni hai?",
-      "answer": "Ho 25 anni.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Quanti anni hai?",
-      "answer": "Ho 18 anni.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Che tempo fa oggi?",
-      "answer": "Oggi il tempo è soleggiato.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Che tempo fa oggi?",
-      "answer": "Oggi piove.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Che ore sono?",
-      "answer": "Sono le 3.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Che ore sono?",
-      "answer": "Sono le 10:30.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Qual è il tuo hobby?",
-      "answer": "Il mio hobby è leggere libri.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Qual è il tuo hobby?",
-      "answer": "Mi piace giocare a calcio.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Come ti chiami?",
-      "answer": "Mi chiamo John.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Come ti chiami?",
-      "answer": "Mi chiamo Maria.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Dove vivi?",
-      "answer": "Vivo a Parigi.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Dove vivi?",
-      "answer": "Vivo a New York.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Quando sei nato?",
-      "answer": "Sono nato nel 1995.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Quando sei nato?",
-      "answer": "Sono nato il 1 maggio 2000.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Cosa hai mangiato questa mattina?",
-      "answer": "Ho mangiato cereali e frutta.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Cosa hai mangiato questa mattina?",
-      "answer": "Ho mangiato pane tostato e caffè.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Stai lavorando o studiando?",
-      "answer": "Sto studiando inglese.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Stai lavorando o studiando?",
-      "answer": "Lavoro come insegnante.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Che giorno è oggi?",
-      "answer": "Oggi è il 29 marzo.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Che giorno è oggi?",
-      "answer": "Oggi è il 15 febbraio.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Cosa fai oggi?",
-      "answer": "Oggi vado al parco.",
-      "language": "Italiano"
-    },
-    {
-      "question": "Cosa fai oggi?",
-      "answer": "Oggi studierò inglese.",
-      "language": "Italiano"
-    },
-    {
-      "question": "A che ora ti sei svegliato?",
-      "answer": "Mi sono svegliato alle 7.",
-      "language": "Italiano"
-    },
-    {
-      "question": "A che ora ti sei svegliato?",
-      "answer": "Mi sono svegliato alle 8.",
-      "language": "Italiano"
-    }
-  ]
-  
+  {
+    "question": "Come stai?",
+    "answer": "Sto bene, grazie!",
+    "language": "Italiano"
+  },
+  {
+    "question": "Come stai?",
+    "answer": "Sto bene, e tu?",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanti anni hai?",
+    "answer": "Ho 25 anni.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanti anni hai?",
+    "answer": "Ho 18 anni.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che tempo fa oggi?",
+    "answer": "Oggi è una giornata soleggiata.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che tempo fa oggi?",
+    "answer": "Oggi piove.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che ore sono?",
+    "answer": "Sono le 3.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che ore sono?",
+    "answer": "Sono le 10:30 del mattino.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Qual è il tuo hobby?",
+    "answer": "Il mio hobby è leggere libri.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Qual è il tuo hobby?",
+    "answer": "Mi piace giocare a calcio.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Come ti chiami?",
+    "answer": "Mi chiamo John.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Come ti chiami?",
+    "answer": "Mi chiamo Maria.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Dove vivi?",
+    "answer": "Vivo a Parigi.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Dove vivi?",
+    "answer": "Vivo a New York.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quando sei nato?",
+    "answer": "Sono nato nel 1995.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quando sei nato?",
+    "answer": "Sono nato il 1 maggio 2000.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa hai mangiato stamattina?",
+    "answer": "Ho mangiato cereali e frutta.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa hai mangiato stamattina?",
+    "answer": "Ho mangiato toast e caffè.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Stai lavorando o studiando?",
+    "answer": "Sto studiando inglese.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Stai lavorando o studiando?",
+    "answer": "Sto lavorando come insegnante.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che data è oggi?",
+    "answer": "Oggi è il 29 marzo.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che data è oggi?",
+    "answer": "È il 15 febbraio.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa fai oggi?",
+    "answer": "Oggi vado al parco.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa fai oggi?",
+    "answer": "Oggi studierò inglese.",
+    "language": "Italiano"
+  },
+  {
+    "question": "A che ora ti sei svegliato?",
+    "answer": "Mi sono svegliato alle 7.",
+    "language": "Italiano"
+  },
+  {
+    "question": "A che ora ti sei svegliato?",
+    "answer": "Mi sono svegliato alle 8.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che lavoro fai?",
+    "answer": "Faccio l'insegnante.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Dove lavori?",
+    "answer": "Lavoro in un ufficio.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa fai al lavoro?",
+    "answer": "Scrivo rapporti e rispondo alle email.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quante ore lavori al giorno?",
+    "answer": "Lavoro 8 ore al giorno.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Hai un lavoro a tempo pieno?",
+    "answer": "Sì, lavoro a tempo pieno.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quando inizi a lavorare?",
+    "answer": "Inizio a lavorare alle 9.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanto dura la tua pausa pranzo?",
+    "answer": "La mia pausa pranzo dura un'ora.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa fai dopo il lavoro?",
+    "answer": "Dopo il lavoro, vado in palestra.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Hai un ufficio?",
+    "answer": "Sì, ho un piccolo ufficio.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quando finisci di lavorare?",
+    "answer": "Finisco di lavorare alle 17.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanto costa questo?",
+    "answer": "Costa 10 dollari.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Posso pagare con la carta di credito?",
+    "answer": "Sì, puoi pagare con la carta di credito.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Hai questo in taglia M?",
+    "answer": "Sì, ce l'abbiamo in taglia M.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Posso provarlo?",
+    "answer": "Sì, il camerino è lì.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Dove si trova la cassa?",
+    "answer": "La cassa è sul retro del negozio.",
+    "language": "Italiano"
+  },
+  {
+    "question": "C'è un saldo?",
+    "answer": "Sì, c'è uno sconto del 20%.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Ti serve una busta?",
+    "answer": "Sì, mi serve una busta per la spesa.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanto costa il biglietto d'ingresso?",
+    "answer": "Il biglietto d'ingresso costa 5 dollari.",
+    "language": "Italiano"
+  },
+  {
+    "question": "C'è un'offerta speciale?",
+    "answer": "Sì, tutte le scarpe sono scontate del 30%.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Posso restituire questo articolo?",
+    "answer": "Sì, puoi restituirlo entro 14 giorni.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cos'è la tua attività?",
+    "answer": "Gestisco un piccolo ristorante.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Dove si trova la tua attività?",
+    "answer": "La mia attività si trova nel centro della città.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Che tipo di attività hai?",
+    "answer": "Ho un negozio di abbigliamento.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Vendi online?",
+    "answer": "Sì, vendiamo anche online.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Da quanto tempo è aperta la tua attività?",
+    "answer": "La nostra attività è aperta da due anni.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Hai un socio?",
+    "answer": "Sì, ho un socio.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Qual è il prodotto principale della tua azienda?",
+    "answer": "Il nostro prodotto principale è l'arredamento fatto a mano.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Qual è lo scopo della tua attività?",
+    "answer": "Lo scopo è fornire abbigliamento di alta qualità.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Hai dei dipendenti?",
+    "answer": "Sì, ho cinque dipendenti.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa fai nella tua attività?",
+    "answer": "Gestisco il negozio e mi occupo del servizio clienti.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Posso fare una prenotazione?",
+    "answer": "Sì, puoi fare una prenotazione per domani.",
+    "language": "Italiano"
+  },
+  {
+    "question": "A che ora è la mia prenotazione?",
+    "answer": "La tua prenotazione è alle 19.",
+    "language": "Italiano"
+  },
+  {
+    "question": "C'è un tavolo disponibile per due?",
+    "answer": "Sì, abbiamo un tavolo disponibile per due.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Devo pagare in anticipo?",
+    "answer": "Sì, richiediamo un acconto per la prenotazione.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanto tempo posso mantenere la prenotazione?",
+    "answer": "La tua prenotazione è mantenuta per 15 minuti.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Posso cancellare la mia prenotazione?",
+    "answer": "Sì, puoi cancellarla fino a 24 ore prima.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Offrite un pacchetto colazione?",
+    "answer": "Sì, offriamo un pacchetto colazione con la stanza.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Posso prenotare una stanza per la prossima settimana?",
+    "answer": "Sì, puoi prenotare una stanza per la prossima settimana.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Cosa è incluso nel prezzo?",
+    "answer": "Il prezzo include la colazione e il Wi-Fi gratuito.",
+    "language": "Italiano"
+  },
+  {
+    "question": "C'è uno sconto per prenotazioni anticipate?",
+    "answer": "Sì, offriamo uno sconto del 10% per le prenotazioni anticipate.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Dove vai in vacanza?",
+    "answer": "Vado a Parigi.",
+    "language": "Italiano"
+  },
+  {
+    "question": "Quanto dura il tuo viaggio?",
+    "answer": "Il mio viaggio dura una settimana.",
+    "language": "Italiano"
+  }
+]

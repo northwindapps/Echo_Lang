@@ -94,4 +94,9 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
   assets:
+    - assets/data.json
+    - assets/data_german.json
+    - assets/data_it.json
     - assets/data_fr.json
+    - assets/data_jp.json
+    - assets/data_es.json

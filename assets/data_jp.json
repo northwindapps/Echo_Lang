@@ -1,0 +1,327 @@
+[
+    {
+      "question": "お元気ですか？",
+      "answer": "元気です、ありがとう！",
+      "language": "Japanese"
+    },
+    {
+      "question": "お元気ですか？",
+      "answer": "元気です、あなたは？",
+      "language": "Japanese"
+    },
+    {
+      "question": "おいくつですか？",
+      "answer": "私は25歳です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "おいくつですか？",
+      "answer": "18歳です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今日はどんな天気ですか？",
+      "answer": "今日は晴れです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今日はどんな天気ですか？",
+      "answer": "今日は雨です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今何時ですか？",
+      "answer": "3時です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今何時ですか？",
+      "answer": "午前10時30分です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "趣味は何ですか？",
+      "answer": "私の趣味は本を読むことです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "趣味は何ですか？",
+      "answer": "サッカーをするのが好きです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "お名前は何ですか？",
+      "answer": "私の名前はジョンです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "お名前は何ですか？",
+      "answer": "私はマリアです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "どこに住んでいますか？",
+      "answer": "パリに住んでいます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "どこに住んでいますか？",
+      "answer": "ニューヨークに住んでいます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "いつ生まれましたか？",
+      "answer": "1995年に生まれました。",
+      "language": "Japanese"
+    },
+    {
+      "question": "いつ生まれましたか？",
+      "answer": "2000年5月1日に生まれました。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今朝何を食べましたか？",
+      "answer": "シリアルと果物を食べました。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今朝何を食べましたか？",
+      "answer": "トーストとコーヒーを食べました。",
+      "language": "Japanese"
+    },
+    {
+      "question": "仕事をしていますか、それとも勉強していますか？",
+      "answer": "私は英語を勉強しています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "仕事をしていますか、それとも勉強していますか？",
+      "answer": "私は教師として働いています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今日は何日ですか？",
+      "answer": "今日は3月29日です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今日は何日ですか？",
+      "answer": "今日は2月15日です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今日は何をしますか？",
+      "answer": "今日は公園に行きます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "今日は何をしますか？",
+      "answer": "今日は英語を勉強します。",
+      "language": "Japanese"
+    },
+    {
+      "question": "何時に起きましたか？",
+      "answer": "私は午前7時に起きました。",
+      "language": "Japanese"
+    },
+    {
+      "question": "何時に起きましたか？",
+      "answer": "私は8時に起きました。",
+      "language": "Japanese"
+    },
+    {
+      "question": "あなたの職業は何ですか？",
+      "answer": "私は教師です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "どこで働いていますか？",
+      "answer": "私はオフィスで働いています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "仕事で何をしていますか？",
+      "answer": "私はレポートを書いたり、メールに答えたりします。",
+      "language": "Japanese"
+    },
+    {
+      "question": "1日に何時間働きますか？",
+      "answer": "私は1日8時間働きます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "フルタイムの仕事ですか？",
+      "answer": "はい、フルタイムで働いています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "仕事は何時に始まりますか？",
+      "answer": "私は午前9時に仕事を始めます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "昼休みはどのくらいですか？",
+      "answer": "昼休みは1時間です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "仕事の後、何をしますか？",
+      "answer": "仕事の後、ジムに行きます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "オフィスはありますか？",
+      "answer": "はい、小さなオフィスがあります。",
+      "language": "Japanese"
+    },
+    {
+      "question": "仕事は何時に終わりますか？",
+      "answer": "私は午後5時に仕事を終えます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "これはいくらですか？",
+      "answer": "10ドルです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "クレジットカードで支払えますか？",
+      "answer": "はい、クレジットカードで支払えます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "このMサイズはありますか？",
+      "answer": "はい、Mサイズがあります。",
+      "language": "Japanese"
+    },
+    {
+      "question": "これを試着してもいいですか？",
+      "answer": "はい、試着室はあちらです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "レジはどこですか？",
+      "answer": "レジは店の奥にあります。",
+      "language": "Japanese"
+    },
+    {
+      "question": "セールはありますか？",
+      "answer": "はい、20%割引があります。",
+      "language": "Japanese"
+    },
+    {
+      "question": "袋は要りますか？",
+      "answer": "はい、ショッピングバッグが必要です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "入場料はいくらですか？",
+      "answer": "入場料は5ドルです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "特別オファーはありますか？",
+      "answer": "はい、すべての靴が30%オフです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "この商品を返品できますか？",
+      "answer": "はい、14日以内であれば返品できます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "あなたのビジネスは何ですか？",
+      "answer": "私は小さなレストランを運営しています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "あなたのビジネスはどこにありますか？",
+      "answer": "私のビジネスは市内中心にあります。",
+      "language": "Japanese"
+    },
+    {
+      "question": "どんなビジネスをしていますか？",
+      "answer": "私は衣料品店を経営しています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "オンラインで販売していますか？",
+      "answer": "はい、オンラインでも販売しています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "あなたのビジネスはどのくらいの期間開店していますか？",
+      "answer": "私たちのビジネスは2年間開店しています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "ビジネスパートナーはいますか？",
+      "answer": "はい、ビジネスパートナーがいます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "あなたの会社の主力商品は何ですか？",
+      "answer": "私たちの主力商品は手作りの家具です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "あなたのビジネスの目的は何ですか？",
+      "answer": "目的は高品質の衣料品を提供することです。",
+      "language": "Japanese"
+    },
+    {
+      "question": "従業員はいますか？",
+      "answer": "はい、5人の従業員がいます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "ビジネスで何をしていますか？",
+      "answer": "私は店を管理し、顧客サービスを担当しています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "予約をすることはできますか？",
+      "answer": "はい、明日の予約ができます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "私の予約は何時ですか？",
+      "answer": "予約は午後7時です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "2人用のテーブルは空いていますか？",
+      "answer": "はい、2人用のテーブルは空いています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "前払いは必要ですか？",
+      "answer": "はい、予約にはデポジットが必要です。",
+      "language": "Japanese"
+    },
+    {
+      "question": "予約はどのくらいの時間保持されますか？",
+      "answer": "予約は15分間保持されます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "予約をキャンセルできますか？",
+      "answer": "はい、24時間前までにキャンセルできます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "朝食パッケージはありますか？",
+      "answer": "はい、部屋には朝食パッケージが含まれています。",
+      "language": "Japanese"
+    },
+    {
+      "question": "来週部屋を予約できますか？",
+      "answer": "はい、来週部屋を予約できます。",
+      "language": "Japanese"
+    },
+    {
+      "question": "価格には何が含まれていますか？",
+      "answer": "価格には朝食と無料Wi-Fiが含まれています。",
+      "language": "Japanese"
+    }
+]
