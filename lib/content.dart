@@ -19,7 +19,7 @@ class HomeScreenPage extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreenPage> {
   List<Question> questions = [];
-  FlutterSoundRecorder? _recorder;
+  // FlutterSoundRecorder? _recorder;
   FlutterSoundPlayer? _player;
   String _filePath = ''; // File path for the saved recording
   FlutterTts flutterTts = FlutterTts();
@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
   @override
   void initState() {
     super.initState();
-    _recorder = FlutterSoundRecorder();
+    // _recorder = FlutterSoundRecorder();
     _player = FlutterSoundPlayer();
     _setLanguage(widget.language); // Set language from the widget
     loadAndSetQuestions();
@@ -57,13 +57,13 @@ class _HomeScreenState extends State<HomeScreenPage> {
   }
 
   Future<void> _initialize() async {
-    await Permission.microphone.request();
-    await Permission.storage.request();
+    // await Permission.microphone.request();
+    // await Permission.storage.request();
 
-    final dir = await getApplicationDocumentsDirectory();
-    _filePath = '${dir.path}/recording.aac';
+    // final dir = await getApplicationDocumentsDirectory();
+    // _filePath = '${dir.path}/recording.aac';
 
-    await _recorder!.openRecorder();
+    // await _recorder!.openRecorder();
     await _player!.openPlayer();
   }
 
@@ -73,7 +73,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
     });
     // Update FlutterTts and SpeechToText language
     await flutterTts.setLanguage(_selectedLanguage);
-    await _speechToText.initialize(onStatus: (status) {}, onError: (error) {});
+    // await _speechToText.initialize(onStatus: (status) {}, onError: (error) {});
   }
 
   Future<void> _loadQuestion() async {
@@ -169,7 +169,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
 
   @override
   void dispose() {
-    _recorder?.closeRecorder();
+    // _recorder?.closeRecorder();
     _player?.closePlayer();
     super.dispose();
   }
@@ -182,22 +182,6 @@ class _HomeScreenState extends State<HomeScreenPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // // Language Selector
-            // DropdownButton<String>(
-            //   value: _selectedLanguage,
-            //   onChanged: (String? newLanguage) {
-            //     if (newLanguage != null) {
-            //       _setLanguage(newLanguage);
-            //     }
-            //   },
-            //   items:
-            //       languages.map((String language) {
-            //         return DropdownMenuItem<String>(
-            //           value: language,
-            //           child: Text(language),
-            //         );
-            //       }).toList(),
-            // ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
