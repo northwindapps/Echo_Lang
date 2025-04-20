@@ -362,6 +362,9 @@ Future<List<Question>> loadQuestions(String langstr) async {
   if (langstr.contains("da")) {
     jsonString = await rootBundle.loadString('assets/data_da.json');
   }
+  if (langstr.contains("zh")) {
+    jsonString = await rootBundle.loadString('assets/data_zh.json');
+  }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Question.fromJson(item)).toList();
 }
@@ -399,6 +402,9 @@ Future<List<Dialog>> loadDialogs(String langstr) async {
   }
   if (langstr.contains("da")) {
     jsonString = await rootBundle.loadString('assets/data_da_dialog.json');
+  }
+  if (langstr.contains("zh")) {
+    jsonString = await rootBundle.loadString('assets/data_zh_dialog.json');
   }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Dialog.fromJson(item)).toList();
