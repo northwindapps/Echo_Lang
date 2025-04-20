@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.2+5
+version: 1.0.3+6
 
 environment:
   sdk: ^3.7.2
@@ -102,6 +102,9 @@ flutter:
     - assets/data_es.json
     - assets/data_da.json
     - assets/data_zh.json
+    - assets/data_fa.json
+    - assets/data_gr.json
+    - assets/data_pt.json
     - assets/data_dialog.json
     - assets/data_de_dialog.json
     - assets/data_it_dialog.json
@@ -110,6 +113,9 @@ flutter:
     - assets/data_es_dialog.json
     - assets/data_da_dialog.json
     - assets/data_zh_dialog.json
+    - assets/data_fa_dialog.json
+    - assets/data_gr_dialog.json
+    - assets/data_pt_dialog.json
 
 flutter_icons:
   android: true

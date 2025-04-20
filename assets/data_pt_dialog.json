@@ -1,0 +1,151 @@
+[
+    {
+        "topic": "No Café",
+        "language": "portuguese",
+        "dialog": "Tom: Olá! És novo por aqui?__Anna: Sim, acabei de chegar de Espanha.__Tom: Bem-vinda! Quanto tempo vais ficar?__Anna: Duas semanas. Quero ver a cidade.__Tom: Deverias experimentar o café local.__Anna: Boa ideia! Ainda não tomei café hoje."
+      },
+      {
+        "topic": "Na Paragem de Autocarro",
+        "language": "portuguese",
+        "dialog": "Lena: Precisas de ajuda?__Mark: Sim, estou a visitar de Alemanha. Qual autocarro vai para o museu?__Lena: Apanha o número 5. Fui lá no fim de semana passado.__Mark: Obrigado! Vou comprar o bilhete agora.__Lena: Podes pagar no autocarro.__Mark: Ótimo, é fácil."
+      },
+      {
+        "topic": "No Lobby de um Hotel",
+        "language": "portuguese",
+        "dialog": "Emily: Olá. Acho que reservei um quarto aqui.__Recepcionista: Qual é o teu nome?__Emily: Emily Brown. Cheguei de Austrália ontem.__Recepcionista: Sim, temos a tua reserva. Três noites, certo?__Emily: Sim. Vou sair no domingo.__Recepcionista: Bem-vinda! Aqui está a tua chave."
+      },
+      {
+        "topic": "A Pedir Direções",
+        "language": "portuguese",
+        "dialog": "David: Com licença, há um banco por aqui?__Mia: Sim, a dois quarteirões daqui. Fui lá esta manhã.__David: Obrigado! Estou aqui de férias do Brasil.__Mia: Que fixe! Quanto tempo vais ficar?__David: Apenas cinco dias.__Mia: Então, deves visitar a cidade velha—é linda."
+      },
+      {
+        "topic": "No Supermercado",
+        "language": "portuguese",
+        "dialog": "Noah: Sabes onde está o pão?__Sofia: Sim, está no fundo, perto do leite.__Noah: Obrigado. Acabei de chegar do Japão e não conheço esta loja.__Sofia: Bem-vindo! Eu mudei-me para cá no ano passado também.__Noah: Ah, que bom! Vou dar uma volta.__Sofia: Diz-me se precisares de ajuda novamente."
+      },
+      {
+        "topic": "Na Estação de Comboios",
+        "language": "portuguese",
+        "dialog": "Emma: Com licença, este comboio vai para Paris?__Luca: Não, este vai para Lyon.__Emma: Ah, obrigado! Acabei de chegar de Itália.__Luca: Bem-vinda! Paris é na próxima plataforma.__Emma: Ótimo, vou lá agora.__Luca: Boa viagem!"
+      },
+      {
+        "topic": "Num Restaurante",
+        "language": "portuguese",
+        "dialog": "Anna: Olá, têm um menu em inglês?__Empregado: Sim, aqui está.__Anna: Obrigada. Estou a visitar do Canadá.__Empregado: Que bom! Já experimentaste a nossa comida local?__Anna: Ainda não. Vou experimentar algo novo hoje.__Empregado: Recomendo o peixe grelhado!"
+      },
+      {
+        "topic": "Num Táxi",
+        "language": "portuguese",
+        "dialog": "Tom: Podes levar-me ao aeroporto?__Motorista: Claro. Terminal 1 ou 2?__Tom: Terminal 1. O meu voo é às 15h.__Motorista: Sem problema. O trânsito está calmo agora.__Tom: Isso é bom. Cheguei aqui há dois dias da Coreia.__Motorista: Espero que tenha sido uma visita agradável."
+      },
+      {
+        "topic": "Na Farmácia",
+        "language": "portuguese",
+        "dialog": "Zoe: Olá, preciso de algo para a dor de cabeça.__Farmacêutico: Claro. Prefere comprimidos ou xarope?__Zoe: Comprimidos, por favor. Voei da Índia ontem.__Farmacêutico: Talvez esteja cansada por causa do voo.__Zoe: Sim, não dormi bem.__Farmacêutico: Isto deve ajudar. Tome um com água."
+      },
+      {
+        "topic": "No Centro de Informações Turísticas",
+        "language": "portuguese",
+        "dialog": "Liam: Olá, há um mapa da cidade?__Funcionário: Sim, aqui está.__Liam: Obrigado! Estou aqui da África do Sul.__Funcionário: Bem-vindo! Precisas de ajuda para planear o teu dia?__Liam: Isso seria ótimo. Adoro museus.__Funcionário: Então começa pelo centro de história—fica a 5 minutos daqui."
+      },
+      {
+        "topic": "Na Aula de Línguas",
+        "language": "portuguese",
+        "dialog": "Ella: De onde és?__Max: Sou da Polónia. Comecei a aprender inglês agora.__Ella: Eu também! Vim do Brasil no mês passado.__Max: Quanto tempo vais ficar?__Ella: Talvez um ano.__Max: Legal! Vamos praticar juntos."
+      },
+      {
+        "topic": "No Aeroporto",
+        "language": "portuguese",
+        "dialog": "Sofia: Esta é a fila para o voo 824?__Alex: Sim, é. Para onde vais?__Sofia: De volta para casa em Tóquio. Estive aqui uma semana.__Alex: Que fixe! Eu vou para Berlim.__Sofia: Fui lá no ano passado. É incrível.__Alex: Mal posso esperar!"
+      },
+      {
+        "topic": "Na Loja de Roupas",
+        "language": "portuguese",
+        "dialog": "Leo: Têm este modelo em tamanhos maiores?__Funcionário: Sim, deixa-me verificar.__Leo: Obrigado. Acabei de chegar da Suécia, está frio!__Funcionário: Então precisas de um casaco quente.__Leo: Vou levar este, se me servir.__Funcionário: Experimenta aqui."
+      },
+      {
+        "topic": "No Museu",
+        "language": "portuguese",
+        "dialog": "Nina: Há bilhete para estudantes?__Guia: Sim, basta mostrar o teu cartão de estudante.__Nina: Estou a estudar em França há 3 meses.__Guia: Bem-vinda! Estás sozinha?__Nina: Sim, mas adoro explorar.__Guia: Aproveita o museu!"
+      },
+      {
+        "topic": "Na Cafetaria",
+        "language": "portuguese",
+        "dialog": "Jake: Posso pedir um café com leite, por favor?__Barista: Claro! Pequeno ou grande?__Jake: Grande. Acabei de chegar de Nova Iorque.__Barista: Longo voo?__Jake: Sim, dormi um pouco no avião.__Barista: Este café vai ajudar!"
+      },
+      {
+        "topic": "Apresentando-se",
+        "language": "portuguese",
+        "dialog": "A: Olá, o meu nome é Anna. Qual é o teu nome?__B: Olá, Anna! Sou o Tom. Prazer em conhecer-te!__A: Prazer em conhecer-te também!"
+      },
+      {
+        "topic": "Fazendo um Pedido",
+        "language": "portuguese",
+        "dialog": "A: Posso pedir um café, por favor?__B: Claro! Gostarias de leite?__A: Sim, por favor. Obrigado!"
+      },
+      {
+        "topic": "Hobbies",
+        "language": "portuguese",
+        "dialog": "A: O que gostas de fazer no teu tempo livre?__B: Gosto de ler livros. E tu?__A: Adoro jogar futebol!"
+      },
+      {
+        "topic": "No Parque",
+        "language": "portuguese",
+        "dialog": "Tom: Gostas de caminhar no parque?__Anna: Sim, adoro! É tranquilo aqui.__Tom: Eu caminho aqui todas as manhãs.__Anna: Que ótimo! Eu caminho depois do trabalho."
+      },
+      {
+        "topic": "Na Biblioteca",
+        "language": "portuguese",
+        "dialog": "Sarah: Lês livros frequentemente?__Mark: Sim, leio todos os dias.__Sarah: O que gostas de ler?__Mark: Gosto de ler livros de mistério.__Sarah: Eu prefiro ficção. Gosto de ler sobre lugares diferentes."
+      },
+  
+    {"dialog": "Tom: Já não gosto dos meus jogos.__Anna: Oh não! Porquê?__Tom: Sinto-me aborrecido.__Anna: Talvez tentasses algo novo!", "language": "portuguese"},
+    {"dialog": "Emma: Já não gosto desta música.__Liam: Tu tocaste-a todos os dias!__Emma: Sim, agora quero uma nova.__Liam: Vamos procurar uma juntos.", "language": "portuguese"},
+    {"dialog": "Jake: Este jogo já não é divertido.__Sara: Já acabaste?__Jake: Sim. Muitas vezes.__Sara: Experimenta um jogo novo!", "language": "portuguese"},
+    {"dialog": "Anna: Comi pizza outra vez.__Ben: Tu adoras pizza!__Anna: Não hoje. Estou farta disso.__Ben: Vamos cozinhar algo diferente.", "language": "portuguese"},
+    {"dialog": "Tom: Não quero desenhar hoje.__Lucy: Porquê? Tu adoras!__Tom: Sinto-me aborrecido.__Lucy: Experimenta pintar algo novo!", "language": "portuguese"},
+    {"dialog": "Sofia: Esta música é antiga.__Noah: Queres uma playlist nova?__Sofia: Sim, por favor!__Noah: Vou enviar-te uma.", "language": "portuguese"},
+    {"dialog": "Mia: Vou a este café todos os dias.__Leo: Gostas?__Mia: Já não.__Leo: Vamos experimentar outro!", "language": "portuguese"},
+    {"dialog": "Ella: Este programa já está aborrecido.__Ryan: Não gostavas?__Ella: Gostava, mas agora não.__Ryan: Vamos procurar outro.", "language": "portuguese"},
+    {"dialog": "Alex: Não quero correr hoje.__Nina: Tu corres sempre!__Alex: Quero tentar yoga.__Nina: Parece divertido!", "language": "portuguese"},
+    {"dialog": "Zoe: Terminei o meu livro.__Ethan: Gostaste?__Zoe: Sim, mas quero algo novo.__Ethan: Eu empresto-te um.", "language": "portuguese"},
+    {"dialog": "Lily: Estive online o dia todo ontem.__Max: Deves estar cansada.__Lily: Amanhã vou sair.__Max: Vamos juntos!", "language": "portuguese"},
+    {"dialog": "Emma: Gostava desta música na semana passada.__Liam: Tocaste-a muito.__Emma: Amanhã vou procurar uma nova.__Liam: Eu ajudo-te!", "language": "portuguese"},
+    {"dialog": "Jake: Acabei este jogo ontem.__Sara: Foi divertido?__Jake: Sim, mas agora vou tentar outro.__Sara: Boa ideia!", "language": "portuguese"},
+    {"dialog": "Anna: Comi pizza três vezes esta semana.__Ben: Isso é muito!__Anna: Amanhã vou fazer pasta.__Ben: Eu junto-me a ti!", "language": "portuguese"},
+    {"dialog": "Tom: Pintei um gato ontem à noite.__Lucy: Posso ver?__Tom: Claro. Da próxima vez vou pintar um cão.__Lucy: Isso parece divertido!", "language": "portuguese"},
+    {"dialog": "Sofia: Ouvi aquele álbum ontem.__Noah: Gostaste?__Sofia: Sim, mas hoje vou procurar outro.__Noah: Vamos pesquisar juntos.", "language": "portuguese"},
+    {"dialog": "Mia: Fomos a este café no domingo passado.__Leo: Sim, foi bom.__Mia: Vamos a outro da próxima vez.__Leo: Conheço um bom lugar.", "language": "portuguese"},
+    {"dialog": "Ella: Vi cinco episódios ontem.__Ryan: Isso é muito!__Ella: Hoje vou fazer uma pausa.__Ryan: Vamos fazer outra coisa.", "language": "portuguese"},
+    {"dialog": "Alex: Corri 5km esta manhã.__Nina: Uau!__Alex: Amanhã vou descansar.__Nina: Mereces isso!", "language": "portuguese"},
+    {"dialog": "Zoe: Terminei o meu livro ontem à noite.__Ethan: Foi bom?__Zoe: Sim! Amanhã começo um novo.__Ethan: Precisas de uma sugestão?", "language": "portuguese"},
+    {"dialog": "Lily: Estive online o dia todo ontem.__Max: Deves estar cansada.__Lily: Amanhã vou sair.__Max: Vamos juntos!", "language": "portuguese"},
+    {"dialog": "Jake: A Sarah jogou esse jogo a noite toda.__Anna: Outra vez?__Jake: Sim. Amanhã ela vai jogar outro.__Anna: Ela adora jogos!", "language": "portuguese"},
+    {"dialog": "Sofia: A Mia ouviu essa música ontem.__Liam: Ela gostou?__Sofia: Sim. Vai adicionar à sua playlist.__Liam: Ela encontra sempre boa música.", "language": "portuguese"},
+    {"dialog": "Lucy: O Ben estudou o fim de semana todo.__Jake: Para o teste?__Lucy: Sim. Ele quer passar desta vez.__Jake: Ele vai arrasar!", "language": "portuguese"},
+    {"dialog": "Leo: A Emma foi ao novo café.__Nina: Mesmo? Quando?__Leo: Ontem. Ela disse que era bom.__Nina: Devíamos ir também.", "language": "portuguese"},
+    {"dialog": "Ella: O Sam desenhou um gato ontem.__Ryan: Foi tão fofo!__Ella: Da próxima vez ele vai desenhar um pássaro.__Ryan: Ele está a melhorar!", "language": "portuguese"},
+    {"dialog": "Max: A Zoe comeu pizza outra vez.__Lily: Ela adora!__Max: Mas amanhã ela vai tentar sushi.__Lily: Isso é novo para ela!", "language": "portuguese"},
+    {"dialog": "Sofia: O Tom esteve online o dia todo.__Ben: Ele está sempre a ver o telemóvel.__Sofia: Amanhã ele vai descansar.__Ben: Isso é bom.", "language": "portuguese"},
+    {"dialog": "Anna: A Mia andou de bicicleta ontem.__Leo: Foi longe?__Anna: Sim, 10 quilómetros!__Leo: Ela vai estar cansada hoje.", "language": "portuguese"},
+    {"dialog": "Jake: A Emma viu esse programa ontem à noite.__Lucy: Todos os episódios?__Jake: Quase! Ela vai acabar hoje.__Lucy: Ela realmente gosta disso.", "language": "portuguese"},
+    {"dialog": "Ryan: O Mark não veio à aula hoje.__Zoe: Ele está doente?__Ryan: Talvez. Ele disse que vem amanhã.__Zoe: Espero que ele melhore.", "language": "portuguese"},
+    {"dialog": "Sarah trabalhou até tarde ontem à noite.__Anna: Outra vez?__Tom: Sim. Ela vai terminar o projeto hoje.__Anna: Ela é muito trabalhadora.", "language": "portuguese"},
+    {"dialog": "Ben: O John não gosta de reuniões.__Lily: Eu vi isso ontem.__Ben: Ele disse que vai faltar à de amanhã.__Lily: Espero que não!", "language": "portuguese"},
+    {"dialog": "Ella: O meu irmão entrou para o exército no ano passado.__Leo: Uau! Isso é grande.__Ella: Ele vai voltar para casa no próximo mês.__Leo: Aposto que sentes a falta dele.", "language": "portuguese"},
+    {"dialog": "Nina: O Mark treinou na chuva ontem.__Alex: Isso é difícil!__Nina: Ele disse que amanhã vai ser mais difícil.__Alex: Ele é muito forte.", "language": "portuguese"},
+    {"dialog": "Jake: A Mia não fez os deveres de casa.__Sofia: Oh não!__Jake: Ela disse que vai fazer hoje à noite.__Sofia: Espero que o professor seja simpático.", "language": "portuguese"},
+    {"dialog": "Zoe: O Ethan ajudou-me na aula de matemática.__Ryan: Ele é inteligente!__Zoe: Ele vai estudar mais este fim de semana.__Ryan: Ele quer tirar notas altas.", "language": "portuguese"},
+    {"dialog": "Liam: A minha mãe fez bolo ontem.__Lucy: Humm!__Liam: Ela vai fazer bolachas amanhã.__Lucy: Posso ir a tua casa?", "language": "portuguese"},
+    {"dialog": "Mia: O pai foi ao médico hoje.__Ben: Ele está bem?__Mia: Ele está a sentir-se melhor agora.__Ben: Fico contente.", "language": "portuguese"},
+    {"dialog": "Sofia: A minha irmã cantou na festa.__Tom: Ela tem uma voz bonita.__Sofia: Ela vai cantar outra vez na próxima semana.__Tom: Diz-me quando!", "language": "portuguese"},
+    {"dialog": "Emma: A avó visitou-nos no fim de semana passado.__Alex: Ela ficou muito tempo?__Emma: Só dois dias. Ela vai voltar em breve.__Alex: Isso é bom.", "language": "portuguese"},
+    {"dialog": "Sam marcou um voo ontem.__Mia: Para onde é que ele vai?__Leo: Para o Japão! Ele vai embora na próxima semana.__Mia: Isso é emocionante!", "language": "portuguese"},
+    {"dialog": "Anna: A Emily ainda não reservou o hotel.__Ben: Mesmo?__Anna: Ela disse que vai fazer isso hoje à noite.__Ben: Espero que ela encontre um bom.", "language": "portuguese"},
+    {"dialog": "Tom: O Mark reservou a data errada.__Lucy: Oh não!__Tom: Ele vai ligar para a companhia aérea agora.__Lucy: Espero que eles consigam resolver isso.", "language": "portuguese"},
+    {"dialog": "Emma: O Liam viajou para a Espanha no mês passado.__Jake: Ele gostou?__Emma: Sim! Ele vai voltar no próximo verão.__Jake: Que sorte!", "language": "portuguese"},
+    {"dialog": "Zoe: A Mia não trouxe o passaporte.__Ryan: Isso é mau!__Zoe: Ela vai voltar para o buscar.__Ryan: Espero que não se atrase.", "language": "portuguese"},
+    {"dialog": "Ben: Ele apanhou o comboio ontem.__Alex: Foi rápido?__Sofia: Sim. Amanhã ele vai tentar o autocarro.__Alex: Ele gosta de comparar!", "language": "portuguese"},
+    {"dialog": "A minha prima viajou sozinha para Paris.__Ben: Uau! Quando?__Ella: Na semana passada. Ela vai voltar em breve.__Ben: Espero que ela esteja a aproveitar.", "language": "portuguese"}
+]

@@ -52,24 +52,32 @@ class _LanguageSelectionPageState extends State<LanguageSelectionPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Select Language')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'EchoLang - Learn by Speaking Everyday',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                Text(
+                  'EchoLang - Learn by Speaking Everyday',
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.center,
+                ),
+                SizedBox(height: 20),
+                _languageButton(context, "Français", "fr-FR"),
+                _languageButton(context, "English", "en-US"),
+                _languageButton(context, "Deutsch", "de-DE"),
+                _languageButton(context, "Italiano", "it-IT"),
+                _languageButton(context, "日本語", "ja-JP"),
+                _languageButton(context, "Español", "es-ES"),
+                _languageButton(context, "Danish", "da-DK"),
+                _languageButton(context, "中国語（簡体字)", "zh-CN"),
+                _languageButton(context, "فارسی", "fa-IR"),
+                _languageButton(context, "ελληνικά", "el-GR"),
+                _languageButton(context, "Português", "pt-PT"),
+              ],
             ),
-            SizedBox(height: 20),
-            _languageButton(context, "Français", "fr-FR"),
-            _languageButton(context, "English", "en-US"),
-            _languageButton(context, "Deutsch", "de-DE"),
-            _languageButton(context, "Italiano", "it-IT"),
-            _languageButton(context, "日本語", "ja-JP"),
-            _languageButton(context, "Español", "es-ES"),
-            _languageButton(context, "Danish", "da-DK"),
-            _languageButton(context, "中国語（簡体字)", "zh-CN"),
-          ],
+          ),
         ),
       ),
     );

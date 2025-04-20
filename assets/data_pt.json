@@ -1,0 +1,342 @@
+[
+    {
+      "question": "Como estás?",
+      "answer": "Estou bem, obrigado!",
+      "language": "Português"
+    },
+    {
+      "question": "Como estás?",
+      "answer": "Estou bem, e tu?",
+      "language": "Português"
+    },
+    {
+      "question": "Quantos anos tens?",
+      "answer": "Tenho 25 anos.",
+      "language": "Português"
+    },
+    {
+      "question": "Quantos anos tens?",
+      "answer": "Tenho 18.",
+      "language": "Português"
+    },
+    {
+      "question": "Como está o tempo hoje?",
+      "answer": "Está sol hoje.",
+      "language": "Português"
+    },
+    {
+      "question": "Como está o tempo hoje?",
+      "answer": "Está a chover hoje.",
+      "language": "Português"
+    },
+    {
+      "question": "Que horas são?",
+      "answer": "São 3 horas.",
+      "language": "Português"
+    },
+    {
+      "question": "Que horas são?",
+      "answer": "São 10:30 da manhã.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o teu hobby?",
+      "answer": "O meu hobby é ler livros.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o teu hobby?",
+      "answer": "Gosto de jogar futebol.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o teu nome?",
+      "answer": "O meu nome é João.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o teu nome?",
+      "answer": "Sou a Maria.",
+      "language": "Português"
+    },
+    {
+      "question": "Onde vives?",
+      "answer": "Vivo em Paris.",
+      "language": "Português"
+    },
+    {
+      "question": "Onde vives?",
+      "answer": "Vivo em Nova Iorque.",
+      "language": "Português"
+    },
+    {
+      "question": "Quando nasceste?",
+      "answer": "Nasci em 1995.",
+      "language": "Português"
+    },
+    {
+      "question": "Quando nasceste?",
+      "answer": "Nasci no dia 1 de Maio de 2000.",
+      "language": "Português"
+    },
+    {
+      "question": "O que comeste esta manhã?",
+      "answer": "Comi cereais e fruta.",
+      "language": "Português"
+    },
+    {
+      "question": "O que comeste esta manhã?",
+      "answer": "Comi torradas e café.",
+      "language": "Português"
+    },
+    {
+      "question": "Estás a trabalhar ou a estudar?",
+      "answer": "Estou a estudar inglês.",
+      "language": "Português"
+    },
+    {
+      "question": "Estás a trabalhar ou a estudar?",
+      "answer": "Estou a trabalhar como professor.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é a data de hoje?",
+      "answer": "Hoje é dia 29 de Março.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é a data de hoje?",
+      "answer": "Hoje é 15 de Fevereiro.",
+      "language": "Português"
+    },
+    {
+      "question": "O que vais fazer hoje?",
+      "answer": "Hoje vou ao parque.",
+      "language": "Português"
+    },
+    {
+      "question": "O que vais fazer hoje?",
+      "answer": "Vou estudar inglês hoje.",
+      "language": "Português"
+    },
+    {
+      "question": "A que horas acordaste?",
+      "answer": "Acordei às 7 da manhã.",
+      "language": "Português"
+    },
+    {
+      "question": "A que horas acordaste?",
+      "answer": "Acordei às 8 horas.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é a tua profissão?",
+      "answer": "Sou professor.",
+      "language": "Português"
+    },
+    {
+      "question": "Onde trabalhas?",
+      "answer": "Trabalho num escritório.",
+      "language": "Português"
+    },
+    {
+      "question": "O que fazes no trabalho?",
+      "answer": "Escrevo relatórios e respondo a e-mails.",
+      "language": "Português"
+    },
+    {
+      "question": "Quantas horas trabalhas por dia?",
+      "answer": "Trabalho 8 horas por dia.",
+      "language": "Português"
+    },
+    {
+      "question": "Tens um trabalho a tempo inteiro?",
+      "answer": "Sim, trabalho a tempo inteiro.",
+      "language": "Português"
+    },
+    {
+      "question": "A que horas começas a trabalhar?",
+      "answer": "Começo a trabalhar às 9 da manhã.",
+      "language": "Português"
+    },
+    {
+      "question": "Quanto tempo dura a tua pausa para almoço?",
+      "answer": "A minha pausa para almoço é de uma hora.",
+      "language": "Português"
+    },
+    {
+      "question": "O que fazes depois de trabalhar?",
+      "answer": "Depois de trabalhar, vou ao ginásio.",
+      "language": "Português"
+    },
+    {
+      "question": "Tens um escritório?",
+      "answer": "Sim, tenho um pequeno escritório.",
+      "language": "Português"
+    },
+    {
+      "question": "A que horas terminaste o trabalho?",
+      "answer": "Termino o trabalho às 17 horas.",
+      "language": "Português"
+    },
+    {
+      "question": "Quanto custa isto?",
+      "answer": "Custa 10 dólares.",
+      "language": "Português"
+    },
+    {
+      "question": "Posso pagar com cartão de crédito?",
+      "answer": "Sim, pode pagar com cartão de crédito.",
+      "language": "Português"
+    },
+    {
+      "question": "Tens este tamanho M?",
+      "answer": "Sim, temos no tamanho M.",
+      "language": "Português"
+    },
+    {
+      "question": "Posso experimentar isto?",
+      "answer": "Sim, o provador está ali.",
+      "language": "Português"
+    },
+    {
+      "question": "Onde está a caixa registadora?",
+      "answer": "A caixa registadora está no fundo da loja.",
+      "language": "Português"
+    },
+    {
+      "question": "Há uma promoção?",
+      "answer": "Sim, há um desconto de 20%.",
+      "language": "Português"
+    },
+    {
+      "question": "Precisas de uma bolsa?",
+      "answer": "Sim, preciso de uma bolsa de compras.",
+      "language": "Português"
+    },
+    {
+      "question": "Quanto custa a entrada?",
+      "answer": "A entrada custa 5 dólares.",
+      "language": "Português"
+    },
+    {
+      "question": "Há alguma oferta especial?",
+      "answer": "Sim, todos os sapatos têm 30% de desconto.",
+      "language": "Português"
+    },
+    {
+      "question": "Posso devolver este item?",
+      "answer": "Sim, pode devolver dentro de 14 dias.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o teu negócio?",
+      "answer": "Tenho um pequeno restaurante.",
+      "language": "Português"
+    },
+    {
+      "question": "Onde está o teu negócio?",
+      "answer": "O meu negócio está no centro da cidade.",
+      "language": "Português"
+    },
+    {
+      "question": "Que tipo de negócio tens?",
+      "answer": "Tenho uma loja de roupa.",
+      "language": "Português"
+    },
+    {
+      "question": "Vendes online?",
+      "answer": "Sim, vendemos online também.",
+      "language": "Português"
+    },
+    {
+      "question": "Há quanto tempo o teu negócio está aberto?",
+      "answer": "O nosso negócio está aberto há dois anos.",
+      "language": "Português"
+    },
+    {
+      "question": "Tens um sócio?",
+      "answer": "Sim, tenho um sócio.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o principal produto da tua empresa?",
+      "answer": "O nosso produto principal é mobiliário feito à mão.",
+      "language": "Português"
+    },
+    {
+      "question": "Qual é o objetivo do teu negócio?",
+      "answer": "O objetivo é fornecer roupa de alta qualidade.",
+      "language": "Português"
+    },
+    {
+      "question": "Tens empregados?",
+      "answer": "Sim, tenho cinco empregados.",
+      "language": "Português"
+    },
+    {
+      "question": "O que fazes no teu negócio?",
+      "answer": "Eu gerencio a loja e trato do atendimento ao cliente.",
+      "language": "Português"
+    },
+    {
+      "question": "Posso fazer uma reserva?",
+      "answer": "Sim, pode fazer uma reserva para amanhã.",
+      "language": "Português"
+    },
+    {
+      "question": "A que horas é a minha reserva?",
+      "answer": "A sua reserva é às 19 horas.",
+      "language": "Português"
+    },
+    {
+      "question": "Há uma mesa disponível para duas pessoas?",
+      "answer": "Sim, temos uma mesa disponível para duas pessoas.",
+      "language": "Português"
+    },
+    {
+      "question": "Preciso pagar adiantado?",
+      "answer": "Sim, requeremos um depósito para a reserva.",
+      "language": "Português"
+    },
+    {
+      "question": "Quanto tempo posso manter a reserva?",
+      "answer": "A sua reserva é mantida por 15 minutos.",
+      "language": "Português"
+    },
+    {
+      "question": "Posso cancelar a minha reserva?",
+      "answer": "Sim, pode cancelar até 24 horas antes.",
+      "language": "Português"
+    },
+    {
+      "question": "Oferecem um pacote de pequeno-almoço?",
+      "answer": "Sim, oferecemos um pacote de pequeno-almoço com o quarto.",
+      "language": "Português"
+    },
+    {
+      "question": "Posso reservar um quarto para a próxima semana?",
+      "answer": "Sim, pode reservar um quarto para a próxima semana.",
+      "language": "Português"
+    },
+    {
+      "question": "O que está incluído no preço?",
+      "answer": "O preço inclui pequeno-almoço e Wi-Fi gratuito.",
+      "language": "Português"
+    },
+    {
+      "question": "Há desconto para reservas antecipadas?",
+      "answer": "Sim, oferecemos 10% de desconto para reservas antecipadas.",
+      "language": "Português"
+    },
+    {
+      "question": "Para onde vais de férias?",
+      "answer": "Vou para Paris.",
+      "language": "Português"
+    },
+    {
+      "question": "Quanto tempo vai durar a tua viagem?",
+      "answer": "A minha viagem vai durar uma semana.",
+      "language": "Português"
+    }
+]

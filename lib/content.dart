@@ -41,6 +41,9 @@ class _ContentState extends State<ContentPage> {
     "it-IT",
     "da-DK",
     "zh-CN",
+    "fa-IR",
+    "el-GR",
+    "pt-PT",
   ];
   int _contentType = 0;
 
@@ -194,9 +197,10 @@ class _ContentState extends State<ContentPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Content')),
-      body: Center(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.all(16),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             if (_contentType == 0) ...[
               Row(
@@ -206,10 +210,15 @@ class _ContentState extends State<ContentPage> {
                     onPressed: _loadQuestion,
                     child: Text('Question'),
                   ),
-                  SizedBox(height: 20),
-                  Text(
-                    _questiontext,
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  SizedBox(width: 20), // <- changed from height to width
+                  Flexible(
+                    child: Text(
+                      _questiontext,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -221,94 +230,64 @@ class _ContentState extends State<ContentPage> {
                     onPressed: _loadAnswer,
                     child: Text('Example Answer'),
                   ),
-                  SizedBox(height: 20),
-                  Text(
-                    _answertext,
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  SizedBox(width: 20),
+                  Flexible(
+                    child: Text(
+                      _answertext,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
                 ],
               ),
               SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  ElevatedButton(onPressed: _next, child: Text('→')),
-                  SizedBox(height: 20),
-                  Text(
-                    "",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                  ),
-                ],
+                children: [ElevatedButton(onPressed: _next, child: Text('→'))],
               ),
             ],
             if (_contentType == 1) ...[
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Expanded(
-                    // This ensures the Column doesn't overflow horizontally
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                            vertical: 4.0,
-                            horizontal: 80.0,
-                          ),
-                          child: ElevatedButton(
-                            onPressed: _loadDialog,
-                            child: Text('Play Dialog'),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 4.0),
+                child: ElevatedButton(
+                  onPressed: _loadDialog,
+                  child: Text('Play Dialog'),
+                ),
+              ),
+              SizedBox(height: 20),
+              ...dialoglinesParsedFromAdialog.map((line) {
+                final parts = _parseLine(line);
+                return Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 4.0),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          line,
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        SizedBox(height: 20),
-
-                        ...dialoglinesParsedFromAdialog.map((line) {
-                          final parts = _parseLine(
-                            line,
-                          ); // Assuming this gives [speaker, text]
-                          return Padding(
-                            padding: const EdgeInsets.symmetric(
-                              vertical: 4.0,
-                              horizontal: 80.0,
-                            ),
-                            child: Row(
-                              children: [
-                                Expanded(
-                                  child: Text(
-                                    line,
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ),
-                                IconButton(
-                                  icon: Icon(Icons.play_arrow),
-                                  onPressed: () async {
-                                    await _setSpeechRate(pitch: 0.6);
-                                    await flutterTts.speak(
-                                      parts.last,
-                                    ); // Play just the spoken text
-                                  },
-                                ),
-                              ],
-                            ),
-                          );
-                        }),
-                      ],
-                    ),
+                      ),
+                      IconButton(
+                        icon: Icon(Icons.play_arrow),
+                        onPressed: () async {
+                          await _setSpeechRate(pitch: 0.6);
+                          await flutterTts.speak(parts.last);
+                        },
+                      ),
+                    ],
                   ),
-                ],
-              ),
+                );
+              }),
+              SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   ElevatedButton(onPressed: _nextdialog, child: Text('→')),
-                  SizedBox(height: 20),
-                  Text(
-                    "",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                  ),
                 ],
               ),
             ],
@@ -365,6 +344,15 @@ Future<List<Question>> loadQuestions(String langstr) async {
   if (langstr.contains("zh")) {
     jsonString = await rootBundle.loadString('assets/data_zh.json');
   }
+  if (langstr.contains("fa")) {
+    jsonString = await rootBundle.loadString('assets/data_fa.json');
+  }
+  if (langstr.contains("el-GR")) {
+    jsonString = await rootBundle.loadString('assets/data_gr.json');
+  }
+  if (langstr.contains("pt")) {
+    jsonString = await rootBundle.loadString('assets/data_pt.json');
+  }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Question.fromJson(item)).toList();
 }
@@ -405,6 +393,15 @@ Future<List<Dialog>> loadDialogs(String langstr) async {
   }
   if (langstr.contains("zh")) {
     jsonString = await rootBundle.loadString('assets/data_zh_dialog.json');
+  }
+  if (langstr.contains("fa")) {
+    jsonString = await rootBundle.loadString('assets/data_fa_dialog.json');
+  }
+  if (langstr.contains("el-GR")) {
+    jsonString = await rootBundle.loadString('assets/data_gr_dialog.json');
+  }
+  if (langstr.contains("pt")) {
+    jsonString = await rootBundle.loadString('assets/data_pt_dialog.json');
   }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Dialog.fromJson(item)).toList();

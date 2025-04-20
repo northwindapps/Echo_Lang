@@ -1,292 +1,292 @@
 [
     {
       "topic": "At the Cafe",
-      "language":"English",
+      "language":"english",
       "dialog": "Tom: Hi! Are you new here?__Anna: Yes, I just arrived from Spain.__Tom: Welcome! How long will you stay?__Anna: Two weeks. I want to see the city.__Tom: You should try the local coffee.__Anna: Good idea! I didn’t have coffee yet today."
     },
     {
       "topic": "At the Bus Stop",
-      "language":"English",
+      "language":"english",
       "dialog": "Lena: Do you need help?__Mark: Yes, I’m visiting from Germany. Which bus goes to the museum?__Lena: Take the number 5. I went there last weekend.__Mark: Thanks! I’ll get a ticket now.__Lena: You can pay on the bus.__Mark: Great, that’s easy."
     },
     {
       "topic": "In a Hotel Lobby",
-      "language":"English",
+      "language":"english",
       "dialog": "Emily: Hello. I think I booked a room here.__Receptionist: What’s your name?__Emily: Emily Brown. I came from Australia yesterday.__Receptionist: Yes, we have your booking. Three nights, right?__Emily: Yes. I’ll leave on Sunday.__Receptionist: Welcome! Here is your key."
     },
     {
       "topic": "Asking for Directions",
-      "language":"English",
+      "language":"english",
       "dialog": "David: Excuse me, is there a bank near here?__Mia: Yes, two blocks away. I went there this morning.__David: Thank you! I’m here on holiday from Brazil.__Mia: That’s cool! How long will you stay?__David: Just five days.__Mia: Then you must visit the old town—it’s beautiful."
     },
     {
       "topic": "In a Supermarket",
-      "language":"English",
+      "language":"english",
       "dialog": "Noah: Do you know where the bread is?__Sofia: Yes, it’s at the back, near the milk.__Noah: Thanks. I just got here from Japan and don’t know this store.__Sofia: Welcome! I moved here last year too.__Noah: Oh, nice! I’ll look around a bit.__Sofia: Let me know if you need help again."
     },
     {
       "topic": "At a Train Station",
-      "language":"English",
+      "language":"english",
       "dialog": "Emma: Excuse me, does this train go to Paris?__Luca: No, this one goes to Lyon.__Emma: Oh, thank you! I just arrived from Italy.__Luca: Welcome! Paris is the next platform.__Emma: Great, I’ll go there now.__Luca: Safe travels!"
     },
     {
       "topic": "In a Restaurant",
-      "language":"English",
+      "language":"english",
       "dialog": "Anna: Hello, do you have a menu in English?__Waiter: Yes, here you go.__Anna: Thank you. I’m visiting from Canada.__Waiter: Nice! Have you tried our local food yet?__Anna: Not yet. I’ll try something new today.__Waiter: I recommend the grilled fish!"
     },
     {
       "topic": "In a Taxi",
-      "language":"English",
+      "language":"english",
       "dialog": "Tom: Can you take me to the airport?__Driver: Of course. Terminal 1 or 2?__Tom: Terminal 1. My flight is at 3 PM.__Driver: No problem. Traffic is light now.__Tom: That’s good. I arrived two days ago from Korea.__Driver: I hope you had a nice visit."
     },
     {
       "topic": "At the Pharmacy",
-      "language":"English",
+      "language":"english",
       "dialog": "Zoe: Hi, I need something for a headache.__Pharmacist: Sure. Do you want tablets or syrup?__Zoe: Tablets, please. I flew from India yesterday.__Pharmacist: You may be tired from the flight.__Zoe: Yes, I didn’t sleep well.__Pharmacist: This should help. Take one with water."
     },
     {
       "topic": "At a Tourist Info Center",
-      "language":"English",
+      "language":"english",
       "dialog": "Liam: Hi, is there a city map?__Staff: Yes, here it is.__Liam: Thanks! I’m here from South Africa.__Staff: Welcome! Do you want help planning your day?__Liam: That would be great. I love museums.__Staff: Then start with the history center—it’s 5 minutes away."
     },
     {
       "topic": "In a Language Class",
-      "language":"English",
+      "language":"english",
       "dialog": "Ella: Where are you from?__Max: I’m from Poland. I just started learning English.__Ella: Me too! I came from Brazil last month.__Max: How long will you stay?__Ella: Maybe one year.__Max: Cool! Let’s practice together."
     },
     {
       "topic": "At the Airport",
-      "language":"English",
+      "language":"english",
       "dialog": "Sofia: Is this the line for flight 824?__Alex: Yes, it is. Where are you flying?__Sofia: Back home to Tokyo. I visited for a week.__Alex: Nice! I’m going to Berlin.__Sofia: I went there last year. It’s amazing.__Alex: I can’t wait!"
     },
     {
       "topic": "In a Clothing Store",
-      "language":"English",
+      "language":"english",
       "dialog": "Leo: Do you have this in a bigger size?__Clerk: Yes, let me check.__Leo: Thanks. I just came from Sweden, and it’s cold!__Clerk: Then you need a warm jacket.__Leo: I’ll take this if it fits.__Clerk: Try it on here."
     },
     {
       "topic": "At a Museum",
-      "language":"English",
+      "language":"english",
       "dialog": "Nina: Is there a ticket for students?__Guide: Yes, show your student ID.__Nina: I’m studying in France for 3 months.__Guide: Welcome! Are you here alone?__Nina: Yes, but I love exploring.__Guide: Enjoy the museum!"
     },
     {
       "topic": "At a Coffee Shop",
-      "language":"English",
+      "language":"english",
       "dialog": "Jake: Can I get a coffee with milk, please?__Barista: Sure! Small or large?__Jake: Large. I just arrived from New York.__Barista: Long flight?__Jake: Yes, I slept a little on the plane.__Barista: This coffee will help!"
     },
     {
       "topic": "Introducing Each Other",
-      "language":"English",
+      "language":"english",
       "dialog": "A: Hi, my name is Anna. What's your name?__B: Hello, Anna! I'm Tom. Nice to meet you!__A: Nice to meet you too!"
     },
     {
       "topic": "Ordering",
-      "language":"English",
+      "language":"english",
       "dialog": "A: Can I have a coffee, please?__B: Sure! Would you like milk with that?__A: Yes, please. Thank you!"
     },
     {
       "topic": "Hobbies",
-      "language":"English",
+      "language":"english",
       "dialog": "A: What do you like to do in your free time?__B: I like reading books. What about you?__A: I love playing soccer!"
     },
     {
         "topic": "In the Park",
-        "language":"English",
+        "language":"english",
         "dialog": "Tom: Do you like walking in the park?__Anna: Yes, I love it! It’s peaceful here.__Tom: I walk here every morning.__Anna: That’s great! I walk after work."
     },
     {
         "topic": "At the Library",
-        "language":"English",
+        "language":"english",
         "dialog": "Sarah: Do you read books often?__Mark: Yes, I read every day.__Sarah: What do you like to read?__Mark: I like reading mystery books.__Sarah: I prefer fiction. I like to read about different places."
       },
       {
         "topic": "At the Bus Stop",
-        "language":"English",
+        "language":"english",
         "dialog": "Lisa: Do you take the bus to work?__John: Yes, I take the bus every day.__Lisa: How long does it take?__John: It takes about 30 minutes.__Lisa: That’s not bad. I drive to work."
       },
       {
         "topic": "In a Restaurant",
-        "language":"English",
+        "language":"english",
         "dialog": "Waiter: Do you want to order now?__Emma: Yes, I want a salad and water, please.__Waiter: What kind of salad would you like?__Emma: I’ll take the green salad.__Waiter: Great choice! I’ll bring it to your table."
       },
       {
         "topic": "Shopping for Clothes",
-        "language":"English",
+        "language":"english",
         "dialog": "Clerk: Do you need help?__Anna: Yes, I’m looking for a jacket.__Clerk: What size are you?__Anna: I’m a medium.__Clerk: Let me show you some jackets."
       },
       {
         "topic": "At the Supermarket",
-        "language":"English",
+        "language":"english",
         "dialog": "Jack: Do you buy fruit every week?__Lily: Yes, I buy apples and bananas.__Jack: I like oranges. I buy them often.__Lily: Oranges are nice. They’re very sweet."
       },
       {
         "topic": "In the Office",
-        "language":"English",
+        "language":"english",
         "dialog": "David: Do you work here?__Mia: Yes, I work in marketing.__David: I work in sales.__Mia: That’s interesting. How long have you worked here?__David: I’ve worked here for two years."
       },
       {
         "topic": "In a Coffee Shop",
-        "language":"English",
+        "language":"english",
         "dialog": "Barista: Do you want your coffee hot or cold?__Sofia: I’ll have it hot, please.__Barista: Would you like sugar?__Sofia: Yes, two sugars, please.__Barista: Here’s your coffee. Enjoy!"
       },
       {
         "topic": "In a Taxi",
-        "language":"English",
+        "language":"english",
         "dialog": "Driver: Do you need a ride?__Sophia: Yes, I need to go to the airport.__Driver: Sure, it will take about 30 minutes.__Sophia: That’s fine, thank you.__Driver: You’re welcome!"
       },
       {
         "topic": "At the Post Office",
-        "language":"English",
+        "language":"english",
         "dialog": "Maria: Do you send letters often?__Tom: Yes, I send letters every month.__Maria: I send postcards when I travel.__Tom: I like sending postcards too. They’re nice to get."
       },
       {
         "topic": "In a Restaurant",
-        "language":"English",
+        "language":"english",
         "dialog": "Waiter: Do you need a menu?__Anna: Yes, please. I’ll take a look.__Waiter: Can I get you something to drink?__Anna: I’ll have water with lemon, please.__Waiter: Sure, I’ll bring it right away."
       },
       {
         "topic": "At the Airport",
-        "language":"English",
+        "language":"english",
         "dialog": "Ben: Do you fly often?__Emma: Yes, I fly to work every week.__Ben: That’s a lot of flying! I usually travel by train.__Emma: I prefer flying because it’s faster."
       },
       {
         "topic": "At the Pharmacy",
-        "language":"English",
+        "language":"english",
         "dialog": "Zoe: Do you have medicine for a cold?__Pharmacist: Yes, we have cold medicine here.__Zoe: How long should I take it?__Pharmacist: You should take one every four hours.__Zoe: Thank you, I hope it helps."
       },
       {
         "topic": "In a Classroom",
-        "language":"English",
+        "language":"english",
         "dialog": "Teacher: Do you understand the lesson?__Student: Yes, I understand it now.__Teacher: Good. Do you have any questions?__Student: No, everything is clear.__Teacher: Great! Let’s continue."
       },
       {
         "topic": "At the Gym",
-        "language":"English",
+        "language":"english",
         "dialog": "Trainer: Do you exercise often?__Lily: Yes, I work out three times a week.__Trainer: That’s good! What exercises do you do?__Lily: I usually run and lift weights.__Trainer: Great! Keep it up."
       },
       
       {
         "topic": "In the Park",
-        "language":"English",
+        "language":"english",
         "dialog": "Tom: Does Anna like walking in the park?__Anna: Yes, she loves it! She walked here yesterday.__Tom: I saw her yesterday. She walked every morning last week.__Anna: I will walk again tomorrow morning."
       },
       {
         "topic": "At the Library",
-        "language":"English",
+        "language":"english",
         "dialog": "Sarah: Does Mark read books often?__Mark: Yes, he reads every day.__Sarah: What did he read yesterday?__Mark: He read a mystery book.__Sarah: That sounds interesting! He will probably read more books this week."
       },
       {
         "topic": "At the Bus Stop",
-        "language":"English",
+        "language":"english",
         "dialog": "Lisa: Does John take the bus to work every day?__John: Yes, he takes the bus to work every day.__Lisa: How long did it take him to get to work yesterday?__John: It took him 30 minutes yesterday, but it will take longer tomorrow because of the rain."
       },
       {
         "topic": "In a Restaurant",
-        "language":"English",
+        "language":"english",
         "dialog": "Waiter: Did Anna order food already?__Anna: Yes, she ordered a salad and water.__Waiter: What did she order last time?__Anna: Last time, she ordered a grilled chicken sandwich.__Waiter: She will probably order something different today."
       },
       {
         "topic": "Shopping for Clothes",
-        "language":"English",
+        "language":"english",
         "dialog": "Clerk: Does Leo need help finding his size?__Leo: Yes, he needs a bigger size.__Clerk: Did he find a jacket last time?__Leo: No, he didn’t. He will try on a new jacket now.__Clerk: I hope it fits him this time."
       },
       {
         "topic": "At the Supermarket",
-        "language":"English",
+        "language":"english",
         "dialog": "Jack: Does Lily buy fruit every week?__Lily: Yes, she buys apples and bananas.__Jack: What did she buy yesterday?__Lily: She bought oranges and strawberries.__Jack: She will probably buy apples next week."
       },
       {
         "topic": "In the Office",
-        "language":"English",
+        "language":"english",
         "dialog": "David: Does Mia work in marketing?__Mia: Yes, she works in marketing.__David: How long has she worked here?__Mia: She worked here for three years. She will work on a new project next month.__David: That sounds exciting!"
       },
       {
         "topic": "In a Coffee Shop",
-        "language":"English",
+        "language":"english",
         "dialog": "Barista: Does Sofia want her coffee hot or cold?__Sofia: She wants it hot.__Barista: Did she have coffee yesterday?__Sofia: Yes, she had coffee yesterday, but she will try something new tomorrow.__Barista: I hope she likes it!"
       },
       {
         "topic": "In a Taxi",
-        "language":"English",
+        "language":"english",
         "dialog": "Driver: Does Sophia need a ride to the airport?__Sophia: Yes, she needs a ride to the airport.__Driver: What time is her flight?__Sophia: Her flight is at 5 PM, but she will leave at 3 PM to avoid the traffic.__Driver: I’ll make sure to take her there on time."
       },
       {
         "topic": "At the Post Office",
-        "language":"English",
+        "language":"english",
         "dialog": "Maria: Did Tom send any letters this week?__Tom: Yes, he sent three letters.__Maria: What did he send last week?__Tom: He sent postcards from his trip to Italy.__Maria: He will probably send more postcards when he travels next month."
       },
       {
         "topic": "In a Restaurant",
-        "language":"English",
+        "language":"english",
         "dialog": "Waiter: Did Anna order a coffee with milk?__Anna: Yes, she did.__Waiter: What did she order last time?__Anna: Last time, she ordered a cappuccino.__Waiter: She will probably try a new drink today."
       },
       {
         "topic": "At the Airport",
-        "language":"English",
+        "language":"english",
         "dialog": "Ben: Did Emma fly often?__Emma: Yes, she flies every week for work.__Ben: Where did she fly last week?__Emma: She flew to London last week.__Ben: She will fly to Paris next week."
       },
       {
         "topic": "At the Pharmacy",
-        "language":"English",
+        "language":"english",
         "dialog": "Zoe: Does Zoe need medicine for a headache?__Pharmacist: Yes, she does. She needs tablets.__Zoe: Did she take any medicine before?__Pharmacist: Yes, she took the same tablets last time.__Zoe: She will take them again today."
       },
       {
         "topic": "In a Classroom",
-        "language":"English",
+        "language":"english",
         "dialog": "Teacher: Did the student understand the lesson?__Student: Yes, she understood it.__Teacher: What did she do yesterday?__Student: She studied for the test.__Teacher: She will do well on the test tomorrow."
       },
       {
         "topic": "At the Gym",
-        "language":"English",
+        "language":"english",
         "dialog": "Trainer: Does Lily work out every week?__Lily: Yes, she works out three times a week.__Trainer: Did she exercise yesterday?__Lily: Yes, she ran and lifted weights.__Trainer: She will work out again tomorrow."
       },
-        {"dialog": "Tom: I don’t like my games anymore.__Anna: Oh no! Why not?__Tom: I feel bored.__Anna: Maybe try something new!", "language": "English"},
-        {"dialog": "Emma: I don't like this song now.__Liam: You played it every day!__Emma: Yes, now I want a new one.__Liam: Let’s find one together.", "language": "English"},
-        {"dialog": "Jake: This game is not fun now.__Sara: You finished it?__Jake: Yes. Too many times.__Sara: Try a new game!", "language": "English"},
-        {"dialog": "Anna: I ate pizza again.__Ben: You love pizza!__Anna: Not today. I'm tired of it.__Ben: Let’s cook something else.", "language": "English"},
-        {"dialog": "Tom: I don’t want to draw today.__Lucy: Why? You love it!__Tom: I feel bored.__Lucy: Try painting something new!", "language": "English"},
-        {"dialog": "Sofia: This music is old.__Noah: Want a new playlist?__Sofia: Yes, please!__Noah: I’ll send you one.", "language": "English"},
-        {"dialog": "Mia: I go to this café every day.__Leo: Do you like it?__Mia: Not anymore.__Leo: Let’s try a new one!", "language": "English"},
-        {"dialog": "Ella: This show is boring now.__Ryan: Didn’t you love it?__Ella: I did. But now, no.__Ryan: Let’s find a new one.", "language": "English"},
-        {"dialog": "Alex: I don’t want to run today.__Nina: You always run!__Alex: I want to try yoga.__Nina: Sounds fun!", "language": "English"},
-        {"dialog": "Zoe: I finished my book.__Ethan: Was it good?__Zoe: Yes, but I want something new.__Ethan: I’ll lend you one.", "language": "English"},
-        {"dialog": "Lily: I was online all day yesterday.__Max: You must be tired.__Lily: Tomorrow I’ll go outside.__Max: Let’s go together!", "language": "English"},
-        {"dialog": "Emma: I liked this song last week.__Liam: You played it a lot.__Emma: Tomorrow I’ll find a new one.__Liam: I’ll help you!", "language": "English"},
-        {"dialog": "Jake: I finished this game yesterday.__Sara: Was it fun?__Jake: Yes, but I’ll try a new one now.__Sara: Good idea!", "language": "English"},
-        {"dialog": "Anna: I ate pizza three times this week.__Ben: That’s a lot!__Anna: Tomorrow I’ll cook pasta.__Ben: I’ll join you!", "language": "English"},
-        {"dialog": "Tom: I painted a cat last night.__Lucy: Can I see it?__Tom: Sure. Next time I’ll paint a dog.__Lucy: That sounds fun!", "language": "English"},
-        {"dialog": "Sofia: I listened to that album yesterday.__Noah: Did you like it?__Sofia: Yes, but I’ll find a new one tonight.__Noah: Let’s search together.", "language": "English"},
-        {"dialog": "Mia: We went to this café last Sunday.__Leo: Yes, it was nice.__Mia: Let’s go to a new one next time.__Leo: I know a good place.", "language": "English"},
-        {"dialog": "Ella: I watched five episodes yesterday.__Ryan: That’s a lot!__Ella: I’ll take a break today.__Ryan: Let’s do something else.", "language": "English"},
-        {"dialog": "Alex: I ran 5km this morning.__Nina: Wow!__Alex: Tomorrow I’ll rest.__Nina: You deserve it!", "language": "English"},
-        {"dialog": "Zoe: I finished my book last night.__Ethan: Was it good?__Zoe: Yes! I’ll start a new one tomorrow.__Ethan: Need a suggestion?", "language": "English"},
-        {"dialog": "Lily: I was online all day yesterday.__Max: You must be tired.__Lily: Tomorrow I’ll go outside.__Max: Let’s go together!", "language": "English"},
-        {"dialog": "Jake: Sarah played that game all night.__Anna: Again?__Jake: Yeah. Tomorrow she’ll play a new one.__Anna: She really loves games!", "language": "English"},
-        {"dialog": "Sofia: Mia listened to this song yesterday.__Liam: Did she like it?__Sofia: Yes. She’ll add it to her playlist.__Liam: She always finds good music.", "language": "English"},
-        {"dialog": "Lucy: Ben studied all weekend.__Jake: For the test?__Lucy: Yes. He wants to pass this time.__Jake: He’ll do great!", "language": "English"},
-        {"dialog": "Leo: Emma went to the new café.__Nina: Really? When?__Leo: Yesterday. She said it was nice.__Nina: We should go too.", "language": "English"},
-        {"dialog": "Ella: Sam drew a cat yesterday.__Ryan: It was so cute!__Ella: Next time he’ll draw a bird.__Ryan: He’s getting better!", "language": "English"},
-        {"dialog": "Max: Zoe ate pizza again.__Lily: She loves it!__Max: But tomorrow she’ll try sushi.__Lily: That’s new for her!", "language": "English"},
-        {"dialog": "Sofia: Tom was online all day.__Ben: He always checks his phone.__Sofia: Tomorrow he’ll take a break.__Ben: That’s good.", "language": "English"},
-        {"dialog": "Anna: Mia rode her bike yesterday.__Leo: Was it far?__Anna: Yes, 10 kilometers!__Leo: She’ll be tired today.", "language": "English"},
-        {"dialog": "Jake: Emma watched that show last night.__Lucy: All the episodes?__Jake: Almost! She’ll finish it today.__Lucy: She really likes it.", "language": "English"},
-        {"dialog": "Ryan: Mark didn’t come to class today.__Zoe: Is he sick?__Ryan: Maybe. He said he’ll come tomorrow.__Zoe: I hope he feels better.", "language": "English"},
-        {"dialog": "Sarah worked late last night.__Anna: Again?__Tom: Yeah. She’ll finish the project today.__Anna: She’s a hard worker.", "language": "English"},
-        {"dialog": "Ben: John doesn’t like meetings.__Lily: I saw that yesterday.__Ben: He said he’ll skip tomorrow’s one.__Lily: I hope not!", "language": "English"},
-        {"dialog": "Ella: My brother joined the army last year.__Leo: Wow! That’s big.__Ella: He’ll come home next month.__Leo: I bet you miss him.", "language": "English"},
-        {"dialog": "Nina: Mark trained in the rain yesterday.__Alex: That’s tough!__Nina: He said tomorrow is harder.__Alex: He’s really strong.", "language": "English"},
-        {"dialog": "Jake: Mia didn’t do her homework.__Sofia: Oh no!__Jake: She said she’ll do it tonight.__Sofia: I hope the teacher is nice.", "language": "English"},
-        {"dialog": "Zoe: Ethan helped me in math class.__Ryan: He’s smart!__Zoe: He’ll study more this weekend.__Ryan: He wants top grades.", "language": "English"},
-        {"dialog": "Liam: My mom made cake yesterday.__Lucy: Yum!__Liam: She’ll bake cookies tomorrow.__Lucy: Can I come over?", "language": "English"},
-        {"dialog": "Mia: Dad went to the doctor today.__Ben: Is he okay?__Mia: He feels better now.__Ben: I’m glad.", "language": "English"},
-        {"dialog": "Sofia: My sister sang at the party.__Tom: She has a nice voice.__Sofia: She’ll sing again next week.__Tom: Tell me when!", "language": "English"},
-        {"dialog": "Emma: Grandma visited us last weekend.__Alex: Did she stay long?__Emma: Just two days. She’ll come again soon.__Alex: That’s nice.", "language": "English"},
-        {"dialog": "Sam booked a flight yesterday.__Mia: Where is he going?__Leo: To Japan! He’ll leave next week.__Mia: That’s exciting!", "language": "English"},
-        {"dialog": "Anna: Emily didn’t book the hotel yet.__Ben: Really?__Anna: She said she’ll do it tonight.__Ben: Hope she finds a good one.", "language": "English"},
-        {"dialog": "Tom: Mark booked the wrong date.__Lucy: Oh no!__Tom: He’ll call the airline now.__Lucy: I hope they can fix it.", "language": "English"},
-        {"dialog": "Emma: Liam traveled to Spain last month.__Jake: Did he like it?__Emma: Yes! He’ll go again next summer.__Jake: Lucky him!", "language": "English"},
-        {"dialog": "Zoe: Mia didn’t bring her passport.__Ryan: That’s bad!__Zoe: She’ll go back to get it.__Ryan: I hope she’s not late.", "language": "English"},
-        {"dialog": "Ben: He took the train yesterday.__Alex: Was it fast?__Sofia: Yes. Tomorrow he’ll try the bus.__Alex: He likes to compare!", "language": "English"},
-        {"dialog": "My cousin traveled alone to Paris.__Ben: Wow! When?__Ella: Last week. She’ll be back soon.__Ben: Hope she’s enjoying it.", "language": "English"}
+        {"dialog": "Tom: I don’t like my games anymore.__Anna: Oh no! Why not?__Tom: I feel bored.__Anna: Maybe try something new!", "language": "english"},
+        {"dialog": "Emma: I don't like this song now.__Liam: You played it every day!__Emma: Yes, now I want a new one.__Liam: Let’s find one together.", "language": "english"},
+        {"dialog": "Jake: This game is not fun now.__Sara: You finished it?__Jake: Yes. Too many times.__Sara: Try a new game!", "language": "english"},
+        {"dialog": "Anna: I ate pizza again.__Ben: You love pizza!__Anna: Not today. I'm tired of it.__Ben: Let’s cook something else.", "language": "english"},
+        {"dialog": "Tom: I don’t want to draw today.__Lucy: Why? You love it!__Tom: I feel bored.__Lucy: Try painting something new!", "language": "english"},
+        {"dialog": "Sofia: This music is old.__Noah: Want a new playlist?__Sofia: Yes, please!__Noah: I’ll send you one.", "language": "english"},
+        {"dialog": "Mia: I go to this café every day.__Leo: Do you like it?__Mia: Not anymore.__Leo: Let’s try a new one!", "language": "english"},
+        {"dialog": "Ella: This show is boring now.__Ryan: Didn’t you love it?__Ella: I did. But now, no.__Ryan: Let’s find a new one.", "language": "english"},
+        {"dialog": "Alex: I don’t want to run today.__Nina: You always run!__Alex: I want to try yoga.__Nina: Sounds fun!", "language": "english"},
+        {"dialog": "Zoe: I finished my book.__Ethan: Was it good?__Zoe: Yes, but I want something new.__Ethan: I’ll lend you one.", "language": "english"},
+        {"dialog": "Lily: I was online all day yesterday.__Max: You must be tired.__Lily: Tomorrow I’ll go outside.__Max: Let’s go together!", "language": "english"},
+        {"dialog": "Emma: I liked this song last week.__Liam: You played it a lot.__Emma: Tomorrow I’ll find a new one.__Liam: I’ll help you!", "language": "english"},
+        {"dialog": "Jake: I finished this game yesterday.__Sara: Was it fun?__Jake: Yes, but I’ll try a new one now.__Sara: Good idea!", "language": "english"},
+        {"dialog": "Anna: I ate pizza three times this week.__Ben: That’s a lot!__Anna: Tomorrow I’ll cook pasta.__Ben: I’ll join you!", "language": "english"},
+        {"dialog": "Tom: I painted a cat last night.__Lucy: Can I see it?__Tom: Sure. Next time I’ll paint a dog.__Lucy: That sounds fun!", "language": "english"},
+        {"dialog": "Sofia: I listened to that album yesterday.__Noah: Did you like it?__Sofia: Yes, but I’ll find a new one tonight.__Noah: Let’s search together.", "language": "english"},
+        {"dialog": "Mia: We went to this café last Sunday.__Leo: Yes, it was nice.__Mia: Let’s go to a new one next time.__Leo: I know a good place.", "language": "english"},
+        {"dialog": "Ella: I watched five episodes yesterday.__Ryan: That’s a lot!__Ella: I’ll take a break today.__Ryan: Let’s do something else.", "language": "english"},
+        {"dialog": "Alex: I ran 5km this morning.__Nina: Wow!__Alex: Tomorrow I’ll rest.__Nina: You deserve it!", "language": "english"},
+        {"dialog": "Zoe: I finished my book last night.__Ethan: Was it good?__Zoe: Yes! I’ll start a new one tomorrow.__Ethan: Need a suggestion?", "language": "english"},
+        {"dialog": "Lily: I was online all day yesterday.__Max: You must be tired.__Lily: Tomorrow I’ll go outside.__Max: Let’s go together!", "language": "english"},
+        {"dialog": "Jake: Sarah played that game all night.__Anna: Again?__Jake: Yeah. Tomorrow she’ll play a new one.__Anna: She really loves games!", "language": "english"},
+        {"dialog": "Sofia: Mia listened to this song yesterday.__Liam: Did she like it?__Sofia: Yes. She’ll add it to her playlist.__Liam: She always finds good music.", "language": "english"},
+        {"dialog": "Lucy: Ben studied all weekend.__Jake: For the test?__Lucy: Yes. He wants to pass this time.__Jake: He’ll do great!", "language": "english"},
+        {"dialog": "Leo: Emma went to the new café.__Nina: Really? When?__Leo: Yesterday. She said it was nice.__Nina: We should go too.", "language": "english"},
+        {"dialog": "Ella: Sam drew a cat yesterday.__Ryan: It was so cute!__Ella: Next time he’ll draw a bird.__Ryan: He’s getting better!", "language": "english"},
+        {"dialog": "Max: Zoe ate pizza again.__Lily: She loves it!__Max: But tomorrow she’ll try sushi.__Lily: That’s new for her!", "language": "english"},
+        {"dialog": "Sofia: Tom was online all day.__Ben: He always checks his phone.__Sofia: Tomorrow he’ll take a break.__Ben: That’s good.", "language": "english"},
+        {"dialog": "Anna: Mia rode her bike yesterday.__Leo: Was it far?__Anna: Yes, 10 kilometers!__Leo: She’ll be tired today.", "language": "english"},
+        {"dialog": "Jake: Emma watched that show last night.__Lucy: All the episodes?__Jake: Almost! She’ll finish it today.__Lucy: She really likes it.", "language": "english"},
+        {"dialog": "Ryan: Mark didn’t come to class today.__Zoe: Is he sick?__Ryan: Maybe. He said he’ll come tomorrow.__Zoe: I hope he feels better.", "language": "english"},
+        {"dialog": "Sarah worked late last night.__Anna: Again?__Tom: Yeah. She’ll finish the project today.__Anna: She’s a hard worker.", "language": "english"},
+        {"dialog": "Ben: John doesn’t like meetings.__Lily: I saw that yesterday.__Ben: He said he’ll skip tomorrow’s one.__Lily: I hope not!", "language": "english"},
+        {"dialog": "Ella: My brother joined the army last year.__Leo: Wow! That’s big.__Ella: He’ll come home next month.__Leo: I bet you miss him.", "language": "english"},
+        {"dialog": "Nina: Mark trained in the rain yesterday.__Alex: That’s tough!__Nina: He said tomorrow is harder.__Alex: He’s really strong.", "language": "english"},
+        {"dialog": "Jake: Mia didn’t do her homework.__Sofia: Oh no!__Jake: She said she’ll do it tonight.__Sofia: I hope the teacher is nice.", "language": "english"},
+        {"dialog": "Zoe: Ethan helped me in math class.__Ryan: He’s smart!__Zoe: He’ll study more this weekend.__Ryan: He wants top grades.", "language": "english"},
+        {"dialog": "Liam: My mom made cake yesterday.__Lucy: Yum!__Liam: She’ll bake cookies tomorrow.__Lucy: Can I come over?", "language": "english"},
+        {"dialog": "Mia: Dad went to the doctor today.__Ben: Is he okay?__Mia: He feels better now.__Ben: I’m glad.", "language": "english"},
+        {"dialog": "Sofia: My sister sang at the party.__Tom: She has a nice voice.__Sofia: She’ll sing again next week.__Tom: Tell me when!", "language": "english"},
+        {"dialog": "Emma: Grandma visited us last weekend.__Alex: Did she stay long?__Emma: Just two days. She’ll come again soon.__Alex: That’s nice.", "language": "english"},
+        {"dialog": "Sam booked a flight yesterday.__Mia: Where is he going?__Leo: To Japan! He’ll leave next week.__Mia: That’s exciting!", "language": "english"},
+        {"dialog": "Anna: Emily didn’t book the hotel yet.__Ben: Really?__Anna: She said she’ll do it tonight.__Ben: Hope she finds a good one.", "language": "english"},
+        {"dialog": "Tom: Mark booked the wrong date.__Lucy: Oh no!__Tom: He’ll call the airline now.__Lucy: I hope they can fix it.", "language": "english"},
+        {"dialog": "Emma: Liam traveled to Spain last month.__Jake: Did he like it?__Emma: Yes! He’ll go again next summer.__Jake: Lucky him!", "language": "english"},
+        {"dialog": "Zoe: Mia didn’t bring her passport.__Ryan: That’s bad!__Zoe: She’ll go back to get it.__Ryan: I hope she’s not late.", "language": "english"},
+        {"dialog": "Ben: He took the train yesterday.__Alex: Was it fast?__Sofia: Yes. Tomorrow he’ll try the bus.__Alex: He likes to compare!", "language": "english"},
+        {"dialog": "My cousin traveled alone to Paris.__Ben: Wow! When?__Ella: Last week. She’ll be back soon.__Ben: Hope she’s enjoying it.", "language": "english"}
       
 ]
