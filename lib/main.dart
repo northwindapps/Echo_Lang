@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:test_flutter/submenu.dart';
 import 'content.dart'; // Import the second page
 import 'package:flutter_tts/flutter_tts.dart';
+import 'submenu.dart';
 
 void main() => runApp(MyApp());
 
@@ -79,7 +81,7 @@ class _LanguageSelectionPageState extends State<LanguageSelectionPage> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => HomeScreenPage(language: langCode),
+                builder: (context) => SubMenuPage(language: langCode),
               ),
             );
           },

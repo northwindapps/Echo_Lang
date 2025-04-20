@@ -8,16 +8,17 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 
-class HomeScreenPage extends StatefulWidget {
+class ContentPage extends StatefulWidget {
   final String language;
+  final int contentType;
 
-  HomeScreenPage({required this.language});
+  ContentPage({required this.language, required this.contentType});
 
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _ContentState createState() => _ContentState();
 }
 
-class _HomeScreenState extends State<HomeScreenPage> {
+class _ContentState extends State<ContentPage> {
   List<Question> questions = [];
   // FlutterSoundRecorder? _recorder;
   FlutterSoundPlayer? _player;
@@ -29,6 +30,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
   // Language setting
   String _selectedLanguage = "en-US"; // Default to French
   List<String> languages = ["fr-FR", "en-US", "de-DE", "it-IT"];
+  int _contentType = 0;
 
   @override
   void initState() {
@@ -36,6 +38,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
     // _recorder = FlutterSoundRecorder();
     _player = FlutterSoundPlayer();
     _setLanguage(widget.language); // Set language from the widget
+    _contentType = widget.contentType;
     loadAndSetQuestions();
     _initialize();
     _loadQuestion();
@@ -128,47 +131,62 @@ class _HomeScreenState extends State<HomeScreenPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(
-                  onPressed: _loadQuestion,
-                  child: Text('Question'),
-                ),
-                SizedBox(height: 20),
-                Text(
-                  _questiontext,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(
-                  onPressed: _loadAnswer,
-                  child: Text('Example Answer'),
-                ),
-                SizedBox(height: 20),
-                Text(
-                  _answertext,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(onPressed: _next, child: Text('→')),
-                SizedBox(height: 20),
-                Text(
-                  "",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
+            if (_contentType == 0) ...[
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(
+                    onPressed: _loadQuestion,
+                    child: Text('Question'),
+                  ),
+                  SizedBox(height: 20),
+                  Text(
+                    _questiontext,
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(
+                    onPressed: _loadAnswer,
+                    child: Text('Example Answer'),
+                  ),
+                  SizedBox(height: 20),
+                  Text(
+                    _answertext,
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(onPressed: _next, child: Text('→')),
+                  SizedBox(height: 20),
+                  Text(
+                    "",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ],
+            if (_contentType == 1) ...[
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(onPressed: _next, child: Text('→')),
+                  SizedBox(height: 20),
+                  Text(
+                    "",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ],
           ],
         ),
       ),
