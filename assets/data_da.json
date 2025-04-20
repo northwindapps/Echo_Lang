@@ -1,0 +1,327 @@
+[
+    {
+      "question": "Hvordan har du det?",
+      "answer": "Jeg har det godt, tak!",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvordan har du det?",
+      "answer": "Jeg har det fint, hvad med dig?",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor gammel er du?",
+      "answer": "Jeg er 25 år gammel.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor gammel er du?",
+      "answer": "Jeg er 18 år.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvordan er vejret i dag?",
+      "answer": "Vejret er solrigt i dag.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvordan er vejret i dag?",
+      "answer": "Det regner i dag.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er klokken?",
+      "answer": "Klokken er 3.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er klokken?",
+      "answer": "Klokken er 10:30 AM.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er din hobby?",
+      "answer": "Min hobby er at læse bøger.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er din hobby?",
+      "answer": "Jeg kan lide at spille fodbold.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er dit navn?",
+      "answer": "Mit navn er John.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er dit navn?",
+      "answer": "Jeg er Maria.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor bor du?",
+      "answer": "Jeg bor i Paris.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor bor du?",
+      "answer": "Jeg bor i New York.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår er du født?",
+      "answer": "Jeg blev født i 1995.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår er du født?",
+      "answer": "Jeg blev født den 1. maj 2000.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad spiste du i morges?",
+      "answer": "Jeg spiste morgenmad med korn og frugt.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad spiste du i morges?",
+      "answer": "Jeg havde toast og kaffe.",
+      "language": "Danish"
+    },
+    {
+      "question": "Arbejder du eller studerer du?",
+      "answer": "Jeg studerer engelsk.",
+      "language": "Danish"
+    },
+    {
+      "question": "Arbejder du eller studerer du?",
+      "answer": "Jeg arbejder som lærer.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er datoen i dag?",
+      "answer": "I dag er det 29. marts.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er datoen i dag?",
+      "answer": "Det er den 15. februar.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad laver du i dag?",
+      "answer": "I dag skal jeg til parken.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad laver du i dag?",
+      "answer": "Jeg vil studere engelsk i dag.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår vågnede du?",
+      "answer": "Jeg vågnede kl. 7.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår vågnede du?",
+      "answer": "Jeg vågnede kl. 8.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er dit job?",
+      "answer": "Jeg er lærer.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor arbejder du?",
+      "answer": "Jeg arbejder på et kontor.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad laver du på arbejdet?",
+      "answer": "Jeg skriver rapporter og besvarer e-mails.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor mange timer arbejder du om dagen?",
+      "answer": "Jeg arbejder 8 timer om dagen.",
+      "language": "Danish"
+    },
+    {
+      "question": "Har du et fuldtidsjob?",
+      "answer": "Ja, jeg arbejder fuldtid.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår begynder du at arbejde?",
+      "answer": "Jeg begynder at arbejde kl. 9.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor lang er din frokostpause?",
+      "answer": "Min frokostpause er en time.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad laver du efter arbejde?",
+      "answer": "Efter arbejde går jeg i fitness.",
+      "language": "Danish"
+    },
+    {
+      "question": "Har du et kontor?",
+      "answer": "Ja, jeg har et lille kontor.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår slutter du arbejde?",
+      "answer": "Jeg slutter arbejde kl. 17.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor meget koster dette?",
+      "answer": "Det koster 10 dollars.",
+      "language": "Danish"
+    },
+    {
+      "question": "Kan jeg betale med et kreditkort?",
+      "answer": "Ja, du kan betale med et kreditkort.",
+      "language": "Danish"
+    },
+    {
+      "question": "Har du dette i størrelse M?",
+      "answer": "Ja, vi har det i størrelse M.",
+      "language": "Danish"
+    },
+    {
+      "question": "Kan jeg prøve dette på?",
+      "answer": "Ja, prøverummet er derovre.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor er kassen?",
+      "answer": "Kassen er bagerst i butikken.",
+      "language": "Danish"
+    },
+    {
+      "question": "Er der udsalg?",
+      "answer": "Ja, der er 20% rabat.",
+      "language": "Danish"
+    },
+    {
+      "question": "Har du brug for en pose?",
+      "answer": "Ja, jeg har brug for en indkøbspose.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor meget er entréen?",
+      "answer": "Entréen koster 5 dollars.",
+      "language": "Danish"
+    },
+    {
+      "question": "Er der et specialtilbud?",
+      "answer": "Ja, alle sko er 30% rabat.",
+      "language": "Danish"
+    },
+    {
+      "question": "Kan jeg returnere denne vare?",
+      "answer": "Ja, du kan returnere den inden for 14 dage.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er din virksomhed?",
+      "answer": "Jeg driver en lille restaurant.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor ligger din virksomhed?",
+      "answer": "Min virksomhed ligger i byens centrum.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvilken type virksomhed har du?",
+      "answer": "Jeg har en tøjbutik.",
+      "language": "Danish"
+    },
+    {
+      "question": "Sælger du online?",
+      "answer": "Ja, vi sælger også online.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor længe har din virksomhed været åben?",
+      "answer": "Vores virksomhed har været åben i to år.",
+      "language": "Danish"
+    },
+    {
+      "question": "Har du en forretningspartner?",
+      "answer": "Ja, jeg har en forretningspartner.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er dit firmas hovedprodukt?",
+      "answer": "Vores hovedprodukt er håndlavet møbel.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er formålet med din virksomhed?",
+      "answer": "Formålet er at tilbyde tøj af høj kvalitet.",
+      "language": "Danish"
+    },
+    {
+      "question": "Har du ansatte?",
+      "answer": "Ja, jeg har fem ansatte.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad laver du i din virksomhed?",
+      "answer": "Jeg leder butikken og håndterer kundeservice.",
+      "language": "Danish"
+    },
+    {
+      "question": "Kan jeg lave en reservation?",
+      "answer": "Ja, du kan lave en reservation til i morgen.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvornår er min reservation?",
+      "answer": "Din reservation er kl. 19.",
+      "language": "Danish"
+    },
+    {
+      "question": "Er der et bord til to?",
+      "answer": "Ja, vi har et bord til to.",
+      "language": "Danish"
+    },
+    {
+      "question": "Skal jeg betale på forhånd?",
+      "answer": "Ja, vi kræver et depositum for reservationen.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvor lang tid kan jeg beholde reservationen?",
+      "answer": "Din reservation er holdt i 15 minutter.",
+      "language": "Danish"
+    },
+    {
+      "question": "Kan jeg annullere min booking?",
+      "answer": "Ja, du kan annullere din booking op til 24 timer før.",
+      "language": "Danish"
+    },
+    {
+      "question": "Tilbyder du en morgenmadspakke?",
+      "answer": "Ja, vi tilbyder en morgenmadspakke med værelset.",
+      "language": "Danish"
+    },
+    {
+      "question": "Kan jeg booke et værelse for næste uge?",
+      "answer": "Ja, du kan booke et værelse for næste uge.",
+      "language": "Danish"
+    },
+    {
+      "question": "Hvad er inkluderet i prisen?",
+      "answer": "Prisen inkluderer morgenmad og gratis Wi-Fi.",
+      "language": "Danish"
+    }
+]

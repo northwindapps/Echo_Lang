@@ -1,0 +1,105 @@
+[
+    {
+        "topic": "På Caféen",
+        "language":"Danish",
+        "dialog": "Tom: Hej! Er du ny her?__Anna: Ja, jeg er lige ankommet fra Spanien.__Tom: Velkommen! Hvor længe vil du blive?__Anna: To uger. Jeg vil gerne se byen.__Tom: Du bør prøve den lokale kaffe.__Anna: God idé! Jeg har ikke drukket kaffe endnu i dag."
+      },
+      {
+        "topic": "Ved Busstoppestedet",
+        "language":"Danish",
+        "dialog": "Lena: Har du brug for hjælp?__Mark: Ja, jeg er på besøg fra Tyskland. Hvilken bus går til museet?__Lena: Tag nummer 5. Jeg var der sidste weekend.__Mark: Tak! Jeg skal lige have en billet.__Lena: Du kan betale i bussen.__Mark: Fint, det er nemt."
+      },
+      {
+        "topic": "I Hotellets Lobby",
+        "language":"Danish",
+        "dialog": "Emily: Hej. Jeg tror, jeg har booket et værelse her.__Receptionist: Hvad er dit navn?__Emily: Emily Brown. Jeg kom fra Australien i går.__Receptionist: Ja, vi har din booking. Tre nætter, ikke?__Emily: Ja. Jeg rejser på søndag.__Receptionist: Velkommen! Her er din nøgle."
+      },
+      {
+        "topic": "Spørge om Vej",
+        "language":"Danish",
+        "dialog": "David: Undskyld, er der en bank i nærheden?__Mia: Ja, to blokke væk. Jeg var der i morges.__David: Tak! Jeg er her på ferie fra Brasilien.__Mia: Det lyder fedt! Hvor længe bliver du?__David: Bare fem dage.__Mia: Så skal du besøge den gamle by – den er smuk."
+      },
+      {
+        "topic": "I Supermarkedet",
+        "language":"Danish",
+        "dialog": "Noah: Ved du, hvor brødet er?__Sofia: Ja, det er bagerst, tættere på mælken.__Noah: Tak. Jeg er lige kommet fra Japan og kender ikke butikken.__Sofia: Velkommen! Jeg flyttede herover sidste år.__Noah: Åh, fedt! Jeg kigger lidt rundt.__Sofia: Lad mig vide, hvis du har brug for hjælp."
+      },
+      {
+        "topic": "På Togstationen",
+        "language":"Danish",
+        "dialog": "Emma: Undskyld, går dette tog til Paris?__Luca: Nej, dette går til Lyon.__Emma: Åh, tak! Jeg er lige kommet fra Italien.__Luca: Velkommen! Paris er på næste platform.__Emma: Fint, jeg går derhen nu.__Luca: God rejse!"
+      },
+      {
+        "topic": "På Restauranten",
+        "language":"Danish",
+        "dialog": "Anna: Hej, har I en menu på engelsk?__Tjener: Ja, her er den.__Anna: Tak. Jeg er på besøg fra Canada.__Tjener: Fedt! Har du prøvet vores lokale mad endnu?__Anna: Ikke endnu. Jeg vil prøve noget nyt i dag.__Tjener: Jeg anbefaler den grillede fisk!"
+      },
+      {
+        "topic": "I en Taxa",
+        "language":"Danish",
+        "dialog": "Tom: Kan du tage mig til lufthavnen?__Chauffør: Selvfølgelig. Terminal 1 eller 2?__Tom: Terminal 1. Mit fly går kl. 15.__Chauffør: Ingen problem. Trafikken er let nu.__Tom: Det er godt. Jeg kom for to dage siden fra Korea.__Chauffør: Jeg håber, du har haft et godt besøg."
+      },
+      {
+        "topic": "På Apoteket",
+        "language":"Danish",
+        "dialog": "Zoe: Hej, jeg har brug for noget mod hovedpine.__Apoteker: Selvfølgelig. Vil du have tabletter eller sirup?__Zoe: Tabletter, tak. Jeg fløj fra Indien i går.__Apoteker: Du er nok træt efter flyveturen.__Zoe: Ja, jeg sov ikke godt.__Apoteker: Dette bør hjælpe. Tag en med vand."
+      },
+      {
+        "topic": "I Turistinformation",
+        "language":"Danish",
+        "dialog": "Liam: Hej, er der et bykort?__Personalet: Ja, her er det.__Liam: Tak! Jeg er her fra Sydafrika.__Personalet: Velkommen! Har du brug for hjælp til at planlægge din dag?__Liam: Det ville være fantastisk. Jeg elsker museer.__Personalet: Så start med historisk center – det er 5 minutter væk."
+      },
+      {
+        "topic": "I Sprogundervisningen",
+        "language":"Danish",
+        "dialog": "Ella: Hvor er du fra?__Max: Jeg er fra Polen. Jeg er lige begyndt at lære engelsk.__Ella: Det samme her! Jeg kom fra Brasilien sidste måned.__Max: Hvor længe bliver du?__Ella: Måske et år.__Max: Sejt! Lad os øve sammen."
+      },
+    {"dialog": "Tom: Jeg kan ikke lide mine spil længere.__Anna: Åh nej! Hvorfor ikke?__Tom: Jeg keder mig.__Anna: Måske skal du prøve noget nyt!", "language": "Danish"},
+    {"dialog": "Emma: Jeg kan ikke lide denne sang nu.__Liam: Du spillede den hver dag!__Emma: Ja, nu vil jeg have en ny.__Liam: Lad os finde en sammen.", "language": "Danish"},
+    {"dialog": "Jake: Dette spil er ikke sjovt nu.__Sara: Er du færdig med det?__Jake: Ja. Alt for mange gange.__Sara: Prøv et nyt spil!", "language": "Danish"},
+    {"dialog": "Anna: Jeg har spist pizza igen.__Ben: Du elsker pizza!__Anna: Ikke i dag. Jeg er træt af det.__Ben: Lad os lave noget andet.", "language": "Danish"},
+    {"dialog": "Tom: Jeg vil ikke tegne i dag.__Lucy: Hvorfor? Du elsker det!__Tom: Jeg keder mig.__Lucy: Prøv at male noget nyt!", "language": "Danish"},
+    {"dialog": "Sofia: Denne musik er gammel.__Noah: Vil du have en ny playliste?__Sofia: Ja, tak!__Noah: Jeg sender dig en.", "language": "Danish"},
+    {"dialog": "Mia: Jeg går til dette café hver dag.__Leo: Kan du lide det?__Mia: Ikke længere.__Leo: Lad os prøve en ny!", "language": "Danish"},
+    {"dialog": "Ella: Dette show er kedeligt nu.__Ryan: Elskede du det ikke?__Ella: Det gjorde jeg. Men nu, ikke længere.__Ryan: Lad os finde et nyt.", "language": "Danish"},
+    {"dialog": "Alex: Jeg vil ikke løbe i dag.__Nina: Du løber altid!__Alex: Jeg vil prøve yoga.__Nina: Det lyder sjovt!", "language": "Danish"},
+    {"dialog": "Zoe: Jeg er færdig med min bog.__Ethan: Var den god?__Zoe: Ja, men jeg vil have noget nyt.__Ethan: Jeg låner dig en.", "language": "Danish"},
+    {"dialog": "Lily: Jeg var online hele dagen i går.__Max: Du må være træt.__Lily: I morgen vil jeg gå udenfor.__Max: Lad os gå sammen!", "language": "Danish"},
+    {"dialog": "Emma: Jeg kunne godt lide denne sang sidste uge.__Liam: Du spillede den meget.__Emma: I morgen finder jeg en ny.__Liam: Jeg hjælper dig!", "language": "Danish"},
+    {"dialog": "Jake: Jeg færdiggjorde dette spil i går.__Sara: Var det sjovt?__Jake: Ja, men jeg vil prøve et nyt nu.__Sara: God idé!", "language": "Danish"},
+    {"dialog": "Anna: Jeg spiste pizza tre gange denne uge.__Ben: Det er meget!__Anna: I morgen laver jeg pasta.__Ben: Jeg slår mig til.", "language": "Danish"},
+    {"dialog": "Tom: Jeg malede en kat i går aftes.__Lucy: Kan jeg se det?__Tom: Selvfølgelig. Næste gang maler jeg en hund.__Lucy: Det lyder sjovt!", "language": "Danish"},
+    {"dialog": "Sofia: Jeg lyttede til det album i går.__Noah: Kunne du lide det?__Sofia: Ja, men jeg vil finde et nyt i aften.__Noah: Lad os søge sammen.", "language": "Danish"},
+    {"dialog": "Mia: Vi gik til denne café sidste søndag.__Leo: Ja, det var rart.__Mia: Lad os gå til en ny næste gang.__Leo: Jeg kender et godt sted.", "language": "Danish"},
+    {"dialog": "Ella: Jeg så fem episoder i går.__Ryan: Det er meget!__Ella: I dag tager jeg en pause.__Ryan: Lad os gøre noget andet.", "language": "Danish"},
+    {"dialog": "Alex: Jeg løb 5 km i morges.__Nina: Wow!__Alex: I morgen tager jeg en pause.__Nina: Du fortjener det!", "language": "Danish"},
+    {"dialog": "Zoe: Jeg blev færdig med min bog i går aftes.__Ethan: Var den god?__Zoe: Ja! Jeg starter en ny i morgen.__Ethan: Brug for et forslag?", "language": "Danish"},
+    {"dialog": "Lily: Jeg var online hele dagen i går.__Max: Du må være træt.__Lily: I morgen går jeg udenfor.__Max: Lad os gå sammen!", "language": "Danish"},
+    {"dialog": "Jake: Sarah spillede det spil hele natten.__Anna: Igen?__Jake: Ja. I morgen spiller hun et nyt.__Anna: Hun elsker virkelig spil!", "language": "Danish"},
+    {"dialog": "Sofia: Mia lyttede til denne sang i går.__Liam: Kunne hun lide den?__Sofia: Ja. Hun vil tilføje den til sin playliste.__Liam: Hun finder altid god musik.", "language": "Danish"},
+    {"dialog": "Lucy: Ben studerede hele weekenden.__Jake: Til testen?__Lucy: Ja. Han vil bestå denne gang.__Jake: Han vil klare sig fantastisk!", "language": "Danish"},
+    {"dialog": "Leo: Emma gik til den nye café.__Nina: Virkelig? Hvornår?__Leo: I går. Hun sagde, det var rart.__Nina: Vi skal også gå.", "language": "Danish"},
+    {"dialog": "Ella: Sam tegnede en kat i går.__Ryan: Den var så sød!__Ella: Næste gang tegner han en fugl.__Ryan: Han bliver bedre!", "language": "Danish"},
+    {"dialog": "Max: Zoe spiste pizza igen.__Lily: Hun elsker det!__Max: Men i morgen prøver hun sushi.__Lily: Det er nyt for hende!", "language": "Danish"},
+    {"dialog": "Sofia: Tom var online hele dagen.__Ben: Han tjekker altid sin telefon.__Sofia: I morgen tager han en pause.__Ben: Det er godt.", "language": "Danish"},
+    {"dialog": "Anna: Mia cyklede i går.__Leo: Var det langt?__Anna: Ja, 10 kilometer!__Leo: Hun bliver træt i dag.", "language": "Danish"},
+    {"dialog": "Jake: Emma så det show i går aftes.__Lucy: Alle episoderne?__Jake: Næsten! Hun afslutter det i dag.__Lucy: Hun kan virkelig godt lide det.", "language": "Danish"},
+    {"dialog": "Ryan: Mark kom ikke til timen i dag.__Zoe: Er han syg?__Ryan: Måske. Han sagde, han kommer i morgen.__Zoe: Jeg håber, han føler sig bedre.", "language": "Danish"},
+    {"dialog": "Sarah arbejdede sent i går aftes.__Anna: Igen?__Tom: Ja. Hun vil afslutte projektet i dag.__Anna: Hun er en hårdtarbejdende person.", "language": "Danish"},
+    {"dialog": "Ben: John kan ikke lide møder.__Lily: Jeg så det i går.__Ben: Han sagde, han vil springe morgendagens over.__Lily: Jeg håber ikke!", "language": "Danish"},
+    {"dialog": "Ella: Min bror meldte sig ind i hæren sidste år.__Leo: Wow! Det er stort.__Ella: Han kommer hjem næste måned.__Leo: Jeg ved, du savner ham.", "language": "Danish"},
+    {"dialog": "Nina: Mark trænede i regnen i går.__Alex: Det er hårdt!__Nina: Han sagde, i morgen bliver det sværere.__Alex: Han er virkelig stærk.", "language": "Danish"},
+    {"dialog": "Jake: Mia lavede ikke sin lektie.__Sofia: Åh nej!__Jake: Hun sagde, hun vil gøre det i aften.__Sofia: Jeg håber, læreren er sød.", "language": "Danish"},
+    {"dialog": "Zoe: Ethan hjalp mig i matematikklassen.__Ryan: Han er klog!__Zoe: Han vil studere mere i weekenden.__Ryan: Han vil have topkarakterer.", "language": "Danish"},
+    {"dialog": "Liam: Min mor lavede kage i går.__Lucy: Mums!__Liam: Hun vil bage småkager i morgen.__Lucy: Kan jeg komme forbi?", "language": "Danish"},
+    {"dialog": "Mia: Far gik til lægen i dag.__Ben: Er han okay?__Mia: Han har det bedre nu.__Ben: Jeg er glad for det.", "language": "Danish"},
+    {"dialog": "Sofia: Min søster sang til festen.__Tom: Hun har en dejlig stemme.__Sofia: Hun vil synge igen næste uge.__Tom: Sig til mig hvornår!", "language": "Danish"},
+    {"dialog": "Emma: Bedstemor besøgte os sidste weekend.__Alex: Stod hun længe?__Emma: Bare to dage. Hun vil komme igen snart.__Alex: Det er rart.", "language": "Danish"},
+    {"dialog": "Sam bestilte en flyrejse i går.__Mia: Hvor skal han hen?__Leo: Til Japan! Han rejser næste uge.__Mia: Det lyder spændende!", "language": "Danish"},
+    {"dialog": "Anna: Emily har ikke bestilt hotellet endnu.__Ben: Virkelig?__Anna: Hun sagde, hun vil gøre det i aften.__Ben: Jeg håber, hun finder et godt et.", "language": "Danish"},
+    {"dialog": "Tom: Mark bestilte den forkerte dato.__Lucy: Åh nej!__Tom: Han vil ringe til flyselskabet nu.__Lucy: Jeg håber, de kan rette det.", "language": "Danish"},
+    {"dialog": "Emma: Liam rejste til Spanien sidste måned.__Jake: Kunne han lide det?__Emma: Ja! Han vil tage tilbage næste sommer.__Jake: Lucky ham!", "language": "Danish"},
+    {"dialog": "Zoe: Mia tog ikke hendes pas med.__Ryan: Det er dårligt!__Zoe: Hun vil gå tilbage for at hente det.__Ryan: Jeg håber, hun er ikke for sen.", "language": "Danish"},
+    {"dialog": "Ben: Han tog toget i går.__Alex: Var det hurtigt?__Sofia: Ja. I morgen vil han prøve bussen.__Alex: Han kan godt lide at sammenligne!", "language": "Danish"},
+    {"dialog": "Min kusine rejste alene til Paris.__Ben: Wow! Hvornår?__Ella: I sidste uge. Hun kommer hjem snart.__Ben: Jeg håber, hun nyder det.", "language": "Danish"}
+]

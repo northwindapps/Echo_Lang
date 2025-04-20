@@ -100,12 +100,14 @@ flutter:
     - assets/data_fr.json
     - assets/data_jp.json
     - assets/data_es.json
+    - assets/data_da.json
     - assets/data_dialog.json
     - assets/data_de_dialog.json
     - assets/data_it_dialog.json
     - assets/data_fr_dialog.json
     - assets/data_jp_dialog.json
     - assets/data_es_dialog.json
+    - assets/data_da_dialog.json
 
 flutter_icons:
   android: true

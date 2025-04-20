@@ -34,7 +34,14 @@ class _ContentState extends State<ContentPage> {
 
   // Language setting
   String _selectedLanguage = "en-US"; // Default to French
-  List<String> languages = ["fr-FR", "en-US", "de-DE", "it-IT"];
+  List<String> languages = [
+    "fr-FR",
+    "en-US",
+    "de-DE",
+    "it-IT",
+    "da-DK",
+    "zh-CN",
+  ];
   int _contentType = 0;
 
   @override
@@ -106,10 +113,9 @@ class _ContentState extends State<ContentPage> {
 
   Future<void> _loadQuestion() async {
     await _setSpeechRate(pitch: 0.5);
+    await _loadQuestionText();
+    await Future.delayed(Duration(milliseconds: 100));
     await _speak();
-    setState(() {
-      _questiontext = questions[_qindex].question;
-    });
   }
 
   Future<void> _loadAnswer() async {
@@ -117,6 +123,12 @@ class _ContentState extends State<ContentPage> {
     await _loadAnswerText();
     await Future.delayed(Duration(milliseconds: 100));
     await _speakAnswer();
+  }
+
+  Future<void> _loadQuestionText() async {
+    setState(() {
+      _questiontext = questions[_qindex].question;
+    });
   }
 
   Future<void> _loadAnswerText() async {
@@ -347,6 +359,9 @@ Future<List<Question>> loadQuestions(String langstr) async {
   if (langstr.contains("es")) {
     jsonString = await rootBundle.loadString('assets/data_es.json');
   }
+  if (langstr.contains("da")) {
+    jsonString = await rootBundle.loadString('assets/data_da.json');
+  }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Question.fromJson(item)).toList();
 }
@@ -381,6 +396,9 @@ Future<List<Dialog>> loadDialogs(String langstr) async {
   }
   if (langstr.contains("es")) {
     jsonString = await rootBundle.loadString('assets/data_es_dialog.json');
+  }
+  if (langstr.contains("da")) {
+    jsonString = await rootBundle.loadString('assets/data_da_dialog.json');
   }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Dialog.fromJson(item)).toList();
