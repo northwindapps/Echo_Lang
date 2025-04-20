@@ -1,0 +1,113 @@
+[
+    {
+      "topic": "At the Cafe",
+      "language":"Spanish",
+      "dialog": "Tom: ¡Hola! ¿Eres nueva aquí?__Anna: Sí, acabo de llegar de España.__Tom: ¡Bienvenida! ¿Cuánto tiempo te quedarás?__Anna: Dos semanas. Quiero ver la ciudad.__Tom: Deberías probar el café local.__Anna: ¡Buena idea! No he tomado café hoy."
+    },
+    {
+      "topic": "At the Bus Stop",
+      "language":"Spanish",
+      "dialog": "Lena: ¿Necesitas ayuda?__Mark: Sí, estoy visitando desde Alemania. ¿Qué bus va al museo?__Lena: Toma el número 5. Fui allí el fin de semana pasado.__Mark: ¡Gracias! Ahora voy a comprar un billete.__Lena: Puedes pagar en el bus.__Mark: ¡Genial, es fácil!"
+    },
+    {
+      "topic": "In a Hotel Lobby",
+      "language":"Spanish",
+      "dialog": "Emily: Hola. Creo que reservé una habitación aquí.__Recepcionista: ¿Cuál es tu nombre?__Emily: Emily Brown. Llegué de Australia ayer.__Recepcionista: Sí, tenemos tu reserva. Tres noches, ¿verdad?__Emily: Sí. Me voy el domingo.__Recepcionista: ¡Bienvenida! Aquí tienes tu llave."
+    },
+    {
+      "topic": "Asking for Directions",
+      "language":"Spanish",
+      "dialog": "David: Perdona, ¿hay un banco cerca de aquí?__Mia: Sí, a dos calles de aquí. Fui esta mañana.__David: ¡Gracias! Estoy de vacaciones desde Brasil.__Mia: ¡Qué bien! ¿Cuánto tiempo te quedas?__David: Solo cinco días.__Mia: Entonces, debes visitar el casco antiguo—es hermoso."
+    },
+    {
+      "topic": "In a Supermarket",
+      "language":"Spanish",
+      "dialog": "Noah: ¿Sabes dónde está el pan?__Sofia: Sí, está al fondo, cerca de la leche.__Noah: Gracias. Acabo de llegar de Japón y no conozco esta tienda.__Sofia: ¡Bienvenido! Yo también me mudé aquí el año pasado.__Noah: ¡Oh, qué bien! Voy a mirar un poco.__Sofia: Avísame si necesitas ayuda."
+    },
+    {
+      "topic": "At a Train Station",
+      "language":"Spanish",
+      "dialog": "Emma: Perdona, ¿este tren va a Madrid?__Luca: No, este va a Barcelona.__Emma: ¡Ah, gracias! Acabo de llegar de Italia.__Luca: ¡Bienvenida! Madrid está en la siguiente plataforma.__Emma: Genial, voy allá ahora.__Luca: ¡Buen viaje!"
+    },
+    {
+      "topic": "In a Restaurant",
+      "language":"Spanish",
+      "dialog": "Anna: Hola, ¿tenéis un menú en inglés?__Camarero: Sí, aquí tienes.__Anna: Gracias. Estoy de visita desde Canadá.__Camarero: ¡Qué bien! ¿Ya has probado nuestra comida local?__Anna: Aún no. Hoy probaré algo nuevo.__Camarero: ¡Te recomiendo el pescado a la parrilla!"
+    },
+    {
+      "topic": "In a Taxi",
+      "language":"Spanish",
+      "dialog": "Tom: ¿Puedes llevarme al aeropuerto?__Conductor: Claro. ¿Terminal 1 o 2?__Tom: Terminal 1. Mi vuelo es a las 3 PM.__Conductor: No hay problema. Ahora el tráfico está ligero.__Tom: Eso está bien. Llegué hace dos días desde Corea.__Conductor: Espero que hayas tenido una buena visita."
+    },
+    {
+      "topic": "At the Pharmacy",
+      "language":"Spanish",
+      "dialog": "Zoe: Hola, necesito algo para el dolor de cabeza.__Farmacéutico: Claro. ¿Quieres pastillas o jarabe?__Zoe: Pastillas, por favor. Llegué desde India ayer.__Farmacéutico: Tal vez estás cansada del vuelo.__Zoe: Sí, no dormí bien.__Farmacéutico: Esto te ayudará. Toma una con agua."
+    },
+    {
+      "topic": "At a Tourist Info Center",
+      "language":"Spanish",
+      "dialog": "Liam: Hola, ¿hay un mapa de la ciudad?__Personal: Sí, aquí tienes.__Liam: ¡Gracias! Estoy aquí desde Sudáfrica.__Personal: ¡Bienvenido! ¿Te gustaría ayuda para planificar tu día?__Liam: Eso sería genial. Me encantan los museos.__Personal: Entonces comienza con el centro histórico—está a 5 minutos."
+    },
+    {
+      "topic": "In a Language Class",
+      "language":"Spanish",
+      "dialog": "Ella: ¿De dónde eres?__Max: Soy de Polonia. Acabo de empezar a aprender inglés.__Ella: ¡Yo también! Llegué de Brasil el mes pasado.__Max: ¿Cuánto tiempo te quedarás?__Ella: Tal vez un año.__Max: ¡Qué guay! Practiquemos juntos."
+    },
+    {
+      "topic": "At the Airport",
+      "language":"Spanish",
+      "dialog": "Sofia: ¿Es esta la fila para el vuelo 824?__Alex: Sí, lo es. ¿A dónde vuelas?__Sofia: Regreso a Tokio. Estuve aquí una semana.__Alex: ¡Qué bien! Yo voy a Berlín.__Sofia: Fui allí el año pasado. Es increíble.__Alex: ¡Tengo muchas ganas de ir!"
+    },
+    {
+      "topic": "In a Clothing Store",
+      "language":"Spanish",
+      "dialog": "Leo: ¿Tienen esto en un tamaño más grande?__Camarero: Sí, déjame comprobarlo.__Leo: Gracias. Acabo de llegar de Suecia, ¡y hace frío!__Camarero: Entonces necesitas una chaqueta cálida.__Leo: La tomaré si me queda bien.__Camarero: Pruébatela aquí."
+    },
+    {
+      "topic": "At a Museum",
+      "language":"Spanish",
+      "dialog": "Nina: ¿Hay entrada para estudiantes?__Guía: Sí, muestra tu carnet de estudiante.__Nina: Estoy estudiando en Francia durante 3 meses.__Guía: ¡Bienvenida! ¿Estás sola?__Nina: Sí, pero me encanta explorar.__Guía: ¡Disfruta del museo!"
+    },
+    {
+      "topic": "At a Coffee Shop",
+      "language":"Spanish",
+      "dialog": "Jake: ¿Puedo tomar un café con leche, por favor?__Barista: ¡Claro! ¿Pequeño o grande?__Jake: Grande. Acabo de llegar de Nueva York.__Barista: ¿Largo vuelo?__Jake: Sí, dormí un poco en el avión.__Barista: ¡Este café te ayudará!"
+    },
+    {
+      "topic": "Introducing Each Other",
+      "language":"Spanish",
+      "dialog": "A: Hola, mi nombre es Anna. ¿Cuál es tu nombre?__B: ¡Hola, Anna! Soy Tom. ¡Mucho gusto!__A: ¡Mucho gusto también!"
+    },
+    {
+      "topic": "Ordering",
+      "language":"Spanish",
+      "dialog": "A: ¿Puedo pedir un café, por favor?__B: Claro. ¿Te gustaría con leche?__A: Sí, por favor. ¡Gracias!"
+    },
+    {
+      "topic": "Hobbies",
+      "language":"Spanish",
+      "dialog": "A: ¿Qué te gusta hacer en tu tiempo libre?__B: Me gusta leer libros. ¿Y a ti?__A: ¡Me encanta jugar al fútbol!"
+    },
+    {
+        "topic": "In the Park",
+        "language":"Spanish",
+        "dialog": "Tom: ¿Te gusta caminar en el parque?__Anna: ¡Sí, me encanta! Es tranquilo aquí.__Tom: Yo camino aquí cada mañana.__Anna: ¡Qué bien! Yo camino después del trabajo."
+    },
+    {
+        "topic": "At the Library",
+        "language":"Spanish",
+        "dialog": "Sarah: ¿Lees libros con frecuencia?__Mark: Sí, leo todos los días.__Sarah: ¿Qué te gusta leer?__Mark: Me gusta leer libros de misterio.__Sarah: Yo prefiero la ficción. Me gusta leer sobre diferentes lugares."
+    },
+    {
+        "topic": "At the Bus Stop",
+        "language":"Spanish",
+        "dialog": "Lisa: ¿Tomás el autobús al trabajo?__John: Sí, tomo el autobús todos los días.__Lisa: ¿Cuánto te tarda?__John: Me tarda unos 30 minutos.__Lisa: No está mal. Yo voy en coche al trabajo."
+    },
+    {
+        "topic": "In a Restaurant",
+        "language":"Spanish",
+        "dialog": "Camarero: ¿Quieres pedir ahora?__Emma: Sí, quiero una ensalada y agua, por favor.__Camarero: ¿Qué tipo de ensalada te gustaría?__Emma: Tomaré la ensalada verde.__Camarero: ¡Buena elección! La llevaré a tu mesa."
+    }
+]
+

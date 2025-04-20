@@ -1,0 +1,105 @@
+[
+    {
+        "dialog": "Tom: \"Ciao! Sei nuovo qui?\"__Anna: \"Sì, sono appena arrivata da Roma.\"__Tom: \"Benvenuta! Quanto tempo resterai?\"__Anna: \"Due settimane. Voglio vedere la città.\"__Tom: \"Dovresti provare il caffè locale.\"__Anna: \"Buona idea! Non ho ancora preso un caffè oggi.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Lena: \"Hai bisogno di aiuto?\"__Mark: \"Sì, vengo da Milano. Quale autobus va al museo?\"__Lena: \"Prendi il numero 5. Ci sono stata lo scorso weekend.\"__Mark: \"Grazie! Ora prendo un biglietto.\"__Lena: \"Puoi pagare sull’autobus.\"__Mark: \"Ottimo, è facile.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Emily: \"Ciao. Credo di aver prenotato una camera qui.\"__Receptionist: \"Come si chiama?\"__Emily: \"Emily Brown. Sono arrivata ieri da Firenze.\"__Receptionist: \"Sì, abbiamo la sua prenotazione. Tre notti, giusto?\"__Emily: \"Sì. Partirò domenica.\"__Receptionist: \"Benvenuta! Ecco la sua chiave.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "A: \"Cosa ti piace fare nel tuo tempo libero?\"__B: \"Mi piace leggere libri. E tu?\"__A: \"Adoro giocare a calcio!\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "A: \"Posso avere un caffè, per favore?\"__B: \"Certo! Vuoi del latte con quello?\"__A: \"Sì, per favore. Grazie!\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "A: \"Ciao, mi chiamo Anna. Come ti chiami?\"__B: \"Ciao Anna! Io sono Tom. Piacere di conoscerti!\"__A: \"Piacere di conoscerti anche io!\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Liam: \"Ciao, c'è una mappa della città?\"__Staff: \"Sì, eccola.\"__Liam: \"Grazie! Sono qui da Napoli.\"__Staff: \"Benvenuto! Hai bisogno di aiuto per pianificare la tua giornata?\"__Liam: \"Sarebbe fantastico. Amo i musei.\"__Staff: \"Inizia con il centro storico, è a 5 minuti da qui.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Zoe: \"Ciao, ho bisogno di qualcosa per il mal di testa.\"__Farmacista: \"Certo. Vuoi delle compresse o lo sciroppo?\"__Zoe: \"Compresse, per favore. Sono arrivata da Torino ieri.\"__Farmacista: \"Potresti essere stanca dal volo.\"__Zoe: \"Sì, non ho dormito molto.\"__Farmacista: \"Questo dovrebbe aiutare. Prendi una compressa con acqua.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Tom: \"Puoi portarmi all'aeroporto?\"__Autista: \"Certo. Terminal 1 o 2?\"__Tom: \"Terminal 1. Il mio volo è alle 15:00.\"__Autista: \"Nessun problema. Ora il traffico è leggero.\"__Tom: \"Bene. Sono arrivato due giorni fa da Bologna.\"__Autista: \"Spero che tu abbia avuto una bella visita.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Anna: \"Ciao, avete il menu in inglese?\"__Cameriere: \"Sì, eccolo.\"__Anna: \"Grazie. Vengo da Venezia.\"__Cameriere: \"Che bello! Hai già provato la nostra cucina locale?\"__Anna: \"Non ancora. Oggi proverò qualcosa di nuovo.\"__Cameriere: \"Ti consiglio il pesce alla griglia!\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Emma: \"Mi scusi, questo treno va a Parigi?\"__Luca: \"No, questo va a Lione.\"__Emma: \"Oh, grazie! Sono appena arrivata da Roma.\"__Luca: \"Benvenuta! Parigi è sulla prossima banchina.\"__Emma: \"Perfetto, vado subito lì.\"__Luca: \"Buon viaggio!\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "Noah: \"Sai dove si trova il pane?\"__Sofia: \"Sì, è in fondo, vicino al latte.\"__Noah: \"Grazie. Sono appena arrivato da Milano e non conosco questo negozio.\"__Sofia: \"Benvenuto! Anch'io mi sono trasferita qui l’anno scorso.\"__Noah: \"Oh, che bello! Darò un'occhiata in giro.\"__Sofia: \"Fammi sapere se hai bisogno di aiuto.\"",
+        "language": "Italiano"
+      },
+      {
+        "dialog": "David: \"Mi scusi, c'è una banca qui vicino?\"__Mia: \"Sì, a due isolati da qui. Ci sono stata stamattina.\"__David: \"Grazie! Sono qui in vacanza da Roma.\"__Mia: \"Che bello! Quanto tempo resterai?\"__David: \"Solo cinque giorni.\"__Mia: \"Allora devi visitare il centro storico, è bellissimo.\"",
+        "language": "Italiano"
+      },
+    {"dialog": "Tom: Non mi piacciono più i miei giochi.__Anna: Oh no! Perché?__Tom: Mi annoio.__Anna: Prova qualcosa di nuovo!", "language": "Italiano"},
+    {"dialog": "Emma: Non mi piace questa canzone ora.__Liam: L'hai suonata tutti i giorni!__Emma: Sì, ora voglio una nuova.__Liam: Troviamone una insieme.", "language": "Italiano"},
+    {"dialog": "Jake: Questo gioco non è più divertente.__Sara: L'hai finito?__Jake: Sì. Troppe volte.__Sara: Prova un nuovo gioco!", "language": "Italiano"},
+    {"dialog": "Anna: Ho mangiato pizza di nuovo.__Ben: Ami la pizza!__Anna: Non oggi. Sono stufa.__Ben: Cuciniamo qualcos'altro.", "language": "Italiano"},
+    {"dialog": "Tom: Non voglio disegnare oggi.__Lucy: Perché? Ti piace!__Tom: Mi annoio.__Lucy: Prova a dipingere qualcosa di nuovo!", "language": "Italiano"},
+    {"dialog": "Sofia: Questa musica è vecchia.__Noah: Vuoi una nuova playlist?__Sofia: Sì, per favore!__Noah: Te la mando.", "language": "Italiano"},
+    {"dialog": "Mia: Vado in questo caffè ogni giorno.__Leo: Ti piace?__Mia: Non più.__Leo: Proviamo un altro!", "language": "Italiano"},
+    {"dialog": "Ella: Questo programma è noioso ora.__Ryan: Non ti piaceva?__Ella: Mi piaceva. Ma ora no.__Ryan: Troviamone uno nuovo.", "language": "Italiano"},
+    {"dialog": "Alex: Non voglio correre oggi.__Nina: Corri sempre!__Alex: Voglio provare lo yoga.__Nina: Suona divertente!", "language": "Italiano"},
+    {"dialog": "Zoe: Ho finito il mio libro.__Ethan: Ti è piaciuto?__Zoe: Sì, ma voglio qualcosa di nuovo.__Ethan: Te ne presto uno.", "language": "Italiano"},
+    {"dialog": "Lily: Sono stata online tutto il giorno ieri.__Max: Devi essere stanca.__Lily: Domani uscirò.__Max: Andiamo insieme!", "language": "Italiano"},
+    {"dialog": "Emma: Mi piaceva questa canzone la settimana scorsa.__Liam: L'hai suonata tanto.__Emma: Domani troverò una nuova.__Liam: Ti aiuto!", "language": "Italiano"},
+    {"dialog": "Jake: Ho finito questo gioco ieri.__Sara: È stato divertente?__Jake: Sì, ma ora ne proverò uno nuovo.__Sara: Buona idea!", "language": "Italiano"},
+    {"dialog": "Anna: Ho mangiato pizza tre volte questa settimana.__Ben: È tanto!__Anna: Domani cucinerò pasta.__Ben: Mi unisco!", "language": "Italiano"},
+    {"dialog": "Tom: Ho dipinto un gatto ieri sera.__Lucy: Posso vederlo?__Tom: Certo. La prossima volta dipingerò un cane.__Lucy: Suona divertente!", "language": "Italiano"},
+    {"dialog": "Sofia: Ho ascoltato quell'album ieri.__Noah: Ti è piaciuto?__Sofia: Sì, ma troverò uno nuovo stasera.__Noah: Cerchiamo insieme.", "language": "Italiano"},
+    {"dialog": "Mia: Siamo andati in questo caffè domenica scorsa.__Leo: Sì, è stato bello.__Mia: La prossima volta andiamo in uno nuovo.__Leo: Conosco un buon posto.", "language": "Italiano"},
+    {"dialog": "Ella: Ho guardato cinque episodi ieri.__Ryan: È tanto!__Ella: Oggi farò una pausa.__Ryan: Facciamo qualcos'altro.", "language": "Italiano"},
+    {"dialog": "Alex: Ho corso 5 km questa mattina.__Nina: Wow!__Alex: Domani riposo.__Nina: Te lo meriti!", "language": "Italiano"},
+    {"dialog": "Zoe: Ho finito il mio libro ieri sera.__Ethan: Ti è piaciuto?__Zoe: Sì! Inizierò uno nuovo domani.__Ethan: Hai bisogno di un consiglio?", "language": "Italiano"},
+    {"dialog": "Lily: Sono stata online tutto il giorno ieri.__Max: Devi essere stanca.__Lily: Domani uscirò.__Max: Andiamo insieme!", "language": "Italiano"},
+    {"dialog": "Jake: Sarah ha giocato tutto il giorno.__Anna: Di nuovo?__Jake: Sì. Domani giocherà a uno nuovo.__Anna: Ama proprio i giochi!", "language": "Italiano"},
+    {"dialog": "Sofia: Mia ha ascoltato questa canzone ieri.__Liam: Le è piaciuta?__Sofia: Sì. La metterà nella sua playlist.__Liam: Trova sempre buona musica.", "language": "Italiano"},
+    {"dialog": "Lucy: Ben ha studiato tutto il weekend.__Jake: Per l'esame?__Lucy: Sì. Vuole superarlo questa volta.__Jake: Ce la farà!", "language": "Italiano"},
+    {"dialog": "Leo: Emma è andata al nuovo caffè.__Nina: Davvero? Quando?__Leo: Ieri. Ha detto che era bello.__Nina: Dobbiamo andarci anche noi.", "language": "Italiano"},
+    {"dialog": "Ella: Sam ha disegnato un gatto ieri.__Ryan: Era così carino!__Ella: La prossima volta disegnerà un uccello.__Ryan: Sta migliorando!", "language": "Italiano"},
+    {"dialog": "Max: Zoe ha mangiato di nuovo pizza.__Lily: La ama!__Max: Ma domani proverà il sushi.__Lily: È nuovo per lei!", "language": "Italiano"},
+    {"dialog": "Sofia: Tom è stato online tutto il giorno.__Ben: Controlla sempre il telefono.__Sofia: Domani farà una pausa.__Ben: È una buona cosa.", "language": "Italiano"},
+    {"dialog": "Anna: Mia ha fatto un giro in bicicletta ieri.__Leo: È stata lontana?__Anna: Sì, 10 chilometri!__Leo: Sarà stanca oggi.", "language": "Italiano"},
+    {"dialog": "Jake: Emma ha guardato quel programma ieri sera.__Lucy: Tutti gli episodi?__Jake: Quasi! Lo finirà oggi.__Lucy: Le piace davvero.", "language": "Italiano"},
+    {"dialog": "Ryan: Mark non è venuto a lezione oggi.__Zoe: È malato?__Ryan: Forse. Ha detto che verrà domani.__Zoe: Spero che si senta meglio.", "language": "Italiano"},
+    {"dialog": "Sarah ha lavorato fino a tardi ieri sera.__Anna: Di nuovo?__Tom: Sì. Finirà il progetto oggi.__Anna: È una lavoratrice instancabile.", "language": "Italiano"},
+    {"dialog": "Ben: John non ama le riunioni.__Lily: L'ho visto ieri.__Ben: Ha detto che salterà quella di domani.__Lily: Spero di no!", "language": "Italiano"},
+    {"dialog": "Ella: Mio fratello è entrato nell'esercito l'anno scorso.__Leo: Wow! È importante.__Ella: Tornerà a casa il mese prossimo.__Leo: Scommetto che ti manca.", "language": "Italiano"},
+    {"dialog": "Nina: Mark ha allenato sotto la pioggia ieri.__Alex: È dura!__Nina: Ha detto che domani sarà più difficile.__Alex: È davvero forte.", "language": "Italiano"},
+    {"dialog": "Jake: Mia non ha fatto i compiti.__Sofia: Oh no!__Jake: Ha detto che li farà stasera.__Sofia: Spero che l'insegnante sia gentile.", "language": "Italiano"},
+    {"dialog": "Zoe: Ethan mi ha aiutato in matematica.__Ryan: È intelligente!__Zoe: Studierà di più questo fine settimana.__Ryan: Vuole i voti migliori.", "language": "Italiano"},
+    {"dialog": "Liam: Mia mamma ha fatto una torta ieri.__Lucy: Che buono!__Liam: Domani farà dei biscotti.__Lucy: Posso venire?", "language": "Italiano"},
+    {"dialog": "Mia: Papà è andato dal dottore oggi.__Ben: Sta bene?__Mia: Ora si sente meglio.__Ben: Sono contento.", "language": "Italiano"},
+    {"dialog": "Sofia: Mia sorella ha cantato alla festa.__Tom: Ha una bella voce.__Sofia: Canterà di nuovo la prossima settimana.__Tom: Fammi sapere quando!", "language": "Italiano"},
+    {"dialog": "Emma: La nonna ci ha visitato lo scorso fine settimana.__Alex: È stata a lungo?__Emma: Solo due giorni. Tornerà presto.__Alex: È bello.", "language": "Italiano"},
+    {"dialog": "Sam ha prenotato un volo ieri.__Mia: Dove va?__Leo: In Giappone! Partirà la prossima settimana.__Mia: Che emozionante!", "language": "Italiano"},
+    {"dialog": "Anna: Emily non ha ancora prenotato l'hotel.__Ben: Davvero?__Anna: Ha detto che lo farà stasera.__Ben: Speriamo che trovi un buon posto.", "language": "Italiano"},
+    {"dialog": "Tom: Mark ha prenotato la data sbagliata.__Lucy: Oh no!__Tom: Ora chiamerà la compagnia aerea.__Lucy: Spero possano sistemarlo.", "language": "Italiano"},
+    {"dialog": "Emma: Liam è andato in Spagna il mese scorso.__Jake: Gli è piaciuto?__Emma: Sì! Ci tornerà il prossimo estate.__Jake: Che fortunato!", "language": "Italiano"},
+    {"dialog": "Zoe: Mia non ha portato il suo passaporto.__Ryan: È un problema!__Zoe: Tornerà a prenderlo.__Ryan: Spero non sia in ritardo.", "language": "Italiano"},
+    {"dialog": "Ben: Ha preso il treno ieri.__Alex: È stato veloce?__Sofia: Sì. Domani proverà l'autobus.__Alex: Gli piace confrontare!", "language": "Italiano"},
+    {"dialog": "Mia: Mia cugina ha viaggiato da sola a Parigi.__Ben: Wow! Quando?__Ella: La settimana scorsa. Tornerà presto.__Ben: Spero che si stia divertendo.", "language": "Italiano"}
+
+
+
+]

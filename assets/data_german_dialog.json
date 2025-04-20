@@ -1,0 +1,116 @@
+[
+{
+    "dialog": "Tom: \"Hallo! Bist du neu hier in Hamburg?\"__Anna: \"Ja, ich bin gerade aus Spanien angekommen.\"__Tom: \"Willkommen! Wie lange bleibst du?\"__Anna: \"Zwei Wochen. Ich möchte die Stadt sehen.\"__Tom: \"Du solltest den lokalen Kaffee probieren. Der in St. Pauli ist sehr gut.\"__Anna: \"Gute Idee! Ich habe heute noch keinen Kaffee gehabt.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Lena: \"Brauchst du Hilfe in Berlin?\"__Mark: \"Ja, ich besuche Deutschland. Welcher Bus fährt zum Museum für Naturkunde?\"__Lena: \"Nimm die Nummer 5. Ich war letzten Sonntag dort.\"__Mark: \"Danke! Ich hole jetzt ein Ticket.\"__Lena: \"Du kannst im Bus bezahlen.\"__Mark: \"Super, das ist einfach.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Emily: \"Hallo. Ich glaube, ich habe hier ein Zimmer im Hotel Adlon gebucht.\"__Rezeptionist: \"Wie ist dein Name?\"__Emily: \"Emily Brown. Ich bin gestern aus Australien gekommen.\"__Rezeptionist: \"Ja, wir haben deine Buchung. Drei Nächte, richtig?\"__Emily: \"Ja. Ich werde am Sonntag abfahren.\"__Rezeptionist: \"Willkommen! Hier ist dein Schlüssel.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "David: \"Entschuldigung, gibt es hier in der Nähe eine Bank in Frankfurt?\"__Mia: \"Ja, zwei Straßen weiter. Ich war heute Morgen dort.\"__David: \"Danke! Ich bin hier im Urlaub aus Brasilien.\"__Mia: \"Das ist toll! Wie lange bleibst du?\"__David: \"Nur fünf Tage.\"__Mia: \"Dann solltest du die Altstadt besuchen—sie ist wunderschön.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Noah: \"Weißt du, wo das Brot in Berlin ist?\"__Sofia: \"Ja, es ist hinten, in der Nähe der Milch, im Edeka hier ums Eck.\"__Noah: \"Danke. Ich bin gerade aus Japan gekommen und kenne den Laden noch nicht.\"__Sofia: \"Willkommen! Ich bin letztes Jahr auch hierher gezogen.\"__Noah: \"Oh, schön! Ich werde mich ein wenig umsehen.\"__Sofia: \"Lass mich wissen, wenn du noch Hilfe brauchst.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Emma: \"Entschuldigung, fährt dieser Zug nach Paris von Köln?\"__Luca: \"Nein, dieser fährt nach Lyon.\"__Emma: \"Oh, danke! Ich bin gerade aus Italien angekommen.\"__Luca: \"Willkommen! Paris ist am nächsten Bahnsteig.\"__Emma: \"Toll, dann gehe ich jetzt dorthin.\"__Luca: \"Gute Reise!\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Anna: \"Hallo, haben Sie eine Speisekarte auf Englisch im München?\"__Kellner: \"Ja, hier bitte.\"__Anna: \"Danke. Ich besuche Kanada.\"__Kellner: \"Toll! Hast du schon unser lokales Essen probiert?\"__Anna: \"Noch nicht. Ich werde heute etwas Neues probieren.\"__Kellner: \"Ich empfehle den gegrillten Fisch!\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Tom: \"Könnten Sie mich zum Flughafen in Hamburg bringen?\"__Fahrer: \"Natürlich. Terminal 1 oder 2?\"__Tom: \"Terminal 1. Mein Flug ist um 15 Uhr.\"__Fahrer: \"Kein Problem. Der Verkehr ist momentan leicht.\"__Tom: \"Das ist gut. Ich bin vor zwei Tagen aus Korea angekommen.\"__Fahrer: \"Ich hoffe, du hattest einen schönen Besuch.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Zoe: \"Hallo, ich brauche etwas gegen Kopfschmerzen in Berlin.\"__Apotheker: \"Klar. Möchtest du Tabletten oder Sirup?\"__Zoe: \"Tabletten bitte. Ich bin gestern aus Indien geflogen.\"__Apotheker: \"Du bist vielleicht vom Flug müde.\"__Zoe: \"Ja, ich habe nicht gut geschlafen.\"__Apotheker: \"Das sollte helfen. Nimm eine Tablette mit Wasser.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Liam: \"Hallo, gibt es hier eine Stadtkarte für Heidelberg?\"__Mitarbeiter: \"Ja, hier bitte.\"__Liam: \"Danke! Ich bin hier aus Südafrika.\"__Mitarbeiter: \"Willkommen! Möchtest du Hilfe bei der Planung deines Tages?\"__Liam: \"Das wäre super. Ich liebe Museen.\"__Mitarbeiter: \"Dann starte mit dem Geschichtszentrum—es ist nur 5 Minuten entfernt.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "A: \"Hallo, mein Name ist Anna. Wie heißt du?\"__B: \"Hallo, Anna! Ich bin Tom. Schön, dich kennenzulernen!\"__A: \"Schön, dich auch kennenzulernen!\"",
+    "language": "de"
+  },
+  {
+    "dialog": "A: \"Kann ich bitte einen Kaffee haben?\"__B: \"Klar! Möchtest du Milch dazu?\"__A: \"Ja, bitte. Danke!\"",
+    "language": "de"
+  },
+  {
+    "dialog": "A: \"Was machst du gerne in deiner Freizeit?\"__B: \"Ich lese gerne Bücher. Und du?\"__A: \"Ich liebe es, Fußball zu spielen!\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Lena: \"Welche Farbe hat dein Auto in Berlin?\"__Jonas: \"Es ist rot. Und deins?\"__Lena: \"Meins ist blau.\"__Jonas: \"Ich mag Blau. Es ist eine schöne Farbe.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Mia: \"Welches Datum ist heute?\"__Tim: \"Heute ist der dritte Mai in Hamburg.\"__Mia: \"Oh, morgen habe ich Geburtstag!\"__Tim: \"Wirklich? Alles Gute im Voraus!\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Ben: \"Was ist deine Lieblingsfarbe?\"__Sophie: \"Meine Lieblingsfarbe ist grün.\"__Ben: \"Ich mag auch grün. Es ist ruhig und schön.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Emma: \"Wann hast du Geburtstag?\"__Paul: \"Am siebten Oktober in München. Und du?\"__Emma: \"Ich habe am zweiten März Geburtstag.\"__Paul: \"Cool! Das ist bald.\"",
+    "language": "de"
+  },
+  {
+    "dialog": "Clara: \"Wie ist deine Telefonnummer in Berlin?\"__Noah: \"Null-eins-zwei-drei, vier-fünf-sechs, sieben-acht-neun.\"__Clara: \"Danke! Ich schreibe sie auf.\"__Noah: \"Kein Problem!\"",
+    "language": "de"
+  },
+    {"dialog": "Tom: Ich mag das Spiel nicht mehr. __Anna: Warum? Was ist los? __Tom: Es ist langweilig geworden. __Anna: Hast du schon mal etwas Neues ausprobiert?", "language": "de"},
+    {"dialog": "Emma: Ich mag dieses Lied jetzt nicht mehr. __Liam: Du hast es doch jeden Tag gehört, oder? __Emma: Ja, aber jetzt will ich etwas Neues. __Liam: Lass uns zusammen nach etwas Neuem suchen!", "language": "de"},
+    {"dialog": "Jake: Das Spiel macht mir keinen Spaß mehr. __Sarah: Hast du es durchgespielt? __Jake: Ja. Ich habe es so oft gespielt. __Sarah: Lass uns ein neues Spiel ausprobieren!", "language": "de"},
+    {"dialog": "Anna: Ich habe wieder Pizza gegessen. __Ben: Du liebst Pizza, oder? __Anna: Heute habe ich genug davon. __Ben: Dann lass uns etwas anderes kochen!", "language": "de"},
+    {"dialog": "Tom: Heute will ich nicht zeichnen. __Lucy: Warum? Du magst doch Zeichnen? __Tom: Es ist langweilig geworden. __Lucy: Versuch doch, etwas Neues zu zeichnen!", "language": "de"},
+    {"dialog": "Sophia: Die Musik ist jetzt alt. __Noah: Willst du eine neue Playlist? __Sophia: Ja, bitte! __Noah: Ich schicke dir eine!", "language": "de"},
+    {"dialog": "Mia: Ich gehe jedes Wochenende in dieses Café. __Leo: Gefällt es dir dort? __Mia: Ich habe genug. __Leo: Dann lass uns ein anderes Café ausprobieren!", "language": "de"},
+    {"dialog": "Ella: Diese Show ist langweilig. __Ryan: Hast du sie nicht gemocht? __Ella: Ich mochte sie, aber jetzt nicht mehr. __Ryan: Lass uns etwas Neues finden!", "language": "de"},
+    {"dialog": "Alex: Heute will ich nicht laufen. __Nina: Du läufst doch immer! __Alex: Ich möchte Yoga ausprobieren. __Nina: Das klingt gut!", "language": "de"},
+    {"dialog": "Zoe: Ich habe das Buch gestern beendet. __Ethan: War es gut? __Zoe: Ja, aber ich will ein neues lesen. __Ethan: Ich habe ein paar gute Empfehlungen!", "language": "de"},
+    {"dialog": "Lily: Ich war den ganzen Tag online. __Max: Bist du nicht müde? __Lily: Ich gehe morgen nach draußen. __Max: Lass uns zusammen rausgehen!", "language": "de"},
+    {"dialog": "Emma: Letzte Woche mochte ich dieses Lied. __Liam: Du hast es oft gehört, oder? __Emma: Ja. Morgen will ich ein neues finden. __Liam: Ich helfe dir gerne dabei!", "language": "de"},
+    {"dialog": "Jake: Ich habe das Spiel gestern durchgespielt. __Sarah: Hat es dir gefallen? __Jake: Ja, aber jetzt will ich ein neues Spiel ausprobieren. __Sarah: Das klingt gut!", "language": "de"},
+    {"dialog": "Anna: Ich habe diese Woche schon dreimal Pizza gegessen. __Ben: Das ist viel! __Anna: Morgen will ich Pasta machen. __Ben: Lass uns zusammen kochen!", "language": "de"},
+    {"dialog": "Tom: Gestern habe ich ein Bild von einer Katze gemalt. __Lucy: Zeig es mir! __Tom: Natürlich. Nächstes Mal möchte ich einen Hund malen. __Lucy: Das klingt nach Spaß!", "language": "de"},
+    {"dialog": "Sophia: Ich habe gestern dieses Album gehört. __Noah: Hat es dir gefallen? __Sophia: Ja, heute Abend will ich ein neues Album suchen. __Noah: Lass uns zusammen suchen!", "language": "de"},
+    {"dialog": "Mia: Ich war letzten Sonntag in diesem Café. __Leo: Echt? Wann? __Mia: Gestern. Es war wirklich gut. __Leo: Lass uns nächstes Mal zusammen gehen!", "language": "de"},
+    {"dialog": "Ella: Ich habe gestern fünf Episoden gesehen. __Ryan: Das ist viel! __Ella: Heute mache ich eine Pause. __Ryan: Dann lass uns etwas anderes machen!", "language": "de"},
+    {"dialog": "Alex: Ich bin heute Morgen fünf Kilometer gelaufen. __Nina: Das ist beeindruckend! __Alex: Morgen mache ich Pause. __Nina: Ruh dich gut aus!", "language": "de"},
+    {"dialog": "Zoe: Ich habe gestern das Buch zu Ende gelesen. __Ethan: War es spannend? __Zoe: Ja! Morgen starte ich ein neues Buch. __Ethan: Wenn du ein gutes Buch hast, sag mir Bescheid!", "language": "de"},
+    {"dialog": "Lily: Ich war den ganzen Tag online. __Max: Bist du nicht müde? __Lily: Ich gehe morgen nach draußen. __Max: Lass uns zusammen rausgehen!", "language": "de"},
+    {"dialog": "Jake: Sarah hat das ganze Spiel die Nacht durchgespielt. __Anna: Schon wieder? __Jake: Ja. Morgen will sie ein neues Spiel spielen. __Anna: Sie liebt es wirklich, zu spielen!", "language": "de"},
+    {"dialog": "Sophia: Mia hat gestern das Lied gehört. __Liam: Hat es ihr gefallen? __Sophia: Ja, sie möchte es ihrer Playlist hinzufügen. __Liam: Sie findet immer gute Musik!", "language": "de"},
+    {"dialog": "Lucy: Ben hat das ganze Wochenende gelernt. __Jake: Für eine Prüfung? __Lucy: Ja. Er will diese Prüfung unbedingt bestehen. __Jake: Er wird es bestimmt schaffen!", "language": "de"},
+    {"dialog": "Leo: Emma ist gestern in ein neues Café gegangen. __Nina: Wirklich? Wann? __Leo: Gestern. Sie hat gesagt, es war sehr gut. __Nina: Wir sollten es auch ausprobieren!", "language": "de"},
+    {"dialog": "Ella: Sam hat auf der Party gesungen. __Ryan: Hatte er eine gute Stimme? __Ella: Ja, er wird nächsten Samstag wieder singen. __Ryan: Lass mich wissen, wann er singt!", "language": "de"},
+    {"dialog": "Max: Zoe hat schon wieder Pizza gegessen. __Lily: Sie liebt Pizza! __Max: Aber morgen will sie Sushi ausprobieren. __Lily: Das wird ihr sicher gefallen!", "language": "de"},
+    {"dialog": "Sophia: Tom war den ganzen Tag online. __Ben: Er ist immer am Handy, oder? __Sophia: Morgen macht er eine Pause. __Ben: Das ist eine gute Idee!", "language": "de"},
+    {"dialog": "Anna: Mia ist gestern mit dem Fahrrad gefahren. __Leo: War es weit? __Anna: Ja, sie ist 10 Kilometer gefahren! __Leo: Sie wird heute wahrscheinlich müde sein.", "language": "de"},
+    {"dialog": "Jake: Emma hat gestern die Show gesehen. __Lucy: Hast du alle Folgen gesehen? __Jake: Fast alle. Heute will ich die letzten noch schauen. __Lucy: Du magst die Show wirklich!", "language": "de"},
+    {"dialog": "Ryan: Mark war heute nicht im Meeting. __Zoe: Ist er krank? __Ryan: Wahrscheinlich. Er hat gesagt, er kommt morgen. __Zoe: Hoffentlich geht es ihm bald besser.", "language": "de"},
+    {"dialog": "Sarah hat bis spät in die Nacht gearbeitet. __Anna: Schon wieder? __Tom: Ja. Sie will das Projekt heute fertigstellen. __Anna: Sie ist wirklich fleißig.", "language": "de"},
+    {"dialog": "Ben: John hasst Meetings. __Lily: Hast du ihn gestern gesehen? __Ben: Ja, er wird das Meeting morgen wohl wieder überspringen. __Lily: Hoffentlich geht es ihm gut!", "language": "de"},
+    {"dialog": "Ella: Mein Großvater ist letztes Wochenende zu Besuch gekommen. __Alex: War er lange da? __Ella: Nur zwei Tage. Aber er wird bald wieder kommen. __Alex: Das ist schön!", "language": "de"},
+    {"dialog": "Sam hat gestern seinen Flug gebucht. __Mia: Wohin fliegst du? __Leo: Nach Spanien! Er fliegt nächste Woche. __Mia: Das ist so aufregend!", "language": "de"},
+    {"dialog": "Anna: Emily hat ihr Hotel noch nicht gebucht. __Ben: Echt? __Anna: Sie will es heute Abend machen. __Ben: Hoffentlich findet sie ein gutes Hotel.", "language": "de"},
+    {"dialog": "Tom: Mark hat das falsche Datum gebucht. __Lucy: Oh nein! __Tom: Er ruft gerade bei der Fluggesellschaft an. __Lucy: Ich hoffe, es lässt sich noch ändern.", "language": "de"},
+    {"dialog": "Emma: Liam ist letzten Monat nach Spanien gereist. __Jake: Hat es ihm gefallen? __Emma: Ja! Er will nächstes Jahr wieder hin. __Jake: Neidisch! ", "language": "de"},
+    {"dialog": "Zoe: Mia hat ihren Reisepass vergessen. __Ryan: Das ist ein Problem! __Zoe: Sie wird ihn holen. __Ryan: Hoffentlich ist sie nicht zu spät.", "language": "de"},
+    {"dialog": "Ben: Er hat gestern den Zug genommen. __Alex: War er schnell? __Sophia: Ja, morgen wird er den Bus ausprobieren. __Alex: Er mag es, verschiedene Dinge zu vergleichen!", "language": "de"},
+    {"dialog": "Mein Cousin hat allein nach Paris gereist. __Ben: Wow! Wann? __Ella: Letzte Woche. Er kommt bald zurück. __Ben: Hoffentlich hatte er eine gute Zeit!", "language": "de"}
+  ]
+  

@@ -2,341 +2,341 @@
     {
       "question": "Comment ça va ?",
       "answer": "Je vais bien, merci !",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Comment ça va ?",
       "answer": "Ça va bien, et toi ?",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel âge as-tu ?",
       "answer": "J'ai 25 ans.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel âge as-tu ?",
       "answer": "J'ai 18 ans.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel temps fait-il aujourd'hui ?",
       "answer": "Il fait beau aujourd'hui.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel temps fait-il aujourd'hui ?",
       "answer": "Il pleut aujourd'hui.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quelle heure est-il ?",
       "answer": "Il est 15 heures.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quelle heure est-il ?",
       "answer": "Il est 10h30.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel est ton hobby ?",
       "answer": "Mon hobby est de lire des livres.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel est ton hobby ?",
       "answer": "J'aime jouer au football.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Comment tu t'appelles ?",
       "answer": "Je m'appelle John.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Comment tu t'appelles ?",
       "answer": "Je m'appelle Maria.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où habites-tu ?",
       "answer": "J'habite à Paris.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où habites-tu ?",
       "answer": "J'habite à New York.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quand es-tu né ?",
       "answer": "Je suis né en 1995.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quand es-tu né ?",
       "answer": "Je suis né le 1er mai 2000.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'as-tu mangé ce matin ?",
       "answer": "J'ai mangé des céréales et des fruits.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'as-tu mangé ce matin ?",
       "answer": "J'ai mangé du pain grillé et du café.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu travailles ou étudies ?",
       "answer": "J'étudie l'anglais.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu travailles ou étudies ?",
       "answer": "Je travaille comme enseignant.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quelle est la date aujourd'hui ?",
       "answer": "Aujourd'hui, nous sommes le 29 mars.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quelle est la date aujourd'hui ?",
       "answer": "Aujourd'hui, c'est le 15 février.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'est-ce que tu fais aujourd'hui ?",
       "answer": "Aujourd'hui, je vais au parc.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'est-ce que tu fais aujourd'hui ?",
       "answer": "Je vais étudier l'anglais aujourd'hui.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quand t'es-tu réveillé ?",
       "answer": "Je me suis réveillé à 7 heures.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quand t'es-tu réveillé ?",
       "answer": "Je me suis réveillé à 8 heures.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel est ton métier ?",
       "answer": "Je suis médecin.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel est ton métier ?",
       "answer": "Je travaille comme ingénieur.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Que fais-tu dans la vie ?",
       "answer": "Je suis étudiant en informatique.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Que fais-tu dans la vie ?",
       "answer": "Je suis professeur de français.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel travail fais-tu ?",
       "answer": "Je travaille dans un bureau.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel travail fais-tu ?",
       "answer": "Je suis artiste et je peins des tableaux.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où travailles-tu ?",
       "answer": "Je travaille dans un hôpital.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où travailles-tu ?",
       "answer": "Je travaille dans une entreprise de technologie.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Bonjour, comment ça va ?",
       "answer": "Salut, ça va bien, merci !",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Comment tu vas ?",
       "answer": "Ça va très bien, et toi ?",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu es d'où ?",
       "answer": "Je viens de Paris.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu parles français ?",
       "answer": "Oui, je parle un peu français.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu as des frères et sœurs ?",
       "answer": "Oui, j'ai un frère et une sœur.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu as des enfants ?",
       "answer": "Non, je n'ai pas d'enfants.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où habite ta famille ?",
       "answer": "Ma famille habite à Lyon.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Ton frère s'appelle comment ?",
       "answer": "Il s'appelle Paul.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "À quelle heure tu te lèves ?",
       "answer": "Je me lève à 7 heures.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu prends le petit déjeuner ?",
       "answer": "Oui, je prends du café et des croissants.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu travailles tous les jours ?",
       "answer": "Non, je travaille du lundi au vendredi.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu te couches à quelle heure ?",
       "answer": "Je me couche à 10 heures.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel temps fait-il aujourd'hui ?",
       "answer": "Il fait froid aujourd'hui.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Il pleut ?",
       "answer": "Oui, il pleut beaucoup.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Est-ce qu'il y a du soleil ?",
       "answer": "Oui, il y a du soleil.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Il fait chaud ou froid ?",
       "answer": "Il fait chaud, environ 30 degrés.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu manges souvent au restaurant ?",
       "answer": "Non, je mange à la maison.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Quel est ton plat préféré ?",
       "answer": "Mon plat préféré est la pizza.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu bois du café ?",
       "answer": "Oui, je bois du café tous les matins.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu aimes manger des légumes ?",
       "answer": "Oui, j'aime beaucoup les légumes.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Combien ça coûte ?",
       "answer": "Ça coûte 20 euros.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu veux acheter quelque chose ?",
       "answer": "Oui, je veux acheter un t-shirt.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où est le magasin ?",
       "answer": "Le magasin est à droite.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Est-ce que ce produit est en solde ?",
       "answer": "Oui, il est à moitié prix.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'est-ce que tu as fait hier ?",
       "answer": "Hier, j'ai regardé un film.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu as travaillé ce matin ?",
       "answer": "Non, ce matin, je n'ai pas travaillé.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Où es-tu allé(e) pendant les vacances ?",
       "answer": "Je suis allé(e) à la plage.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'est-ce que tu as mangé hier soir ?",
       "answer": "J'ai mangé une pizza.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu as vu un film récemment ?",
       "answer": "Oui, j'ai vu un film d'action hier.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'est-ce que tu vas faire ce soir ?",
       "answer": "Ce soir, je vais aller au cinéma.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu vas partir en vacances cet été ?",
       "answer": "Oui, je vais partir à la montagne.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu vas étudier demain ?",
       "answer": "Oui, je vais étudier toute la journée.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Tu vas où ce week-end ?",
       "answer": "Ce week-end, je vais chez mes amis.",
-      "language": "French"
+      "language": "fr"
     },
     {
       "question": "Qu'est-ce que tu vas manger ce soir ?",
       "answer": "Je vais manger des pâtes.",
-      "language": "French"
+      "language": "fr"
     }
 ]
