@@ -20,12 +20,17 @@ class ContentPage extends StatefulWidget {
 
 class _ContentState extends State<ContentPage> {
   List<Question> questions = [];
+  List<Dialog> dialogs = [];
+  List<String> dialoglinesParsedFromAdialog = [];
+
   // FlutterSoundRecorder? _recorder;
   FlutterSoundPlayer? _player;
   FlutterTts flutterTts = FlutterTts();
   String _questiontext = "";
   String _answertext = "";
   int _qindex = 0;
+  int _dindex = 0;
+  String _dialogtext = "";
 
   // Language setting
   String _selectedLanguage = "en-US"; // Default to French
@@ -35,13 +40,19 @@ class _ContentState extends State<ContentPage> {
   @override
   void initState() {
     super.initState();
-    // _recorder = FlutterSoundRecorder();
     _player = FlutterSoundPlayer();
     _setLanguage(widget.language); // Set language from the widget
     _contentType = widget.contentType;
-    loadAndSetQuestions();
-    _initialize();
-    _loadQuestion();
+    if (_contentType == 0) {
+      loadAndSetQuestions();
+      _initialize();
+      _loadQuestion();
+    }
+    if (_contentType == 1) {
+      loadAndSetDialogs();
+      _initialize();
+      _loadDialog();
+    }
   }
 
   Future<void> loadAndSetQuestions() async {
@@ -54,14 +65,17 @@ class _ContentState extends State<ContentPage> {
     });
   }
 
+  Future<void> loadAndSetDialogs() async {
+    List<Dialog> loadedDialogs = await loadDialogs(
+      _selectedLanguage.toString(),
+    );
+    loadedDialogs.shuffle();
+    setState(() {
+      dialogs = loadedDialogs;
+    });
+  }
+
   Future<void> _initialize() async {
-    // await Permission.microphone.request();
-    // await Permission.storage.request();
-
-    // final dir = await getApplicationDocumentsDirectory();
-    // _filePath = '${dir.path}/recording.aac';
-
-    // await _recorder!.openRecorder();
     await _player!.openPlayer();
   }
 
@@ -71,11 +85,27 @@ class _ContentState extends State<ContentPage> {
     });
     // Update FlutterTts and SpeechToText language
     await flutterTts.setLanguage(_selectedLanguage);
-    // await _speechToText.initialize(onStatus: (status) {}, onError: (error) {});
+  }
+
+  Future<void> _loadDialog() async {
+    await _setSpeechRate(pitch: 0.6);
+    await _speakDialog();
+    setState(() {
+      _dialogtext = dialogs[_dindex].dialog;
+      dialoglinesParsedFromAdialog = _parseDialog(_dialogtext);
+    });
+  }
+
+  List<String> _parseDialog(String dialogText) {
+    return dialogText.split('__');
+  }
+
+  List<String> _parseLine(String lineText) {
+    return lineText.split(':');
   }
 
   Future<void> _loadQuestion() async {
-    await _setSpeechRate();
+    await _setSpeechRate(pitch: 0.5);
     await _speak();
     setState(() {
       _questiontext = questions[_qindex].question;
@@ -83,8 +113,13 @@ class _ContentState extends State<ContentPage> {
   }
 
   Future<void> _loadAnswer() async {
-    await _setSpeechRate();
-    await _speak_answer();
+    await _setSpeechRate(pitch: 0.5);
+    await _loadAnswerText();
+    await Future.delayed(Duration(milliseconds: 100));
+    await _speakAnswer();
+  }
+
+  Future<void> _loadAnswerText() async {
     setState(() {
       _answertext = questions[_qindex].answer;
     });
@@ -97,15 +132,27 @@ class _ContentState extends State<ContentPage> {
     await flutterTts.speak(_questiontext);
   }
 
-  Future<void> _speak_answer() async {
-    String antext =
-        questions.isNotEmpty ? questions[_qindex].answer : "Loading...";
-    _answertext = antext;
+  Future<void> _speakDialog() async {
+    await flutterTts.awaitSpeakCompletion(
+      true,
+    ); // Ensure it waits between lines
+
+    for (final each in dialoglinesParsedFromAdialog) {
+      final ary = _parseLine(
+        each,
+      ); // Assuming _parseLine returns [speaker, sentence]
+      await flutterTts.speak(
+        ary.last,
+      ); // Speak only the speaker's name or dialog
+    }
+  }
+
+  Future<void> _speakAnswer() async {
     await flutterTts.speak(_answertext);
   }
 
-  Future<void> _setSpeechRate() async {
-    await flutterTts.setSpeechRate(0.5);
+  Future<void> _setSpeechRate({double pitch = 0.6}) async {
+    await flutterTts.setSpeechRate(pitch);
   }
 
   void _next() {
@@ -113,6 +160,14 @@ class _ContentState extends State<ContentPage> {
       _qindex = (_qindex + 1) % questions.length;
       _loadQuestion();
       _answertext = "";
+    });
+  }
+
+  void _nextdialog() {
+    setState(() {
+      _dindex = (_dindex + 1) % dialogs.length;
+      _loadDialog();
+      dialoglinesParsedFromAdialog = [];
     });
   }
 
@@ -178,7 +233,65 @@ class _ContentState extends State<ContentPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  ElevatedButton(onPressed: _next, child: Text('→')),
+                  Expanded(
+                    // This ensures the Column doesn't overflow horizontally
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                            vertical: 4.0,
+                            horizontal: 80.0,
+                          ),
+                          child: ElevatedButton(
+                            onPressed: _loadDialog,
+                            child: Text('Play Dialog'),
+                          ),
+                        ),
+                        SizedBox(height: 20),
+
+                        ...dialoglinesParsedFromAdialog.map((line) {
+                          final parts = _parseLine(
+                            line,
+                          ); // Assuming this gives [speaker, text]
+                          return Padding(
+                            padding: const EdgeInsets.symmetric(
+                              vertical: 4.0,
+                              horizontal: 80.0,
+                            ),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Text(
+                                    line,
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                IconButton(
+                                  icon: Icon(Icons.play_arrow),
+                                  onPressed: () async {
+                                    await _setSpeechRate(pitch: 0.6);
+                                    await flutterTts.speak(
+                                      parts.last,
+                                    ); // Play just the spoken text
+                                  },
+                                ),
+                              ],
+                            ),
+                          );
+                        }),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(onPressed: _nextdialog, child: Text('→')),
                   SizedBox(height: 20),
                   Text(
                     "",
@@ -236,4 +349,39 @@ Future<List<Question>> loadQuestions(String langstr) async {
   }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Question.fromJson(item)).toList();
+}
+
+// Model class for the Dialog
+class Dialog {
+  final String dialog;
+  final String language;
+
+  Dialog({required this.dialog, required this.language});
+
+  factory Dialog.fromJson(Map<String, dynamic> json) {
+    return Dialog(dialog: json['dialog'], language: json['language']);
+  }
+}
+
+// Function to load JSON
+Future<List<Dialog>> loadDialogs(String langstr) async {
+  String jsonString = await rootBundle.loadString('assets/data_dialog.json');
+
+  if (langstr.contains("fr")) {
+    jsonString = await rootBundle.loadString('assets/data_fr_dialog.json');
+  }
+  if (langstr.contains("de")) {
+    jsonString = await rootBundle.loadString('assets/data_de_dialog.json');
+  }
+  if (langstr.contains("it")) {
+    jsonString = await rootBundle.loadString('assets/data_it_dialog.json');
+  }
+  if (langstr.contains("ja")) {
+    jsonString = await rootBundle.loadString('assets/data_jp_dialog.json');
+  }
+  if (langstr.contains("es")) {
+    jsonString = await rootBundle.loadString('assets/data_es_dialog.json');
+  }
+  List<dynamic> jsonData = json.decode(jsonString);
+  return jsonData.map((item) => Dialog.fromJson(item)).toList();
 }
