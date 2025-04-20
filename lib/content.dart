@@ -4,7 +4,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:speech_to_text/speech_to_text.dart' as stt;
+// import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 
@@ -21,12 +21,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
   List<Question> questions = [];
   // FlutterSoundRecorder? _recorder;
   FlutterSoundPlayer? _player;
-  String _filePath = ''; // File path for the saved recording
   FlutterTts flutterTts = FlutterTts();
-  stt.SpeechToText _speechToText = stt.SpeechToText();
-  bool _isListening = false;
-  String _recognizedText = "Press the button and start speaking...";
-  String _history = "";
   String _questiontext = "";
   String _answertext = "";
   int _qindex = 0;
@@ -115,55 +110,6 @@ class _HomeScreenState extends State<HomeScreenPage> {
       _qindex = (_qindex + 1) % questions.length;
       _loadQuestion();
       _answertext = "";
-    });
-  }
-
-  Future<void> _startListening({int stateInt = 1}) async {
-    if (stateInt == 1) {
-      await _setSpeechRate();
-      await _speak();
-    }
-    bool available = await _speechToText.initialize(
-      onStatus: (status) {
-        print("Speech recognition status: $status");
-        if (stateInt != 2 && (status == 'notListening' || status == 'done')) {
-          Future.delayed(Duration(seconds: 1), () async {
-            await _startListening(stateInt: 0);
-          });
-        }
-      },
-      onError: (error) {
-        print("Speech recognition error: ${error.errorMsg}");
-      },
-    );
-
-    if (available) {
-      setState(() {
-        _isListening = true;
-      });
-
-      _speechToText.listen(
-        onResult: (result) {
-          setState(() {
-            if (stateInt != 1) {
-              _recognizedText = result.recognizedWords;
-              _history = result.recognizedWords;
-            }
-          });
-        },
-        listenFor: Duration(seconds: 15),
-        pauseFor: Duration(seconds: 10),
-        localeId: _selectedLanguage,
-      );
-    } else {
-      print("Speech recognition not available");
-    }
-  }
-
-  Future<void> _stopListening() async {
-    await _speechToText.stop();
-    setState(() {
-      _isListening = false;
     });
   }
 
@@ -259,7 +205,7 @@ Future<List<Question>> loadQuestions(String langstr) async {
     jsonString = await rootBundle.loadString('assets/data_fr.json');
   }
   if (langstr.contains("de")) {
-    jsonString = await rootBundle.loadString('assets/data_german.json');
+    jsonString = await rootBundle.loadString('assets/data_de.json');
   }
   if (langstr.contains("it")) {
     jsonString = await rootBundle.loadString('assets/data_it.json');

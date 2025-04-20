@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'content.dart'; // Import the second page
+import 'package:flutter_tts/flutter_tts.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,36 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class LanguageSelectionPage extends StatelessWidget {
+class LanguageSelectionPage extends StatefulWidget {
+  @override
+  _LanguageSelectionPageState createState() => _LanguageSelectionPageState();
+}
+
+class _LanguageSelectionPageState extends State<LanguageSelectionPage> {
+  final FlutterTts flutterTts = FlutterTts();
+
+  @override
+  void initState() {
+    super.initState();
+    _speakWelcomeMessage(); // Run this at startup
+    _printAvailableLanguages();
+  }
+
+  Future<void> _printAvailableLanguages() async {
+    List<dynamic> languages = await flutterTts.getLanguages;
+    print("Available languages:");
+    for (var lang in languages) {
+      print(lang);
+    }
+  }
+
+  Future<void> _speakWelcomeMessage() async {
+    await flutterTts.setLanguage("en-US");
+    await flutterTts.setSpeechRate(0.4);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.speak("Welcome to EchoLang. Please select a language.");
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,97 +55,38 @@ class LanguageSelectionPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'EchoLang - Learn by Speaking Everyday', // Replace with your app's actual name
+              'EchoLang - Learn by Speaking Everyday',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) =>
-                            HomeScreenPage(language: "fr-FR"), // French
-                  ),
-                );
-              },
-              child: Text('Français'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) =>
-                            HomeScreenPage(language: "en-US"), // English
-                  ),
-                );
-              },
-              child: Text('English'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) =>
-                            HomeScreenPage(language: "de-DE"), // English
-                  ),
-                );
-              },
-              child: Text('Deutsch'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) =>
-                            HomeScreenPage(language: "it-IT"), // English
-                  ),
-                );
-              },
-              child: Text('Italiano'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) =>
-                            HomeScreenPage(language: "ja-JP"), // English
-                  ),
-                );
-              },
-              child: Text('日本語'),
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder:
-                        (context) =>
-                            HomeScreenPage(language: "es-ES"), // English
-                  ),
-                );
-              },
-              child: Text('Español'),
-            ),
-            // Add more language buttons if needed
+            _languageButton(context, "Français", "fr-FR"),
+            _languageButton(context, "English", "en-US"),
+            _languageButton(context, "Deutsch", "de-DE"),
+            _languageButton(context, "Italiano", "it-IT"),
+            _languageButton(context, "日本語", "ja-JP"),
+            _languageButton(context, "Español", "es-ES"),
           ],
         ),
       ),
+    );
+  }
+
+  Widget _languageButton(BuildContext context, String label, String langCode) {
+    return Column(
+      children: [
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => HomeScreenPage(language: langCode),
+              ),
+            );
+          },
+          child: Text(label),
+        ),
+        SizedBox(height: 20),
+      ],
     );
   }
 }

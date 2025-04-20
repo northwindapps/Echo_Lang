@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_sound: ^9.0.0
   permission_handler: ^11.0.0
-  speech_to_text: ^7.0.0
+  # speech_to_text: ^7.0.0
   path_provider: ^2.0.11
   flutter_launcher_icons: ^0.14.3
 
@@ -95,11 +95,17 @@ flutter:
   # see https://flutter.dev/to/font-from-package
   assets:
     - assets/data.json
-    - assets/data_german.json
+    - assets/data_de.json
     - assets/data_it.json
     - assets/data_fr.json
     - assets/data_jp.json
     - assets/data_es.json
+    - assets/data_dialog.json
+    - assets/data_de_dialog.json
+    - assets/data_it_dialog.json
+    - assets/data_fr_dialog.json
+    - assets/data_jp_dialog.json
+    - assets/data_es_dialog.json
 
 flutter_icons:
   android: true
