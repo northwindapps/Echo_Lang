@@ -75,6 +75,7 @@ class _LanguageSelectionPageState extends State<LanguageSelectionPage> {
                 _languageButton(context, "فارسی", "fa-IR"),
                 _languageButton(context, "ελληνικά", "el-GR"),
                 _languageButton(context, "Português", "pt-PT"),
+                _languageButton(context, "عربي", "ar-SA"),
               ],
             ),
           ),

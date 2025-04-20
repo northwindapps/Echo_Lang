@@ -1,0 +1,103 @@
+[
+    {
+      "question": "كيف حالك؟",
+      "answer": "أنا بخير، شكرًا لك!",
+      "language": "Arabic"
+    },
+    {
+      "question": "كيف حالك؟",
+      "answer": "أنا بخير، ماذا عنك؟",
+      "language": "Arabic"
+    },
+    {
+      "question": "كم عمرك؟",
+      "answer": "عمري 25 سنة.",
+      "language": "Arabic"
+    },
+    {
+      "question": "كم عمرك؟",
+      "answer": "عمري 18 سنة.",
+      "language": "Arabic"
+    },
+    {
+      "question": "كيف هو الطقس اليوم؟",
+      "answer": "الطقس مشمس اليوم.",
+      "language": "Arabic"
+    },
+    {
+      "question": "كيف هو الطقس اليوم؟",
+      "answer": "إنه يمطر اليوم.",
+      "language": "Arabic"
+    },
+    {
+      "question": "كم الساعة؟",
+      "answer": "الساعة الثالثة.",
+      "language": "Arabic"
+    },
+    {
+      "question": "كم الساعة؟",
+      "answer": "الساعة العاشرة والنصف صباحًا.",
+      "language": "Arabic"
+    },
+    {
+      "question": "ما هي هوايتك؟",
+      "answer": "هوايتي هي قراءة الكتب.",
+      "language": "Arabic"
+    },
+    {
+      "question": "ما هي هوايتك؟",
+      "answer": "أحب لعب كرة القدم.",
+      "language": "Arabic"
+    },
+    {
+      "question": "ما اسمك؟",
+      "answer": "اسمي جون.",
+      "language": "Arabic"
+    },
+    {
+      "question": "ما اسمك؟",
+      "answer": "أنا ماريا.",
+      "language": "Arabic"
+    },
+    {
+      "question": "أين تعيش؟",
+      "answer": "أعيش في باريس.",
+      "language": "Arabic"
+    },
+    {
+      "question": "أين تعيش؟",
+      "answer": "أعيش في نيويورك.",
+      "language": "Arabic"
+    },
+    {
+      "question": "متى وُلدت؟",
+      "answer": "وُلدت في عام 1995.",
+      "language": "Arabic"
+    },
+    {
+      "question": "متى وُلدت؟",
+      "answer": "وُلدت في الأول من مايو عام 2000.",
+      "language": "Arabic"
+    },
+    {
+      "question": "ماذا أكلت هذا الصباح؟",
+      "answer": "أكلت حبوب الإفطار والفواكه.",
+      "language": "Arabic"
+    },
+    {
+      "question": "ماذا أكلت هذا الصباح؟",
+      "answer": "تناولت خبز محمص وقهوة.",
+      "language": "Arabic"
+    },
+    {
+      "question": "هل تعمل أم تدرس؟",
+      "answer": "أنا أدرس اللغة الإنجليزية.",
+      "language": "Arabic"
+    },
+    {
+      "question": "هل تعمل أم تدرس؟",
+      "answer": "أنا أعمل كمعلم.",
+      "language": "Arabic"
+    }
+  ]
+  

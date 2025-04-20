@@ -44,6 +44,7 @@ class _ContentState extends State<ContentPage> {
     "fa-IR",
     "el-GR",
     "pt-PT",
+    "ar-SA",
   ];
   int _contentType = 0;
 
@@ -353,6 +354,9 @@ Future<List<Question>> loadQuestions(String langstr) async {
   if (langstr.contains("pt")) {
     jsonString = await rootBundle.loadString('assets/data_pt.json');
   }
+  if (langstr.contains("ar")) {
+    jsonString = await rootBundle.loadString('assets/data_ar.json');
+  }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Question.fromJson(item)).toList();
 }
@@ -402,6 +406,9 @@ Future<List<Dialog>> loadDialogs(String langstr) async {
   }
   if (langstr.contains("pt")) {
     jsonString = await rootBundle.loadString('assets/data_pt_dialog.json');
+  }
+  if (langstr.contains("ar")) {
+    jsonString = await rootBundle.loadString('assets/data_ar_dialog.json');
   }
   List<dynamic> jsonData = json.decode(jsonString);
   return jsonData.map((item) => Dialog.fromJson(item)).toList();
