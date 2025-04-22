@@ -12,7 +12,25 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'EchoLang',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.blue, // AppBar background
+          foregroundColor: Colors.white, // Text/icon color
+          elevation: 2, // Optional: shadow depth
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.white, // Button background
+            foregroundColor: Colors.black, // Button text/icon
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12), // Optional
+            ),
+          ),
+        ),
+      ),
+
       home: LanguageSelectionPage(),
     );
   }
