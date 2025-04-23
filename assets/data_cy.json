@@ -1,0 +1,232 @@
+[
+  {
+    "question": "Sut wyt ti?",
+    "answer": "Rwy'n dda, diolch!",
+    "language": "Welsh"
+  },
+  {
+    "question": "Sut wyt ti?",
+    "answer": "Rwy'n iawn, a ti?",
+    "language": "Welsh"
+  },
+  {
+    "question": "Faint yw dy oed di?",
+    "answer": "Rwy'n 25 oed.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Faint yw dy oed di?",
+    "answer": "Rwy'n 18.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Sut mae'r tywydd heddiw?",
+    "answer": "Mae'r tywydd yn heulog heddiw.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Sut mae'r tywydd heddiw?",
+    "answer": "Mae'n bwrw glaw heddiw.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Faint o'r gloch yw hi?",
+    "answer": "Mae hi'n dri o'r gloch.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Faint o'r gloch yw hi?",
+    "answer": "Mae hi'n 10:30 y bore.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw dy hobi di?",
+    "answer": "Fy hobi yw darllen llyfrau.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw dy hobi di?",
+    "answer": "Rwy'n hoffi chwarae pêl-droed.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw dy enw di?",
+    "answer": "Fy enw i yw John.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw dy enw di?",
+    "answer": "Rwy'n Maria.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Ble wyt ti'n byw?",
+    "answer": "Rwy'n byw ym Mharis.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Ble wyt ti'n byw?",
+    "answer": "Rwy'n byw yn Efrog Newydd.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pryd wyt ti'n cael dy eni?",
+    "answer": "Cefais fy ngeni yn 1995.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pryd wyt ti'n cael dy eni?",
+    "answer": "Cefais fy ngeni ar Fai 1af, 2000.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth wnest ti fwyta y bore yma?",
+    "answer": "Bwytais i grawnfwyd a ffrwythau.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth wnest ti fwyta y bore yma?",
+    "answer": "Cefais i dost a choffi.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Wyt ti'n gweithio neu'n astudio?",
+    "answer": "Rwy'n astudio Saesneg.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Wyt ti'n gweithio neu'n astudio?",
+    "answer": "Rwy'n gweithio fel athro.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw'r dyddiad heddiw?",
+    "answer": "Heddiw yw Mawrth 29ain.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw'r dyddiad heddiw?",
+    "answer": "Mae'n 15fed o Chwefror.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth wyt ti'n gwneud heddiw?",
+    "answer": "Heddiw, rwy'n mynd i'r parc.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth wyt ti'n gwneud heddiw?",
+    "answer": "Byddaf yn astudio Saesneg heddiw.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pryd wnest ti ddeffro?",
+    "answer": "Deffrais i am 7 y bore.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pryd wnest ti ddeffro?",
+    "answer": "Deffrais i am 8 o'r gloch.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth yw dy swydd di?",
+    "answer": "Rwy'n athro.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Ble wyt ti'n gweithio?",
+    "answer": "Rwy'n gweithio mewn swyddfa.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth wyt ti'n gwneud yn dy waith?",
+    "answer": "Rwy'n ysgrifennu adroddiadau ac yn ateb e-byst.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Faint o oriau wyt ti'n gweithio bob dydd?",
+    "answer": "Rwy'n gweithio 8 awr y dydd.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Oes gennyt ti swydd llawn amser?",
+    "answer": "Oes, rwy'n gweithio'n llawn amser.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pryd wyt ti'n dechrau gweithio?",
+    "answer": "Rwy'n dechrau gweithio am 9 y bore.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pa mor hir yw dy egwyl ginio?",
+    "answer": "Mae fy egwyl ginio yn un awr.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Beth wyt ti'n gwneud ar ôl gwaith?",
+    "answer": "Ar ôl gwaith, rwy'n mynd i'r gampfa.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Oes gennyt ti swyddfa?",
+    "answer": "Oes, mae gen i swyddfa fach.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Pryd wyt ti'n gorffen gweithio?",
+    "answer": "Rwy'n gorffen gweithio am 5 y prynhawn.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Faint mae hwn yn costio?",
+    "answer": "Mae'n costio deg punt.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Ble alla i brynu hwn?",
+    "answer": "Gallwch ei brynu yn y siop leol.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Oes gennych chi un arall?",
+    "answer": "Ydyn, mae gennym un arall mewn lliw gwahanol.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Wyt ti eisiau derbyn bag?",
+    "answer": "Na, diolch. Does dim angen bag.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Sut hoffech chi dalu?",
+    "answer": "Hoffwn dalu gyda cherdyn credyd.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Ydy hwn ar werth?",
+    "answer": "Ydy, mae 20% i ffwrdd heddiw.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Alla i dalu gyda cherdyn?",
+    "answer": "Gallwch, rydym yn derbyn cardiau.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Alla i gael anfoneb?",
+    "answer": "Wrth gwrs, dyma'ch anfoneb.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Oes gennych chi faint mwy?",
+    "answer": "Mae gennym feintiau mwy ar gael.",
+    "language": "Welsh"
+  },
+  {
+    "question": "Alla i newid hwn?",
+    "answer": "Gallwch, gyda'r derbyneb o fewn 30 diwrnod.",
+    "language": "Welsh"
+  }
+]

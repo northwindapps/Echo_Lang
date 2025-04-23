@@ -1,0 +1,50 @@
+[
+    {
+      "topic": "Yn y Caffi",
+      "language": "welsh",
+      "dialog": "Tom: Helo! Wyt ti’n newydd yma?__Anna: Ydw, dw i newydd gyrraedd o Sbaen.__Tom: Croeso! Am ba mor hir wyt ti’n aros?__Anna: Pythefnos. Dw i eisiau gweld y ddinas.__Tom: Dylech chi roi cynnig ar y coffi lleol.__Anna: Syniad da! Dw i ddim wedi cael coffi eto heddiw."
+    },
+    {
+      "topic": "Wrth y Safle Bws",
+      "language": "welsh",
+      "dialog": "Lena: Wyt ti angen help?__Mark: Ydw, dw i’n ymweld o’r Almaen. Pa fws sy’n mynd i’r amgueddfa?__Lena: Cymer rhif 5. Es i yno penwythnos diwethaf.__Mark: Diolch! Dw i’n mynd i brynu tocyn nawr.__Lena: Ti’n gallu talu ar y bws.__Mark: Gwych, mae hynny’n hawdd."
+    },
+    {
+      "topic": "Yn Lolfa Gwesty",
+      "language": "welsh",
+      "dialog": "Emily: Helo. Dw i’n meddwl mod i wedi archebu ystafell yma.__Derbynnydd: Beth yw dy enw di?__Emily: Emily Brown. Des i o Awstralia ddoe.__Derbynnydd: Ie, mae dy archeb gyda ni. Tair noson, iawn?__Emily: Ie. Bydda i’n gadael ar ddydd Sul.__Derbynnydd: Croeso! Dyma dy allwedd di."
+    },
+    {
+      "topic": "Gofyn am Gyfarwyddiadau",
+      "language": "welsh",
+      "dialog": "David: Esgusodwch fi, oes banc yn agos yma?__Mia: Oes, dau floc i ffwrdd. Es i yno bore ’ma.__David: Diolch! Dw i yma ar wyliau o Frasil.__Mia: Neis! Am ba mor hir wyt ti’n aros?__David: Dim ond pum diwrnod.__Mia: Felly rwyt ti’n gorfod ymweld â’r hen dref—mae’n brydferth."
+    },
+    {
+      "topic": "Yn y Supermarchnad",
+      "language": "welsh",
+      "dialog": "Noah: Wyt ti’n gwybod ble mae’r bara?__Sofia: Ydw, mae tu ôl, ger y llaeth.__Noah: Diolch. Dw i newydd gyrraedd o Japan ac yn nabod dim ar y siop hon.__Sofia: Croeso! Symudais i yma y llynedd hefyd.__Noah: O, neis! Bydda i’n edrych o gwmpas ychydig.__Sofia: Dywed wrtha i os wyt ti angen help eto."
+    },
+  
+{"dialog": "Tom: Dydw i ddim yn hoffi fy ngemau mwyach.__Anna: O na! Pam lai?__Tom: Dwi'n teimlo'n ddiflas.__Anna: Efallai rhowch gynnig ar rywbeth newydd!", "language": "cy-GB"},
+    {"dialog": "Tom: Dydw i ddim yn hoffi fy ngemau mwyach.__Anna: O na! Pam lai?__Tom: Dwi'n teimlo'n ddiflas.__Anna: Efallai rhowch gynnig ar rywbeth newydd!", "language": "cy-GB"},
+    {"dialog": "Emma: Dydw i ddim yn hoffi'r gân yma nawr.__Liam: Roeddet ti’n ei chwarae bob dydd!__Emma: Do, ond nawr dw i eisiau un newydd.__Liam: Dewch i ni ddod o hyd i un gyda’n gilydd.", "language": "cy-GB"},
+    {"dialog": "Jake: Dydy'r gêm yma ddim yn hwyl nawr.__Sara: Wnest ti ei orffen?__Jake: Do. Gormod o weithiau.__Sara: Rho gynnig ar gêm newydd!", "language": "cy-GB"},
+    {"dialog": "Anna: Bwytais i bitsa eto.__Ben: Ti’n caru pizza!__Anna: Ddim heddiw. Dwi wedi cael llond bol.__Ben: Dewch i ni goginio rhywbeth arall.", "language": "cy-GB"},
+    {"dialog": "Tom: Dydw i ddim eisiau tynnu llun heddiw.__Lucy: Pam? Ti’n ei garu!__Tom: Dwi'n teimlo'n ddiflas.__Lucy: Ceisia baentio rhywbeth newydd!", "language": "cy-GB"},
+    {"dialog": "Sofia: Mae’r gerddoriaeth yma’n hen.__Noah: Wyt ti eisiau rhestr chwarae newydd?__Sofia: Oes, os gweli di’n dda!__Noah: Mi wna i anfon un atat ti.", "language": "cy-GB"},
+    {"dialog": "Mia: Dwi’n mynd i’r caffi yma bob dydd.__Leo: Wyt ti’n ei hoffi?__Mia: Ddim bellach.__Leo: Dewch i ni roi cynnig ar un newydd!", "language": "cy-GB"},
+    {"dialog": "Ella: Mae’r sioe yma’n ddiflas nawr.__Ryan: O’t ti ddim yn ei charu?__Ella: O’n. Ond nawr, na.__Ryan: Dewch i ni ddod o hyd i un newydd.", "language": "cy-GB"},
+    {"dialog": "Alex: Dydw i ddim eisiau rhedeg heddiw.__Nina: Ti’n rhedeg bob amser!__Alex: Dw i eisiau trio ioga.__Nina: Mae hynny’n swnio’n hwyl!", "language": "cy-GB"},
+    {"dialog": "Zoe: Dwi wedi gorffen fy llyfr.__Ethan: Oedd e’n dda?__Zoe: Oedd, ond dw i eisiau un newydd.__Ethan: Mi wna i fenthyg un i ti.", "language": "cy-GB"},
+    {"dialog": "Lily: Roeddwn i ar-lein drwy'r dydd ddoe.__Max: Rhaid bod ti’n flinedig.__Lily: Yfory mi af i allan.__Max: Dewch gyda’n gilydd!", "language": "cy-GB"},
+    {"dialog": "Emma: Roeddwn i’n hoffi’r gân yma wythnos diwethaf.__Liam: Ti’n ei chwarae hi lot.__Emma: Yfory mi fydda i’n chwilio am un newydd.__Liam: Mi wna i helpu di!", "language": "cy-GB"},
+    {"dialog": "Jake: Gorffennais i’r gêm yma ddoe.__Sara: Oedd e’n hwyl?__Jake: Oedd, ond mi wna i roi cynnig ar un newydd nawr.__Sara: Syniad da!", "language": "cy-GB"},
+    {"dialog": "Anna: Bwytais i bitsa dair gwaith yr wythnos yma.__Ben: Mae hynny’n lot!__Anna: Yfory mi wna i goginio pasta.__Ben: Mi wna i ymuno â ti!", "language": "cy-GB"},
+    {"dialog": "Tom: Paentiais i gath neithiwr.__Lucy: Alla i ei gweld hi?__Tom: Wrth gwrs. Tro nesaf mi baentia i gi.__Lucy: Mae hynny’n swnio’n hwyl!", "language": "cy-GB"},
+    {"dialog": "Sofia: Gwrandawais ar yr albwm yna ddoe.__Noah: Wnest ti ei hoffi?__Sofia: O’n, ond mi wna i ddod o hyd i un newydd heno.__Noah: Dewch i chwilio gyda’n gilydd.", "language": "cy-GB"},
+    {"dialog": "Mia: Aethon ni i’r caffi yma dydd Sul diwethaf.__Leo: Do, roedd e’n neis.__Mia: Dewch i ni fynd i un newydd tro nesaf.__Leo: Dwi’n nabod lle da.", "language": "cy-GB"},
+    {"dialog": "Ella: Gwelais i bum pennod ddoe.__Ryan: Mae hynny’n lot!__Ella: Heddiw mi wna i gymryd saib.__Ryan: Dewch i wneud rhywbeth arall.", "language": "cy-GB"},
+    {"dialog": "Alex: Rhedais i 5km y bore yma.__Nina: Waw!__Alex: Yfory mi wna i orffwys.__Nina: Ti’n haeddu hynny!", "language": "cy-GB"},
+    {"dialog": "Zoe: Gorffennais i’r llyfr neithiwr.__Ethan: Oedd e’n dda?__Zoe: Oedd! Mi wna i ddechrau un newydd yfory.__Ethan: Wyt ti angen awgrym?", "language": "cy-GB"}
+  ]
+  

@@ -94,6 +94,8 @@ class _LanguageSelectionPageState extends State<LanguageSelectionPage> {
                 _languageButton(context, "ελληνικά", "el-GR"),
                 _languageButton(context, "Português", "pt-PT"),
                 _languageButton(context, "عربي", "ar-SA"),
+                _languageButton(context, "Pусский", "ru-RU"),
+                _languageButton(context, "Cymraeg", "cy-GB"),
               ],
             ),
           ),

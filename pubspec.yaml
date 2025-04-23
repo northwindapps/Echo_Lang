@@ -108,6 +108,8 @@ flutter:
     - assets/data_gr.json
     - assets/data_pt.json
     - assets/data_ar.json
+    - assets/data_ru.json
+    - assets/data_cy.json
     - assets/data_dialog.json
     - assets/data_de_dialog.json
     - assets/data_it_dialog.json
@@ -120,6 +122,8 @@ flutter:
     - assets/data_gr_dialog.json
     - assets/data_pt_dialog.json
     - assets/data_ar_dialog.json
+    - assets/data_ru_dialog.json
+    - assets/data_cy_dialog.json
 
 flutter_icons:
   android: true
